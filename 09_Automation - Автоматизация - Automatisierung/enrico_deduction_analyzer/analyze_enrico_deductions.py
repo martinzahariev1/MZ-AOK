@@ -44,6 +44,7 @@ PERIOD_START = (2024, 2)
 PERIOD_END = (2025, 6)
 
 DETAIL_HEADERS = [
+    "row_type",
     "document_filename",
     "document_type",
     "document_number",
@@ -62,6 +63,12 @@ DETAIL_HEADERS = [
     "source_container",
     "confidence_level",
     "deduction_category",
+    "document_total_net",
+    "vat_19",
+    "document_total_gross",
+    "refunds_total_positive",
+    "refund_reason",
+    "related_original_invoice",
     "content_hash",
     "duplicate_key",
     "notes",
@@ -69,6 +76,7 @@ DETAIL_HEADERS = [
 
 MONTHLY_HEADERS = [
     "month",
+    "gross_credit_total",
     "gross_credit_gutschrift_total",
     "abschlag_coincident_total",
     "abschlag_mitnahme_total",
@@ -77,9 +85,13 @@ MONTHLY_HEADERS = [
     "scannermiete_total",
     "other_deductions_total",
     "total_deductions",
+    "total_deductions_negative",
+    "refunds_total_positive",
+    "net_effect",
     "net_amount_if_available",
     "number_of_source_documents",
     "missing_source_documents",
+    "source_document_numbers",
     "notes",
 ]
 
@@ -132,6 +144,7 @@ class SourceDocument:
 
 @dataclass
 class DetailRow:
+    row_type: str = ""
     document_filename: str = ""
     document_type: str = ""
     document_number: str = ""
@@ -150,6 +163,12 @@ class DetailRow:
     source_container: str = ""
     confidence_level: str = "LOW"
     deduction_category: str = ""
+    document_total_net: str = ""
+    vat_19: str = ""
+    document_total_gross: str = ""
+    refunds_total_positive: str = ""
+    refund_reason: str = ""
+    related_original_invoice: str = ""
     content_hash: str = ""
     duplicate_key: str = ""
     notes: str = ""
@@ -580,11 +599,136 @@ def extract_month(text: str, document_date: str, leistungszeitraum: str) -> str:
     return ""
 
 
+def money_pattern() -> str:
+    return r"-?\d{1,3}(?:[.\s]\d{3})*(?:,\d{2})|-?\d+(?:[,.]\d{2})"
+
+
+def extract_money_values(text: str) -> list[Decimal]:
+    values: list[Decimal] = []
+    for match in re.finditer(rf"({money_pattern()})\s*(?:EUR|€|E|ˆ)", text, re.IGNORECASE):
+        parsed = parse_decimal(match.group(1))
+        if parsed is not None:
+            values.append(parsed)
+    return values
+
+
+def extract_document_totals(text: str) -> dict[str, Decimal | None]:
+    totals: dict[str, Decimal | None] = {"net": None, "vat_19": None, "gross": None}
+    patterns = {
+        "net": [
+            rf"(?:Nettobetrag|Nettosumme|Nettosumme:|Netto)\D{{0,120}}({money_pattern()})\s*(?:EUR|€|E|ˆ)?",
+        ],
+        "vat_19": [
+            rf"(?:MwSt\.?\s*19\s*%|USt\.?\s*19\s*%|Mehrwertsteuer\s*19\s*%)\D{{0,120}}({money_pattern()})\s*(?:EUR|€|E|ˆ)?",
+        ],
+        "gross": [
+            rf"(?:Gesamtbetrag|Endbetrag|Rechnungsbetrag)\D{{0,160}}({money_pattern()})\s*(?:EUR|€|E|ˆ)?",
+        ],
+    }
+    for key, key_patterns in patterns.items():
+        for pattern in key_patterns:
+            match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+            if match:
+                totals[key] = parse_decimal(match.group(1))
+                break
+
+    has_vat_label = re.search(r"(?:MwSt\.?\s*19\s*%|USt\.?\s*19\s*%|Mehrwertsteuer\s*19\s*%)", text, re.IGNORECASE)
+    has_net_and_gross_labels = re.search(r"(?:Nettobetrag|Nettosumme)", text, re.IGNORECASE) and re.search(
+        r"(?:Gesamtbetrag|Endbetrag|Rechnungsbetrag)", text, re.IGNORECASE
+    )
+    if (totals["net"] is None or totals["gross"] is None or (has_vat_label and totals["vat_19"] is None)) and has_net_and_gross_labels:
+        before_legal = re.split(r"Bitte\s+überpr|Bitte\s+ueberpr|Mit Docutain", text, maxsplit=1, flags=re.IGNORECASE)[0]
+        values = extract_money_values(before_legal)
+        if has_vat_label and len(values) >= 3:
+            tail_net, tail_vat, tail_gross = values[-3], values[-2], values[-1]
+            totals["net"] = totals["net"] if totals["net"] is not None else tail_net
+            totals["vat_19"] = totals["vat_19"] if totals["vat_19"] is not None else tail_vat
+            totals["gross"] = totals["gross"] if totals["gross"] is not None else tail_gross
+        elif len(values) >= 2:
+            tail_net, tail_gross = values[-2], values[-1]
+            totals["net"] = totals["net"] if totals["net"] is not None else tail_net
+            totals["gross"] = totals["gross"] if totals["gross"] is not None else tail_gross
+    return totals
+
+
+def extract_leistungszeitraum(text: str) -> str:
+    direct = find_first(
+        [
+            r"Leistungszeitraum\s*[:#]?\s*([^\n\r]+)",
+            r"Leistungsperiode\s*[:#]?\s*([^\n\r]+)",
+            r"Zeitraum\s*[:#]?\s*([^\n\r]+)",
+            r"Abrechnung\s+nach\s+Klassen\s+(\d{1,2}\.\d{1,2}\.\d{4}\s*[-–]\s*\d{1,2}\.\d{1,2}\.\d{4})",
+        ],
+        text,
+    )
+    return direct
+
+
+def extract_document_number(text: str, document_type: str) -> str:
+    if "gutschrift" in normalize_text(document_type):
+        value = find_first([r"Gutschrift\s+Nr\.?\s*[:#]?\s*([A-Z0-9./_-]+(?:\s*-\s*\d{2,4})?)"], text)
+        if value:
+            return re.sub(r"\s+", "", value)
+    if "rechnung" in normalize_text(document_type):
+        value = find_first([r"Rechnung\s+Nr\.?\s*[:#]?\s*([A-Z0-9./_-]+(?:\s*-\s*\d{2,4})?)"], text)
+        if value:
+            return re.sub(r"\s+", "", value)
+    return find_first(
+        [
+            r"(?:Rechnung(?:s)?nummer|Rechnungsnr\.?|Gutschrift(?:s)?nummer|Belegnummer|Dokumentnummer)\s*[:#]?\s*([A-Z0-9][A-Z0-9./_-]{2,})",
+            r"\b(?:RG|RE|GS|GU|INV)[- ]?(\d{3,})\b",
+        ],
+        text,
+    )
+
+
+def code_deduction_map() -> dict[str, str]:
+    return {
+        "1201": "Abschlag Mitnahme",
+        "1202": "Abschlag Quittungslose Sendung",
+        "1203": "Abschlag Coincident",
+    }
+
+
+def extract_code_deductions(text: str) -> list[tuple[str, str, Decimal]]:
+    code_order = re.findall(r"\b(1000|1001|110[1-6]|120[1-3]|200[0-1]|300[0-1])\b", text)
+    if not code_order:
+        return []
+    first_sequence: list[str] = []
+    for code in code_order:
+        if code in first_sequence and code == "1000":
+            break
+        if code not in first_sequence:
+            first_sequence.append(code)
+        if len(first_sequence) >= 14:
+            break
+
+    match = re.search(r"(?im)^Betrag\s*$\s*(.*?)(?:Bitte\s+überpr|Bitte\s+ueberpr|Mit Docutain)", text, re.IGNORECASE | re.DOTALL)
+    if not match:
+        return []
+    amount_block = match.group(1)
+    amounts = extract_money_values(amount_block)
+    negative_amounts = [amount for amount in amounts if amount < 0]
+    if all(code in first_sequence for code in ("1201", "1202", "1203")) and len(negative_amounts) >= 3:
+        return [
+            ("1201", "Abschlag Mitnahme", negative_amounts[0]),
+            ("1202", "Abschlag Quittungslose Sendung", negative_amounts[1]),
+            ("1203", "Abschlag Coincident", negative_amounts[2]),
+        ]
+    result: list[tuple[str, str, Decimal]] = []
+    for code, category in code_deduction_map().items():
+        if code in first_sequence:
+            index = first_sequence.index(code)
+            if index < len(amounts):
+                result.append((code, category, amounts[index]))
+    return result
+
+
 def extract_amount_near(term: str, text: str) -> Decimal | None:
     normalized_term = re.escape(term)
     patterns = [
-        rf"{normalized_term}.{{0,160}}?(-?\d{{1,3}}(?:[.\s]\d{{3}})*(?:,\d{{2}})|-?\d+(?:[,.]\d{{2}})?)\s*(?:EUR|€)",
-        rf"{normalized_term}.{{0,160}}?(?:EUR|€)\s*(-?\d{{1,3}}(?:[.\s]\d{{3}})*(?:,\d{{2}})|-?\d+(?:[,.]\d{{2}})?)",
+        rf"{normalized_term}.{{0,220}}?({money_pattern()})\s*(?:EUR|€|E|ˆ)",
+        rf"{normalized_term}.{{0,220}}?(?:EUR|€|E|ˆ)\s*({money_pattern()})",
     ]
     for pattern in patterns:
         match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
@@ -595,8 +739,8 @@ def extract_amount_near(term: str, text: str) -> Decimal | None:
 
 def extract_general_amount(text: str) -> Decimal | None:
     patterns = [
-        r"(?:Gesamtbetrag|Gutschrift|Rechnungsbetrag|Endbetrag|Summe|Netto)\D{0,80}(-?\d{1,3}(?:[.\s]\d{3})*(?:,\d{2})|-?\d+(?:[,.]\d{2})?)\s*(?:EUR|€)",
-        r"(?:EUR|€)\s*(-?\d{1,3}(?:[.\s]\d{3})*(?:,\d{2})|-?\d+(?:[,.]\d{2})?)",
+        rf"(?:Gesamtbetrag|Rechnungsbetrag|Endbetrag|Nettosumme|Nettobetrag)\D{{0,160}}({money_pattern()})\s*(?:EUR|€|E|ˆ)",
+        rf"(?:EUR|€|E|ˆ)\s*({money_pattern()})",
     ]
     for pattern in patterns:
         match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
@@ -626,13 +770,7 @@ def category_from_text(text: str, document_type: str) -> str:
 
 def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[str, str], note: str) -> list[DetailRow]:
     document_type = detect_document_type(text, source.path.name)
-    document_number = find_first(
-        [
-            r"(?:Rechnung(?:s)?nummer|Rechnungsnr\.?|Gutschrift(?:s)?nummer|Belegnummer|Dokumentnummer|Nr\.?)\s*[:#]?\s*([A-Z0-9][A-Z0-9./_-]{2,})",
-            r"\b(?:RG|RE|GS|GU|INV)[- ]?(\d{3,})\b",
-        ],
-        text,
-    )
+    document_number = extract_document_number(text, document_type)
     document_date = normalize_date(
         find_first(
             [
@@ -642,14 +780,7 @@ def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[
             text,
         )
     )
-    leistungszeitraum = find_first(
-        [
-            r"Leistungszeitraum\s*[:#]?\s*([^\n\r]+)",
-            r"Leistungsperiode\s*[:#]?\s*([^\n\r]+)",
-            r"Zeitraum\s*[:#]?\s*([^\n\r]+)",
-        ],
-        text,
-    )
+    leistungszeitraum = extract_leistungszeitraum(text)
     month_year = extract_month(text, document_date, leistungszeitraum)
     position_code = find_first([r"(?:Positionsnummer|Position|Pos\.?)\s*[:#]?\s*([A-Z0-9._/-]+)"], text)
     package_id = find_first([r"(?:Paket(?:nummer)?|Sendung(?:snummer)?|Package ID)\s*[:#]?\s*([A-Z0-9._/-]+)"], text)
@@ -659,30 +790,136 @@ def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[
     price = find_first([r"(?:Einzelpreis|Preis je Einheit|Stückpreis)\s*[:#]?\s*(-?\d+(?:[,.]\d{2})?)"], text)
 
     rows: list[DetailRow] = []
-    for category in DEDUCTION_CATEGORIES:
-        if category == "Other deductions":
-            continue
-        amount = extract_amount_near(category, text)
-        if amount is not None:
+    totals = extract_document_totals(text)
+    is_gutschrift = "gutschrift" in normalize_text(document_type)
+    is_refund = any(term in normalize_text(f"{document_type}\n{text}\n{source.path.name}") for term in ["rueckerstattung", "rueck", "rechnungskorrektur"])
+
+    if is_gutschrift and is_refund:
+        refund_total = totals.get("gross") or extract_amount_near("Rückerstattung", text) or extract_amount_near("Rechnungskorrektur", text)
+        refund_reason = find_first([r"(Rückerstattung[^\n\r]+|Rueckerstattung[^\n\r]+|Rechnungskorrektur[^\n\r]+)"], text)
+        related_original_invoice = find_first([r"R\.?\s*Nr\.?\s*([A-Z0-9./_-]+)", r"Rechnung\s+Nr\.?\s*([A-Z0-9./_-]+)"], text)
+        rows.append(
+            build_detail_row(
+                source,
+                "refund",
+                document_type,
+                document_number,
+                document_date,
+                leistungszeitraum,
+                month_year,
+                "",
+                "Refund Gutschrift",
+                quantity,
+                price,
+                refund_total,
+                package_id,
+                tour_number,
+                customer_location,
+                "",
+                "HIGH" if refund_total is not None else "LOW",
+                note,
+                document_total_net=totals.get("net"),
+                vat_19=totals.get("vat_19"),
+                document_total_gross=totals.get("gross"),
+                refunds_total_positive=abs(refund_total) if refund_total is not None else None,
+                refund_reason=refund_reason,
+                related_original_invoice=related_original_invoice,
+            )
+        )
+        return rows
+
+    if is_gutschrift:
+        gross_total = totals.get("gross")
+        rows.append(
+            build_detail_row(
+                source,
+                "document_total",
+                document_type,
+                document_number,
+                document_date,
+                leistungszeitraum,
+                month_year,
+                "",
+                "Gutschrift document total",
+                "",
+                "",
+                gross_total,
+                package_id,
+                tour_number,
+                customer_location,
+                "",
+                "HIGH" if gross_total is not None else "LOW",
+                note,
+                document_total_net=totals.get("net"),
+                vat_19=totals.get("vat_19"),
+                document_total_gross=gross_total,
+            )
+        )
+
+    for code, category, amount in extract_code_deductions(text):
+        rows.append(
+            build_detail_row(
+                source,
+                "deduction_line",
+                document_type,
+                document_number,
+                document_date,
+                leistungszeitraum,
+                month_year,
+                code,
+                category,
+                quantity,
+                price,
+                amount,
+                package_id,
+                tour_number,
+                customer_location,
+                category,
+                "MEDIUM",
+                note,
+            )
+        )
+
+    named_categories = [
+        "Sendungsverlust",
+        "Scannermiete",
+        "Rechnungskorrektur",
+        "Rückerstattung",
+        "Rueckerstattung",
+    ]
+    for category_name in named_categories:
+        amount = extract_amount_near(category_name, text)
+        normalized_category = category_name.replace("Rueckerstattung", "Rückerstattung")
+        if amount is not None and not any(row.deduction_category == normalized_category and row.amount == format_decimal(amount) for row in rows):
+            row_type = "refund" if normalized_category in {"Rückerstattung", "Rechnungskorrektur"} and is_gutschrift else "deduction_line"
+            refund_reason = ""
+            related_original_invoice = ""
+            if row_type == "refund":
+                refund_reason = find_first([r"(Rückerstattung[^\n\r]+|Rueckerstattung[^\n\r]+|Rechnungskorrektur[^\n\r]+)"], text)
+                related_original_invoice = find_first([r"R\.?\s*Nr\.?\s*([A-Z0-9./_-]+)", r"Rechnung\s+Nr\.?\s*([A-Z0-9./_-]+)"], text)
             rows.append(
                 build_detail_row(
                     source,
+                    row_type,
                     document_type,
                     document_number,
                     document_date,
                     leistungszeitraum,
                     month_year,
                     position_code,
-                    category,
+                    normalized_category,
                     quantity,
                     price,
                     amount,
                     package_id,
                     tour_number,
                     customer_location,
-                    category,
+                    normalized_category if row_type != "refund" else "",
                     "MEDIUM",
                     note,
+                    refunds_total_positive=abs(amount) if row_type == "refund" else None,
+                    refund_reason=refund_reason,
+                    related_original_invoice=related_original_invoice,
                 )
             )
 
@@ -696,6 +933,7 @@ def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[
         rows.append(
             build_detail_row(
                 source,
+                "document_total" if document_type else "unclassified",
                 document_type,
                 document_number,
                 document_date,
@@ -712,12 +950,14 @@ def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[
                 category,
                 "LOW" if amount is None else "MEDIUM",
                 note,
+                document_total_gross=amount if document_type and category == "" else None,
             )
         )
     elif email_metadata:
         rows.append(
             build_detail_row(
                 source,
+                "email",
                 "Email",
                 document_number,
                 normalize_date(email_metadata.get("email_date", "")),
@@ -741,6 +981,7 @@ def extract_detail_rows(source: SourceDocument, text: str, email_metadata: dict[
 
 def build_detail_row(
     source: SourceDocument,
+    row_type: str,
     document_type: str,
     document_number: str,
     document_date: str,
@@ -757,11 +998,18 @@ def build_detail_row(
     category: str,
     confidence: str,
     note: str,
+    document_total_net: Decimal | None = None,
+    vat_19: Decimal | None = None,
+    document_total_gross: Decimal | None = None,
+    refunds_total_positive: Decimal | None = None,
+    refund_reason: str = "",
+    related_original_invoice: str = "",
 ) -> DetailRow:
     content_hash = sha256_file(source.path)
     amount_text = format_decimal(amount)
-    duplicate_key = "|".join([document_number, document_date, amount_text, content_hash])
+    duplicate_key = "|".join([row_type, document_number, document_date, position_code, category, amount_text, content_hash])
     return DetailRow(
+        row_type=row_type,
         document_filename=source.path.name,
         document_type=document_type,
         document_number=document_number,
@@ -780,6 +1028,12 @@ def build_detail_row(
         source_container=source.source_container,
         confidence_level=confidence,
         deduction_category=category,
+        document_total_net=format_decimal(document_total_net),
+        vat_19=format_decimal(vat_19),
+        document_total_gross=format_decimal(document_total_gross),
+        refunds_total_positive=format_decimal(refunds_total_positive),
+        refund_reason=refund_reason,
+        related_original_invoice=related_original_invoice,
         content_hash=content_hash,
         duplicate_key=duplicate_key,
         notes=note,
@@ -829,20 +1083,24 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
     for month in month_range():
         month_rows = rows_by_month.get(month, [])
         sources = {row.source_file_path for row in month_rows}
-        has_gutschrift = any("gutschrift" in normalize_text(row.document_type) for row in month_rows)
+        source_document_numbers = sorted({row.document_number for row in month_rows if row.document_number})
+        has_gutschrift = any(row.row_type == "document_total" and "gutschrift" in normalize_text(row.document_type) for row in month_rows)
 
         totals = {category: Decimal("0") for category in DEDUCTION_CATEGORIES}
         gross = Decimal("0")
+        refunds = Decimal("0")
         net = Decimal("0")
         net_available = False
         notes: list[str] = []
 
         for row in month_rows:
             amount = amount_to_decimal(row.amount)
-            if "gutschrift" in normalize_text(row.document_type):
-                gross += amount
-            if row.deduction_category in totals:
+            if row.row_type == "document_total" and "gutschrift" in normalize_text(row.document_type):
+                gross += amount_to_decimal(row.document_total_gross or row.amount)
+            if row.row_type == "deduction_line" and row.deduction_category in totals:
                 totals[row.deduction_category] += amount
+            if row.row_type == "refund":
+                refunds += amount_to_decimal(row.refunds_total_positive or row.amount)
             if "netto" in normalize_text(row.position_name):
                 net += amount
                 net_available = True
@@ -852,8 +1110,11 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
             notes.append("No Gutschrift/Abrechnung source document detected for this month.")
 
         total_deductions = sum((totals[category] for category in DEDUCTION_CATEGORIES), Decimal("0"))
+        total_deductions_negative = sum((amount for amount in totals.values() if amount < 0), Decimal("0"))
+        net_effect = gross + total_deductions + refunds
         row = {
             "month": month,
+            "gross_credit_total": format_decimal(gross) if gross else "",
             "gross_credit_gutschrift_total": format_decimal(gross) if gross else "",
             "abschlag_coincident_total": format_decimal(totals["Abschlag Coincident"]) if totals["Abschlag Coincident"] else "",
             "abschlag_mitnahme_total": format_decimal(totals["Abschlag Mitnahme"]) if totals["Abschlag Mitnahme"] else "",
@@ -864,9 +1125,13 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
             "scannermiete_total": format_decimal(totals["Scannermiete"]) if totals["Scannermiete"] else "",
             "other_deductions_total": format_decimal(totals["Other deductions"]) if totals["Other deductions"] else "",
             "total_deductions": format_decimal(total_deductions) if total_deductions else "",
+            "total_deductions_negative": format_decimal(total_deductions_negative) if total_deductions_negative else "",
+            "refunds_total_positive": format_decimal(refunds) if refunds else "",
+            "net_effect": format_decimal(net_effect) if net_effect else "",
             "net_amount_if_available": format_decimal(net) if net_available else "",
             "number_of_source_documents": str(len(sources)),
             "missing_source_documents": missing_source,
+            "source_document_numbers": "; ".join(source_document_numbers),
             "notes": " ".join(notes),
         }
         monthly.append(row)
@@ -953,7 +1218,7 @@ def write_xlsx(path: Path, headers: list[str], rows: list[dict[str, str]], sheet
 def total_by_category(rows: list[DetailRow]) -> dict[str, Decimal]:
     totals = {category: Decimal("0") for category in DEDUCTION_CATEGORIES}
     for row in rows:
-        if row.deduction_category in totals:
+        if row.row_type == "deduction_line" and row.deduction_category in totals:
             totals[row.deduction_category] += amount_to_decimal(row.amount)
     return totals
 
