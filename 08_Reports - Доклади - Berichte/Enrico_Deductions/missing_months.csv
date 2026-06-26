@@ -1,9 +1,9 @@
-﻿month,missing_source_documents,notes
-2024-02,YES,No Gutschrift/Abrechnung source document detected for this month.
-2024-04,YES,No Gutschrift/Abrechnung source document detected for this month.
-2024-05,YES,No Gutschrift/Abrechnung source document detected for this month.
-2024-06,YES,No Gutschrift/Abrechnung source document detected for this month.
-2024-07,YES,No Gutschrift/Abrechnung source document detected for this month.
-2024-08,YES,No Gutschrift/Abrechnung source document detected for this month.
-2025-04,YES,No Gutschrift/Abrechnung source document detected for this month.
-2025-06,YES,No Gutschrift/Abrechnung source document detected for this month.
+﻿month,missing_main_monthly_gutschrift,has_only_refunds_or_corrections,has_any_enrico_document,main_gutschrift_found,refunds_found,sendungsverlust_found,scanner_invoice_found,any_document_found,notes
+2024-02,YES,NO,YES,NO,NO,YES,NO,YES,"Enrico documents found, but no main monthly Gutschrift/Abrechnung detected."
+2024-04,YES,NO,NO,NO,NO,NO,NO,NO,No Enrico source document detected for this month.
+2024-05,YES,NO,NO,NO,NO,NO,NO,NO,No Enrico source document detected for this month.
+2024-06,YES,NO,NO,NO,NO,NO,NO,NO,No Enrico source document detected for this month.
+2024-07,YES,NO,NO,NO,NO,NO,NO,NO,No Enrico source document detected for this month.
+2024-08,YES,YES,YES,NO,YES,NO,NO,YES,Only refund/correction documents found; main monthly Gutschrift/Abrechnung is missing.
+2025-04,YES,NO,YES,NO,NO,YES,YES,YES,"Enrico documents found, but no main monthly Gutschrift/Abrechnung detected."
+2025-06,YES,NO,NO,NO,NO,NO,NO,NO,No Enrico source document detected for this month.

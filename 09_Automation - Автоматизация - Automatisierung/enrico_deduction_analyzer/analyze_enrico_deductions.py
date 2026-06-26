@@ -90,6 +90,14 @@ MONTHLY_HEADERS = [
     "net_effect",
     "net_amount_if_available",
     "number_of_source_documents",
+    "main_gutschrift_found",
+    "refunds_found",
+    "sendungsverlust_found",
+    "scanner_invoice_found",
+    "any_document_found",
+    "missing_main_monthly_gutschrift",
+    "has_only_refunds_or_corrections",
+    "has_any_enrico_document",
     "missing_source_documents",
     "source_document_numbers",
     "notes",
@@ -106,7 +114,18 @@ DUPLICATE_HEADERS = [
     "reason",
 ]
 
-MISSING_HEADERS = ["month", "missing_source_documents", "notes"]
+MISSING_HEADERS = [
+    "month",
+    "missing_main_monthly_gutschrift",
+    "has_only_refunds_or_corrections",
+    "has_any_enrico_document",
+    "main_gutschrift_found",
+    "refunds_found",
+    "sendungsverlust_found",
+    "scanner_invoice_found",
+    "any_document_found",
+    "notes",
+]
 
 DOCUMENT_TERMS = [
     "Gutschrift",
@@ -1084,7 +1103,14 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
         month_rows = rows_by_month.get(month, [])
         sources = {row.source_file_path for row in month_rows}
         source_document_numbers = sorted({row.document_number for row in month_rows if row.document_number})
-        has_gutschrift = any(row.row_type == "document_total" and "gutschrift" in normalize_text(row.document_type) for row in month_rows)
+        has_main_gutschrift = any(row.row_type == "document_total" and "gutschrift" in normalize_text(row.document_type) for row in month_rows)
+        has_refunds = any(row.row_type == "refund" for row in month_rows)
+        has_sendungsverlust = any(row.deduction_category == "Sendungsverlust" or "sendungsverlust" in normalize_text(row.document_type) for row in month_rows)
+        has_scanner_invoice = any(row.deduction_category in {"Scannermiete", "Scanner-related invoices"} for row in month_rows)
+        has_any_document = bool(month_rows)
+        has_only_refunds_or_corrections = has_any_document and has_refunds and not has_main_gutschrift and not any(
+            row.row_type == "deduction_line" for row in month_rows
+        )
 
         totals = {category: Decimal("0") for category in DEDUCTION_CATEGORIES}
         gross = Decimal("0")
@@ -1105,9 +1131,16 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
                 net += amount
                 net_available = True
 
-        missing_source = "NO" if has_gutschrift else "YES"
-        if missing_source == "YES":
-            notes.append("No Gutschrift/Abrechnung source document detected for this month.")
+        missing_main_gutschrift = "NO" if has_main_gutschrift else "YES"
+        missing_source = "NO" if has_any_document else "YES"
+        if has_main_gutschrift:
+            notes.append("Main monthly Gutschrift/Abrechnung found.")
+        elif has_only_refunds_or_corrections:
+            notes.append("Only refund/correction documents found; main monthly Gutschrift/Abrechnung is missing.")
+        elif has_any_document:
+            notes.append("Enrico documents found, but no main monthly Gutschrift/Abrechnung detected.")
+        else:
+            notes.append("No Enrico source document detected for this month.")
 
         total_deductions = sum((totals[category] for category in DEDUCTION_CATEGORIES), Decimal("0"))
         total_deductions_negative = sum((amount for amount in totals.values() if amount < 0), Decimal("0"))
@@ -1130,13 +1163,21 @@ def build_monthly(rows: list[DetailRow]) -> tuple[list[dict[str, str]], list[dic
             "net_effect": format_decimal(net_effect) if net_effect else "",
             "net_amount_if_available": format_decimal(net) if net_available else "",
             "number_of_source_documents": str(len(sources)),
+            "main_gutschrift_found": "YES" if has_main_gutschrift else "NO",
+            "refunds_found": "YES" if has_refunds else "NO",
+            "sendungsverlust_found": "YES" if has_sendungsverlust else "NO",
+            "scanner_invoice_found": "YES" if has_scanner_invoice else "NO",
+            "any_document_found": "YES" if has_any_document else "NO",
+            "missing_main_monthly_gutschrift": missing_main_gutschrift,
+            "has_only_refunds_or_corrections": "YES" if has_only_refunds_or_corrections else "NO",
+            "has_any_enrico_document": "YES" if has_any_document else "NO",
             "missing_source_documents": missing_source,
             "source_document_numbers": "; ".join(source_document_numbers),
             "notes": " ".join(notes),
         }
         monthly.append(row)
-        if missing_source == "YES":
-            missing.append({"month": month, "missing_source_documents": "YES", "notes": row["notes"]})
+        if missing_main_gutschrift == "YES":
+            missing.append({header: row.get(header, "") for header in MISSING_HEADERS})
 
     return monthly, missing
 
@@ -1239,7 +1280,10 @@ def write_report(rows: list[DetailRow], monthly: list[dict[str, str]], missing: 
     category_lines = "\n".join(
         f"- {category}: {format_decimal(amount) if amount else ''}" for category, amount in totals.items()
     )
-    missing_lines = "\n".join(f"- {row['month']}" for row in missing) or "- None detected"
+    missing_lines = "\n".join(
+        f"- {row['month']}: {row.get('notes', '')}"
+        for row in missing
+    ) or "- None detected"
     source_lines = "\n".join(f"- {source}" for source in source_documents) or "- No Enrico/Sachsenpower source documents detected"
 
     report = f"""# Enrico Deduction Analysis
@@ -1281,11 +1325,11 @@ February 2024 through June 2025.
 - OCR is not implemented.
 - Scanned PDFs without embedded text cannot be analyzed until OCR is added.
 - The script extracts conservative text patterns only; complex tables may require manual review.
-- Missing source documents are marked when no Gutschrift or Abrechnung was detected for the month.
+- Missing main monthly Gutschrift status is tracked separately from refund/correction-only months and other Enrico documents.
 
 ## Next Documents Needed
 
-- Missing Gutschrift or Abrechnung documents for all months marked as missing.
+- Main monthly Gutschrift or Abrechnung documents for all months where `missing_main_monthly_gutschrift` is `YES`.
 - Any Sachsenpower/Enrico ZIP, RAR, EML, PDF, TXT, or CSV files not yet placed in `_INBOX` or `03_Documents - Документи - Dokumente`.
 - Original PDFs with embedded text or OCR-ready scanned copies for months where values are empty.
 """
