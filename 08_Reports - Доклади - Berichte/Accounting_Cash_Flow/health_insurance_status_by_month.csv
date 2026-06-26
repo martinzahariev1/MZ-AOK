@@ -1,0 +1,37 @@
+﻿month,insurance_name,latest_certificate_date,status,arrears_amount,period_of_arrears,source_documents,confidence,notes
+2024-01,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-01,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-02,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-02,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-03,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-03,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-04,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-04,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-05,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-05,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-06,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-06,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-07,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-07,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-08,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-08,Barmer,,UNKNOWN,,,,LOW,No certificate coverage detected for this month.
+2024-09,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-09,Barmer,2024-09-17,PAID_CLEAR,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,HIGH,Certificate month.
+2024-10,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-10,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-11,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-11,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-12,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2024-12,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-01,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-01,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-02,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-02,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-03,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-03,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-04,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-04,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-05,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-05,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-06,AOK,2022-02-08,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW,Latest certificate does not explicitly cover this month.
+2025-06,Barmer,2024-09-17,UNKNOWN,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW,Latest certificate does not explicitly cover this month.

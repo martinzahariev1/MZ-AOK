@@ -86,6 +86,31 @@ HEALTH_HEADERS = [
     "source_documents",
     "confidence",
 ]
+UNBEDENKLICHKEIT_HEADERS = [
+    "document_date",
+    "valid_until",
+    "month",
+    "health_insurance_name",
+    "employer",
+    "betriebsnummer",
+    "status",
+    "arrears_amount",
+    "period_of_arrears",
+    "exact_status_sentence",
+    "source_file",
+    "confidence",
+]
+HEALTH_STATUS_MONTHLY_HEADERS = [
+    "month",
+    "insurance_name",
+    "latest_certificate_date",
+    "status",
+    "arrears_amount",
+    "period_of_arrears",
+    "source_documents",
+    "confidence",
+    "notes",
+]
 TAX_HEADERS = [
     "month",
     "creditor",
@@ -157,6 +182,61 @@ UNPROCESSED_HEADERS = [
 ]
 
 HEALTH_INSURERS = ["AOK Plus", "AOK", "TK", "KKH", "Barmer", "DAK", "BKK", "IKK", "VIACTIV", "Vivida BKK"]
+UNBEDENKLICHKEIT_TERMS = [
+    "unbedenklichkeitsbescheinigung",
+    "unbedenklichkeitsbescheinigungen",
+    "keine beitragsrueckstaende",
+    "keine beitragsrückstände",
+    "keine rueckstaende",
+    "keine rückstände",
+    "bestehen keine rueckstaende",
+    "bestehen keine rückstände",
+    "sind keine beitragsrueckstaende",
+    "sind keine beitragsrückstände",
+    "beitragsrueckstaende",
+    "beitragsrückstände",
+    "rueckstaendige beitraege",
+    "rückständige beiträge",
+    "offene beitraege",
+    "offene beiträge",
+    "offene forderungen",
+    "nicht gezahlt",
+    "nicht vollstaendig gezahlt",
+    "nicht vollständig gezahlt",
+    "zahlungseingang",
+    "sozialversicherungsbeitraege",
+    "sozialversicherungsbeiträge",
+    "beitragskonto",
+    "betriebsnummer",
+    "krankenkasse",
+]
+PAID_CLEAR_TERMS = [
+    "keine beitragsrueckstaende",
+    "keine beitragsrückstände",
+    "keine rueckstaende",
+    "keine rückstände",
+    "bestehen keine rueckstaende",
+    "bestehen keine rückstände",
+    "sind keine beitragsrueckstaende",
+    "sind keine beitragsrückstände",
+    "ordnungsgemaess gezahlt",
+    "ordnungsgemäß gezahlt",
+]
+ARREARS_TERMS = [
+    "beitragsrueckstaende",
+    "beitragsrückstände",
+    "rueckstaendige beitraege",
+    "rückständige beiträge",
+    "offene beitraege",
+    "offene beiträge",
+    "offene forderungen",
+    "nicht gezahlt",
+    "nicht vollstaendig gezahlt",
+    "nicht vollständig gezahlt",
+    "rueckstand",
+    "rückstand",
+]
+LIMITED_TERMS = ["befristet", "gueltig bis", "gültig bis", "nur gueltig", "nur gültig", "eingeschraenkt", "eingeschränkt", "vorbehalt"]
 TAX_TYPES = ["Gewerbesteuer", "Umsatzsteuer", "Lohnsteuer", "Einkommensteuer"]
 OPERATING_KEYWORDS = {
     "fuel": ["fuel", "kraftstoff", "diesel", "benzin", "tank"],
@@ -357,6 +437,8 @@ def should_process_source(source: SourceFile) -> tuple[bool, str]:
 
 def detect_document_type(text: str, source: SourceFile) -> str:
     haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
+    if is_unbedenklichkeitsbescheinigung(haystack):
+        return "UNBEDENKLICHKEITSBESCHEINIGUNG"
     if any(term in haystack for term in ["brutto", "netto", "lohn", "entgelt"]):
         return "Payroll"
     if any(name.lower() in haystack for name in HEALTH_INSURERS) or "krankenkasse" in haystack or "hauptzollamt" in haystack:
@@ -426,6 +508,10 @@ def make_unprocessed(source: SourceFile, reason: str, detected_type: str = "", r
 
 
 def recommended_action(reason: str, source: SourceFile) -> str:
+    if "encrypted PDF unreadable" in reason:
+        return "install cryptography/pdfplumber/pymupdf or export unlocked PDF"
+    if "scanned image PDF requiring OCR" in reason:
+        return "Run OCR or provide text-based source document."
     if "RAR extraction unavailable" in reason:
         return "Install 7-Zip, unrar, or rarfile backend and rerun analyzer."
     if "Unsupported file type" in reason:
@@ -562,6 +648,7 @@ def expand_all(initial: list[SourceFile], temp_root: Path, log: ProcessingLog, u
 
 def read_pdf(source: SourceFile, log: ProcessingLog) -> ReadResult:
     errors: list[str] = []
+    encrypted_or_crypto_error = False
     try:
         from pypdf import PdfReader  # type: ignore
 
@@ -577,6 +664,8 @@ def read_pdf(source: SourceFile, log: ProcessingLog) -> ReadResult:
             return ReadResult(text, "HIGH", attempted, success)
         errors.append("pypdf returned no text")
     except Exception as exc:
+        if any(term in str(exc).lower() for term in ["encrypted", "decrypt", "cryptography", "aes", "password"]):
+            encrypted_or_crypto_error = True
         errors.append(f"pypdf failed: {exc}")
     try:
         import pdfplumber  # type: ignore
@@ -587,10 +676,39 @@ def read_pdf(source: SourceFile, log: ProcessingLog) -> ReadResult:
             return ReadResult(text, "HIGH", "YES", "YES")
         errors.append("pdfplumber returned no text")
     except Exception as exc:
+        if any(term in str(exc).lower() for term in ["encrypted", "decrypt", "cryptography", "aes", "password"]):
+            encrypted_or_crypto_error = True
         errors.append(f"pdfplumber failed: {exc}")
-    reason = "No text extracted from PDF: " + " | ".join(errors)
+    ocr_text, ocr_reason = attempt_ocr_pdf(source, log)
+    if ocr_text.strip():
+        return ReadResult(ocr_text, "LOW", "YES", "YES")
+    if ocr_reason:
+        errors.append(ocr_reason)
+    if encrypted_or_crypto_error:
+        reason = "encrypted PDF unreadable: " + " | ".join(errors)
+    elif any("returned no text" in error for error in errors):
+        reason = "scanned image PDF requiring OCR: " + " | ".join(errors)
+    else:
+        reason = "No text extracted from PDF: " + " | ".join(errors)
     log.add(f"PDF_READ_ERROR {source.display_path}: {reason}")
     return ReadResult("", "LOW", "YES", "NO", reason)
+
+
+def attempt_ocr_pdf(source: SourceFile, log: ProcessingLog) -> tuple[str, str]:
+    try:
+        import pytesseract  # type: ignore
+        from pdf2image import convert_from_path  # type: ignore
+    except Exception:
+        return "", "OCR unavailable"
+    try:
+        pages = convert_from_path(str(source.path), first_page=1, last_page=3)
+        text = "\n".join(pytesseract.image_to_string(page) for page in pages)
+        if text.strip():
+            return text, ""
+        return "", "OCR attempted but returned no text"
+    except Exception as exc:
+        log.add(f"OCR_ATTEMPT_FAILED {source.display_path}: {exc}")
+        return "", f"OCR attempted but failed: {exc}"
 
 
 def read_text(path: Path) -> str:
@@ -721,7 +839,115 @@ def detect_health_insurer(haystack: str) -> str:
     return ""
 
 
-def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+def is_unbedenklichkeitsbescheinigung(haystack: str) -> bool:
+    if "unbedenklichkeitsbescheinigung" in haystack:
+        return True
+    has_status = any(term in haystack for term in [normalize(item) for item in PAID_CLEAR_TERMS + ARREARS_TERMS])
+    has_health_context = any(term in haystack for term in ["krankenkasse", "beitragskonto", "sozialversicherungsbeitraege", "sozialversicherungsbeiträge"])
+    return has_status and has_health_context
+
+
+def split_sentences(text: str) -> list[str]:
+    return [part.strip() for part in re.split(r"(?<=[.!?])\s+|\n+", text) if part.strip()]
+
+
+def first_relevant_sentence(text: str, terms: list[str]) -> str:
+    normalized_terms = [normalize(term) for term in terms]
+    for sentence in split_sentences(text):
+        normalized_sentence = normalize(sentence)
+        if any(term in normalized_sentence for term in normalized_terms):
+            return re.sub(r"\s+", " ", sentence).strip()
+    return ""
+
+
+def normalize_date(value: str) -> str:
+    match = re.search(r"(\d{1,2})\.(\d{1,2})\.(\d{2,4})", value)
+    if not match:
+        return ""
+    year = int(match.group(3))
+    if year < 100:
+        year += 2000
+    return f"{year:04d}-{int(match.group(2)):02d}-{int(match.group(1)):02d}"
+
+
+def date_month(value: str) -> str:
+    normalized_date = normalize_date(value)
+    return normalized_date[:7] if normalized_date else ""
+
+
+def certificate_status(text: str) -> str:
+    haystack = normalize(text)
+    has_clear = any(term in haystack for term in [normalize(item) for item in PAID_CLEAR_TERMS])
+    has_arrears = any(term in haystack for term in [normalize(item) for item in ARREARS_TERMS])
+    has_limited = any(term in haystack for term in [normalize(item) for item in LIMITED_TERMS])
+    if has_limited:
+        return "PARTIAL_OR_LIMITED"
+    if has_clear:
+        return "PAID_CLEAR"
+    if has_arrears:
+        return "ARREARS_PRESENT"
+    return "UNKNOWN"
+
+
+def extract_unbedenklichkeitsbescheinigung(source: SourceFile, read: ReadResult) -> dict[str, str] | None:
+    text = read.text
+    haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
+    if not is_unbedenklichkeitsbescheinigung(haystack):
+        return None
+    document_date_raw = first_match(
+        [
+            r"(?:Datum|Ausstellungsdatum|Bescheinigung vom)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})",
+            r"\b(\d{1,2}\.\d{1,2}\.\d{2,4})\b",
+        ],
+        text,
+    )
+    valid_until_raw = first_match(
+        [
+            r"(?:g[üu]ltig\s+bis|gueltig\s+bis|befristet\s+bis)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})",
+            r"(?:bis zum)\D{0,20}(\d{1,2}\.\d{1,2}\.\d{2,4})",
+        ],
+        text,
+    )
+    document_date = normalize_date(document_date_raw)
+    valid_until = normalize_date(valid_until_raw)
+    status = certificate_status(text)
+    status_sentence = first_relevant_sentence(text, PAID_CLEAR_TERMS + ARREARS_TERMS + LIMITED_TERMS)
+    arrears_amount = extract_amount_near(text, ["Beitragsrückstände", "Beitragsrueckstaende", "Rückstand", "Rueckstand", "offene Forderungen", "offene Beiträge", "offene Beitraege"])
+    period = first_match(
+        [
+            r"(?:Zeitraum|für den Zeitraum|fuer den Zeitraum|betreffend)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4}\s*(?:-|bis)\s*\d{1,2}\.\d{1,2}\.\d{2,4})",
+            r"((?:Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+20\d{2})",
+        ],
+        text,
+    )
+    employer = first_match(
+        [
+            r"(?:Arbeitgeber|Firma|Unternehmen)\s*[:#]?\s*([^\n\r]{3,120})",
+            r"(Martin\s+Zahariev[^\n\r]{0,80})",
+        ],
+        text,
+    )
+    betriebsnummer = first_match([r"(?:Betriebsnummer|Betriebs-Nr\.?)\D{0,20}([0-9 ]{6,20})"], text)
+    insurer = detect_health_insurer(haystack)
+    month = date_month(document_date_raw) or extract_month(text, source.display_path)
+    confidence = "HIGH" if status in {"PAID_CLEAR", "ARREARS_PRESENT"} and document_date else "MEDIUM" if status != "UNKNOWN" else "LOW"
+    return {
+        "document_date": document_date,
+        "valid_until": valid_until,
+        "month": month,
+        "health_insurance_name": insurer,
+        "employer": employer,
+        "betriebsnummer": re.sub(r"\s+", "", betriebsnummer),
+        "status": status,
+        "arrears_amount": fmt(arrears_amount),
+        "period_of_arrears": period,
+        "exact_status_sentence": status_sentence,
+        "source_file": source.display_path,
+        "confidence": confidence if read.confidence != "LOW" else "LOW",
+    }
+
+
+def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
     text = read.text
     month = extract_month(text, source.display_path)
     haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
@@ -732,6 +958,11 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
     tax_rows: list[dict[str, str]] = []
     operating_rows: list[dict[str, str]] = []
     enrico_rows: list[dict[str, str]] = []
+    certificate_rows: list[dict[str, str]] = []
+
+    certificate = extract_unbedenklichkeitsbescheinigung(source, read)
+    if certificate:
+        certificate_rows.append(certificate)
 
     if any(term in haystack for term in ENRICO_TERMS):
         number = first_match([r"(?:Gutschrift|Rechnung)\s+Nr\.?\s*[:#]?\s*([A-Z0-9./_-]+(?:\s*-\s*\d{2,4})?)"], text)
@@ -837,7 +1068,7 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
             )
             break
 
-    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, enrico_rows
+    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, enrico_rows, certificate_rows
 
 
 def load_enrico_index() -> tuple[dict[str, str], set[str]]:
@@ -971,6 +1202,74 @@ def build_monthly(
     return monthly, missing, first_unpaid_health
 
 
+def month_end_key(month: str) -> str:
+    return f"{month}-31"
+
+
+def build_health_status_by_month(certificate_rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], str]:
+    insurers = sorted({row.get("health_insurance_name") or "unknown" for row in certificate_rows})
+    rows: list[dict[str, str]] = []
+    first_arrears = ""
+    for row in certificate_rows:
+        if row.get("status") == "ARREARS_PRESENT" and row.get("month"):
+            first_arrears = min([first_arrears, row["month"]]) if first_arrears else row["month"]
+    for month in month_range():
+        for insurer in insurers:
+            candidates = [
+                row
+                for row in certificate_rows
+                if (row.get("health_insurance_name") or "unknown") == insurer
+                and row.get("document_date")
+                and row["document_date"] <= month_end_key(month)
+            ]
+            if not candidates:
+                rows.append(
+                    {
+                        "month": month,
+                        "insurance_name": insurer,
+                        "latest_certificate_date": "",
+                        "status": "UNKNOWN",
+                        "arrears_amount": "",
+                        "period_of_arrears": "",
+                        "source_documents": "",
+                        "confidence": "LOW",
+                        "notes": "No certificate coverage detected for this month.",
+                    }
+                )
+                continue
+            latest = sorted(candidates, key=lambda item: item.get("document_date", ""))[-1]
+            valid_until = latest.get("valid_until", "")
+            same_month = latest.get("month") == month
+            covers_month = bool(valid_until and valid_until >= f"{month}-01" and latest.get("document_date", "") <= month_end_key(month))
+            if same_month or covers_month:
+                status = latest.get("status", "UNKNOWN")
+                notes = "Certificate month." if same_month else f"Covered by certificate valid until {valid_until}."
+                confidence = latest.get("confidence", "LOW")
+            else:
+                status = "UNKNOWN"
+                notes = "Latest certificate does not explicitly cover this month."
+                confidence = "LOW"
+            rows.append(
+                {
+                    "month": month,
+                    "insurance_name": insurer,
+                    "latest_certificate_date": latest.get("document_date", ""),
+                    "status": status,
+                    "arrears_amount": latest.get("arrears_amount", "") if status == "ARREARS_PRESENT" else "",
+                    "period_of_arrears": latest.get("period_of_arrears", "") if status == "ARREARS_PRESENT" else "",
+                    "source_documents": latest.get("source_file", ""),
+                    "confidence": confidence,
+                    "notes": notes,
+                }
+            )
+    return rows, first_arrears
+
+
+def combine_first_unpaid(explicit_first: str, certificate_first: str) -> str:
+    candidates = [item for item in [explicit_first, certificate_first] if item]
+    return min(candidates) if candidates else ""
+
+
 def markdown_table(headers: list[str], rows: list[dict[str, str]]) -> str:
     lines = ["| " + " | ".join(headers) + " |", "| " + " | ".join("---" for _ in headers) + " |"]
     for row in rows:
@@ -991,7 +1290,59 @@ def write_unprocessed_report(rows: list[dict[str, str]]) -> None:
     (REPORT_ROOT / "unprocessed_files_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def write_report(monthly: list[dict[str, str]], missing: list[dict[str, str]], first_unpaid_health: str, documents_used: list[str]) -> None:
+def certificate_summary(certificate_rows: list[dict[str, str]], health_status_monthly: list[dict[str, str]], first_certificate_arrears: str) -> str:
+    paid = sum(1 for row in certificate_rows if row.get("status") == "PAID_CLEAR")
+    arrears = sum(1 for row in certificate_rows if row.get("status") == "ARREARS_PRESENT")
+    unknown = sum(1 for row in certificate_rows if row.get("status") == "UNKNOWN")
+    limited = sum(1 for row in certificate_rows if row.get("status") == "PARTIAL_OR_LIMITED")
+    clear_months = sorted({row.get("month", "") for row in health_status_monthly if row.get("status") == "PAID_CLEAR" and row.get("month")})
+    missing_months = sorted({row.get("month", "") for row in health_status_monthly if row.get("status") == "UNKNOWN" and row.get("month")})
+    return "\n".join(
+        [
+            "## Health Insurance Status from Unbedenklichkeitsbescheinigungen",
+            "",
+            f"- Number of certificates found: {len(certificate_rows)}",
+            f"- PAID_CLEAR: {paid}",
+            f"- ARREARS_PRESENT: {arrears}",
+            f"- PARTIAL_OR_LIMITED: {limited}",
+            f"- UNKNOWN: {unknown}",
+            f"- First visible arrears month: {first_certificate_arrears or 'Not detected'}",
+            f"- Months with clear paid status: {', '.join(clear_months) if clear_months else 'None detected'}",
+            f"- Months with missing certificate coverage: {', '.join(missing_months) if missing_months else 'None detected'}",
+            "- Limitations: Status is based only on readable certificate text. Unreadable encrypted PDFs and scanned image PDFs are listed in the unprocessed file audit.",
+            "",
+        ]
+    )
+
+
+def write_unbedenklichkeits_report(certificate_rows: list[dict[str, str]], health_status_monthly: list[dict[str, str]], first_certificate_arrears: str) -> None:
+    report = f"""# Unbedenklichkeitsbescheinigungen Analysis
+
+## Period Analyzed
+
+January 2024 through June 2025.
+
+{certificate_summary(certificate_rows, health_status_monthly, first_certificate_arrears)}
+## Certificate Details
+
+{markdown_table(['document_date', 'valid_until', 'month', 'health_insurance_name', 'status', 'arrears_amount', 'period_of_arrears', 'confidence'], certificate_rows)}
+
+## Monthly Health Insurance Status
+
+{markdown_table(['month', 'insurance_name', 'latest_certificate_date', 'status', 'arrears_amount', 'confidence', 'notes'], health_status_monthly)}
+"""
+    (REPORT_ROOT / "UNBEDENKLICHKEITSBESCHEINIGUNGEN_ANALYSIS.md").write_text(report, encoding="utf-8")
+
+
+def write_report(
+    monthly: list[dict[str, str]],
+    missing: list[dict[str, str]],
+    first_unpaid_health: str,
+    documents_used: list[str],
+    certificate_rows: list[dict[str, str]],
+    health_status_monthly: list[dict[str, str]],
+    first_certificate_arrears: str,
+) -> None:
     missing_lines = "\n".join(f"- {row['month']}: {row['notes']}" for row in missing) or "- None detected"
     docs = "\n".join(f"- {doc}" for doc in documents_used[:500]) or "- No accounting source documents produced extractable rows."
     report = f"""# Accounting Cash Flow Reconstruction
@@ -1020,6 +1371,7 @@ January 2024 through June 2025.
 
 {first_unpaid_health or 'Not detected'}
 
+{certificate_summary(certificate_rows, health_status_monthly, first_certificate_arrears)}
 ## Months With Missing Data
 
 {missing_lines}
@@ -1030,7 +1382,7 @@ January 2024 through June 2025.
 
 ## Limitations
 
-- OCR is not implemented.
+- OCR is attempted only when local OCR tooling is available.
 - Empty values mean no reliable value was extracted.
 - Password-protected PDFs are attempted with password `10001`.
 - RAR extraction depends on 7-Zip, unrar, or an equivalent backend.
@@ -1052,6 +1404,7 @@ def write_output_readme() -> None:
 Generated by `analyze_accounting_cash_flow.py`.
 
 This folder contains reconstructed accounting timelines, Enrico cross-checks, duplicate detection, and a full file audit.
+It also includes Unbedenklichkeitsbescheinigungen certificate status extraction and monthly health-insurance status coverage.
 
 Every scanned or expanded file receives one final status:
 
@@ -1078,6 +1431,9 @@ def analyze() -> tuple[
     list[dict[str, str]],
     list[dict[str, str]],
     list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    str,
     str,
     ProcessingLog,
 ]:
@@ -1089,6 +1445,7 @@ def analyze() -> tuple[
     tax_rows: list[dict[str, str]] = []
     operating_rows: list[dict[str, str]] = []
     enrico_rows: list[dict[str, str]] = []
+    certificate_rows: list[dict[str, str]] = []
     unprocessed: list[dict[str, str]] = []
 
     with tempfile.TemporaryDirectory(prefix="accounting_cash_flow_") as temp_dir:
@@ -1136,6 +1493,7 @@ def analyze() -> tuple[
             tax_rows.extend(extracted[3])
             operating_rows.extend(extracted[4])
             enrico_rows.extend(extracted[5])
+            certificate_rows.extend(extracted[6])
             structured_count = sum(len(part) for part in extracted)
 
             if extracted[5] and structured_count == len(extracted[5]):
@@ -1154,9 +1512,12 @@ def analyze() -> tuple[
 
     enrico_rows = finalize_enrico_rows(enrico_rows)
     monthly, missing, first_unpaid_health = build_monthly(employee_rows, payroll_rows, health_rows, tax_rows, operating_rows)
+    health_status_monthly, first_certificate_arrears = build_health_status_by_month(certificate_rows)
+    first_unpaid_health = combine_first_unpaid(first_unpaid_health, first_certificate_arrears)
     log.stats["employee_rows"] = len(employee_rows)
     log.stats["payroll_rows"] = len(payroll_rows)
     log.stats["health_rows"] = len(health_rows)
+    log.stats["unbedenklichkeitsbescheinigungen"] = len(certificate_rows)
     log.stats["tax_rows"] = len(tax_rows)
     log.stats["operating_rows"] = len(operating_rows)
     log.stats["enrico_cross_check"] = len(enrico_rows)
@@ -1171,11 +1532,14 @@ def analyze() -> tuple[
         tax_rows,
         operating_rows,
         enrico_rows,
+        certificate_rows,
+        health_status_monthly,
         monthly,
         missing,
         duplicates,
         unprocessed,
         first_unpaid_health,
+        first_certificate_arrears,
         log,
     )
 
@@ -1188,11 +1552,14 @@ def main() -> int:
         tax_rows,
         operating_rows,
         enrico_rows,
+        certificate_rows,
+        health_status_monthly,
         monthly,
         missing,
         duplicates,
         unprocessed,
         first_unpaid_health,
+        first_certificate_arrears,
         log,
     ) = analyze()
 
@@ -1203,6 +1570,8 @@ def main() -> int:
         ("tax_timeline", TAX_HEADERS, tax_rows, "Taxes"),
         ("operating_costs_timeline", OPERATING_HEADERS, operating_rows, "Operating"),
         ("enrico_cross_check", ENRICO_HEADERS, enrico_rows, "Enrico"),
+        ("unbedenklichkeitsbescheinigungen_status", UNBEDENKLICHKEIT_HEADERS, certificate_rows, "Certificates"),
+        ("health_insurance_status_by_month", HEALTH_STATUS_MONTHLY_HEADERS, health_status_monthly, "Health Status"),
         ("monthly_cash_flow_reconstruction", MONTHLY_HEADERS, monthly, "Monthly"),
         ("unprocessed_files", UNPROCESSED_HEADERS, unprocessed, "Unprocessed"),
     ]
@@ -1218,7 +1587,8 @@ def main() -> int:
             if row.get("source_documents")
         }
     )
-    write_report(monthly, missing, first_unpaid_health, documents_used)
+    write_report(monthly, missing, first_unpaid_health, documents_used, certificate_rows, health_status_monthly, first_certificate_arrears)
+    write_unbedenklichkeits_report(certificate_rows, health_status_monthly, first_certificate_arrears)
     write_unprocessed_report(unprocessed)
     write_output_readme()
     log.write(REPORT_ROOT / "processing_log.txt")
@@ -1234,6 +1604,7 @@ def main() -> int:
     print(f"Employee rows: {len(employee_rows)}")
     print(f"Payroll rows: {len(payroll_rows)}")
     print(f"Health insurance rows: {len(health_rows)}")
+    print(f"Unbedenklichkeitsbescheinigungen found: {len(certificate_rows)}")
     print(f"Tax rows: {len(tax_rows)}")
     print(f"Operating cost rows: {len(operating_rows)}")
     print(f"First visible unpaid health insurance month: {first_unpaid_health or 'Not detected'}")

@@ -125,6 +125,32 @@ KEYWORDS = {
         "sozialversicherung",
         "sv-beitraege",
         "sv-beiträge",
+        "unbedenklichkeitsbescheinigung",
+        "unbedenklichkeitsbescheinigungen",
+        "bescheinigung",
+        "keine beitragsrueckstaende",
+        "keine beitragsrückstände",
+        "keine rueckstaende",
+        "keine rückstände",
+        "bestehen keine rueckstaende",
+        "bestehen keine rückstände",
+        "sind keine beitragsrueckstaende",
+        "sind keine beitragsrückstände",
+        "beitragsrueckstaende",
+        "beitragsrückstände",
+        "rueckstaendige beitraege",
+        "rückständige beiträge",
+        "offene beitraege",
+        "offene beiträge",
+        "offene forderungen",
+        "nicht gezahlt",
+        "nicht vollstaendig gezahlt",
+        "nicht vollständig gezahlt",
+        "zahlungseingang",
+        "sozialversicherungsbeitraege",
+        "sozialversicherungsbeiträge",
+        "beitragskonto",
+        "betriebsnummer",
     ],
     "05_Taxes": [
         "finanzamt",
@@ -237,6 +263,56 @@ PRIORITY = [
     "10_BWA_Reports",
     "12_Liability_Overview",
     "08_Operating_Costs",
+]
+
+UNBEDENKLICHKEIT_TERMS = [
+    "unbedenklichkeitsbescheinigung",
+    "unbedenklichkeitsbescheinigungen",
+    "keine beitragsrueckstaende",
+    "keine beitragsrückstände",
+    "keine rueckstaende",
+    "keine rückstände",
+    "bestehen keine rueckstaende",
+    "bestehen keine rückstände",
+    "sind keine beitragsrueckstaende",
+    "sind keine beitragsrückstände",
+    "beitragsrueckstaende",
+    "beitragsrückstände",
+    "rueckstaendige beitraege",
+    "rückständige beiträge",
+    "offene beitraege",
+    "offene beiträge",
+    "offene forderungen",
+    "nicht gezahlt",
+    "nicht vollstaendig gezahlt",
+    "nicht vollständig gezahlt",
+    "zahlungseingang",
+    "sozialversicherungsbeitraege",
+    "sozialversicherungsbeiträge",
+    "beitragskonto",
+    "betriebsnummer",
+    "krankenkasse",
+]
+
+UNBEDENKLICHKEIT_STATUS_TERMS = [
+    "keine beitragsrueckstaende",
+    "keine beitragsrückstände",
+    "keine rueckstaende",
+    "keine rückstände",
+    "bestehen keine rueckstaende",
+    "bestehen keine rückstände",
+    "sind keine beitragsrueckstaende",
+    "sind keine beitragsrückstände",
+    "beitragsrueckstaende",
+    "beitragsrückstände",
+    "rueckstaendige beitraege",
+    "rückständige beiträge",
+    "offene beitraege",
+    "offene beiträge",
+    "offene forderungen",
+    "nicht gezahlt",
+    "nicht vollstaendig gezahlt",
+    "nicht vollständig gezahlt",
 ]
 
 
@@ -447,6 +523,13 @@ def classify(path: Path, content: str, content_read: str) -> tuple[str, list[str
         scores["05_Taxes"] = scores.get("05_Taxes", 0) + 1
         reasons["05_Taxes"].append("Hauptzollamt")
 
+    has_certificate_status = any(normalize(term) in haystack for term in UNBEDENKLICHKEIT_STATUS_TERMS)
+    has_health_context = any(term in haystack for term in ["krankenkasse", "beitragskonto", "sozialversicherungsbeitraege", "sozialversicherungsbeiträge"])
+    is_certificate_doc = "unbedenklichkeitsbescheinigung" in haystack or (has_certificate_status and has_health_context)
+    if is_certificate_doc:
+        scores["04_Health_Insurance"] = scores.get("04_Health_Insurance", 0) + 6
+        reasons["04_Health_Insurance"].append("Unbedenklichkeitsbescheinigung status document")
+
     if path.suffix.lower() in {".jpg", ".jpeg", ".png", ".mp4", ".mov"} and not scores:
         return "13_Unknown_To_Review", [], "Image/Video", "LOW", "Image/video file has no category context and OCR is not implemented."
 
@@ -459,14 +542,18 @@ def classify(path: Path, content: str, content_read: str) -> tuple[str, list[str
     confidence = "HIGH" if score >= 4 and (content_read == "YES" or any(normalize(reason) in file_context for reason in reasons[primary])) else "MEDIUM" if score >= 3 or content_read == "YES" else "LOW"
     if confidence == "LOW":
         return "13_Unknown_To_Review", secondary, "Unknown", "LOW", f"Low confidence match: {', '.join(reasons[primary])}"
-    return primary, secondary, CATEGORIES[primary], confidence, f"Matched keywords: {', '.join(reasons[primary])}"
+    doc_type = "UNBEDENKLICHKEITSBESCHEINIGUNG" if primary == "04_Health_Insurance" and is_certificate_doc else CATEGORIES[primary]
+    return primary, secondary, doc_type, confidence, f"Matched keywords: {', '.join(reasons[primary])}"
 
 
 def safe_copy(source: Path, target_dir: Path) -> Path:
     target_dir.mkdir(parents=True, exist_ok=True)
+    source_hash = sha256_file(source)
     target = target_dir / source.name
     if not target.exists():
         shutil.copy2(source, target)
+        return target
+    if sha256_file(target) == source_hash:
         return target
     stem, suffix = source.stem, source.suffix
     counter = 2
@@ -474,6 +561,8 @@ def safe_copy(source: Path, target_dir: Path) -> Path:
         candidate = target_dir / f"{stem}__copy{counter}{suffix}"
         if not candidate.exists():
             shutil.copy2(source, candidate)
+            return candidate
+        if sha256_file(candidate) == source_hash:
             return candidate
         counter += 1
 

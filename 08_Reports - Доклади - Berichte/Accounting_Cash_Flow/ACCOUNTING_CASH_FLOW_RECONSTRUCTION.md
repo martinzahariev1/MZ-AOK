@@ -100,6 +100,18 @@ January 2024 through June 2025.
 
 Not detected
 
+## Health Insurance Status from Unbedenklichkeitsbescheinigungen
+
+- Number of certificates found: 3
+- PAID_CLEAR: 2
+- ARREARS_PRESENT: 0
+- PARTIAL_OR_LIMITED: 0
+- UNKNOWN: 1
+- First visible arrears month: Not detected
+- Months with clear paid status: 2024-09
+- Months with missing certificate coverage: 2024-01, 2024-02, 2024-03, 2024-04, 2024-05, 2024-06, 2024-07, 2024-08, 2024-09, 2024-10, 2024-11, 2024-12, 2025-01, 2025-02, 2025-03, 2025-04, 2025-05, 2025-06
+- Limitations: Status is based only on readable certificate text. Unreadable encrypted PDFs and scanned image PDFs are listed in the unprocessed file audit.
+
 ## Months With Missing Data
 
 - None detected
@@ -126,6 +138,7 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2021 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf
@@ -194,7 +207,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis 8345-1440-1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis Zahariev Juni 2025.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/ueberweisung2022_89878877_20240612110113.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/307538032.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf
@@ -294,7 +306,7 @@ Not detected
 
 ## Limitations
 
-- OCR is not implemented.
+- OCR is attempted only when local OCR tooling is available.
 - Empty values mean no reliable value was extracted.
 - Password-protected PDFs are attempted with password `10001`.
 - RAR extraction depends on 7-Zip, unrar, or an equivalent backend.

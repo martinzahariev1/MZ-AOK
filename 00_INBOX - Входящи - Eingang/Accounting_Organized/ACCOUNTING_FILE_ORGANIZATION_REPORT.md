@@ -3,23 +3,23 @@
 Total files scanned: 607
 Copied files: 607
 Duplicates: 55
-Unknown files: 147
+Unknown files: 146
 
 ## Category Counts
 
 - 01_Accountant_Emails (Accountant Emails): 76
-- 02_Payroll (Payroll): 39
+- 02_Payroll (Payroll): 38
 - 03_Employee_Payslips (Employee Payslips): 19
-- 04_Health_Insurance (Health Insurance): 46
-- 05_Taxes (Taxes): 31
-- 06_Bank_Payments (Bank Payments): 92
+- 04_Health_Insurance (Health Insurance): 50
+- 05_Taxes (Taxes): 30
+- 06_Bank_Payments (Bank Payments): 91
 - 07_Cash_Payments (Cash Payments): 0
 - 08_Operating_Costs (Operating Costs): 52
 - 09_Enrico_Forwarded (Enrico Forwarded): 45
 - 10_BWA_Reports (BWA Reports): 1
 - 11_Contribution_Lists (Contribution Lists): 3
 - 12_Liability_Overview (Liability Overview): 1
-- 13_Unknown_To_Review (Unknown To Review): 147
+- 13_Unknown_To_Review (Unknown To Review): 146
 - 14_Duplicates (Duplicates): 55
 
 ## Notes
@@ -31,8 +31,8 @@ Unknown files: 147
 
 ## Classification Diagnostic
 
-- Previous unknown count: 300
-- New unknown count: 147
+- Previous unknown count: 146
+- New unknown count: 146
 
 ### Top Remaining Unknown File Patterns
 
@@ -49,13 +49,13 @@ Unknown files: 147
 - .png: 2
 - working hours YYYY: 2
 - YYYY vorgangsmappe lohn aktualisiert: 1
-- arbeitsbescheinigung georgi stefanov: 1
 - enrico deductions detailed: 1
 - hauptzollamt erfurt umbuchung der: 1
 - imageYYYY: 1
 - martin zahariev bescheid adressnachweis: 1
 - screenshot YYYY YYYY samsung: 1
 - screenshot YYYY YYYY revolut: 1
+- still missing: 1
 
 ### Recommended Manual Review Groups
 

@@ -67,6 +67,9 @@ Generated files:
 - `employee_timeline.csv` / `.xlsx`
 - `payroll_timeline.csv` / `.xlsx`
 - `health_insurance_timeline.csv` / `.xlsx`
+- `unbedenklichkeitsbescheinigungen_status.csv` / `.xlsx`
+- `health_insurance_status_by_month.csv` / `.xlsx`
+- `UNBEDENKLICHKEITSBESCHEINIGUNGEN_ANALYSIS.md`
 - `tax_timeline.csv` / `.xlsx`
 - `operating_costs_timeline.csv` / `.xlsx`
 - `enrico_cross_check.csv` / `.xlsx`

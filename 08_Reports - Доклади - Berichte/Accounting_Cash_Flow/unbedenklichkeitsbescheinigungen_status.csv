@@ -1,0 +1,4 @@
+﻿document_date,valid_until,month,health_insurance_name,employer,betriebsnummer,status,arrears_amount,period_of_arrears,exact_status_sentence,source_file,confidence
+2022-02-08,,2022-02,AOK,"konto, derzeit keine Beitragsrückstände",89878877,PAID_CLEAR,,,"vorgenannten Betriebsnummer geführten Arbeitgeberkonto, derzeit keine Beitragsrückstände",00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,HIGH
+,,,AOK,Martin Zahariev,,UNKNOWN,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf,LOW
+2024-09-17,,2024-09,Barmer,konto,89878877,PAID_CLEAR,,,nachgewiesen und gezahlt worden sind und derzeit keine Beitragsrückstände bestehen.,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,HIGH
