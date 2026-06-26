@@ -24,6 +24,7 @@ python "09_Automation - Автоматизация - Automatisierung/enrico_dedu
 
 The script recursively scans:
 
+- `00_INBOX - Входящи - Eingang/Enrico`
 - `_INBOX`
 - `03_Documents - Документи - Dokumente`
 
@@ -69,8 +70,12 @@ pip install -r requirements.txt
 Optional dependency notes:
 
 - `pypdf` improves PDF text extraction.
+- `pdfplumber` is used as a fallback when `pypdf` cannot extract text.
 - `rarfile` enables RAR reading, but may also require a local RAR backend.
-- `openpyxl` is listed for future spreadsheet work; this version can generate simple `.xlsx` files without it.
+- `pandas` and `openpyxl` are available for future spreadsheet expansion; this version can generate simple `.xlsx` files without them.
+- `beautifulsoup4` improves HTML email body extraction.
+
+If global Python package installation is unavailable, the script also checks for packages in a repository-local `.python_packages` folder.
 
 ## Detection Targets
 
@@ -103,4 +108,3 @@ Tracked deduction categories:
 - Scanned PDFs without embedded text will produce LOW confidence or empty values.
 - RAR extraction depends on optional local support.
 - Values that cannot be extracted are left empty.
-

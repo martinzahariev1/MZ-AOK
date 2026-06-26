@@ -1,15 +1,91 @@
-2026-06-26T14:29:28 Scanning input folder: _INBOX
-2026-06-26T14:29:28 Scanning input folder: 03_Documents - Документи - Dokumente
-2026-06-26T14:29:28 Found 4 supported source files before archive/email expansion.
-2026-06-26T14:29:28 Total supported files after archive/email expansion: 4
-2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/gewerbe document.pdf
-2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe document.pdf
-2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/gewerbe unmeldung.pdf
-2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe unmeldung.pdf
-2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/kundigung Dokument.pdf
-2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/kundigung Dokument.pdf
-2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/meldebeshaidigung.pdf
-2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/meldebeshaidigung.pdf
-2026-06-26T14:29:28 Unique detail rows: 0
-2026-06-26T14:29:28 Duplicate rows: 0
-2026-06-26T14:29:28 Missing months: 17
+2026-06-26T14:55:33 Scanning input folder: 00_INBOX - Входящи - Eingang/Enrico
+2026-06-26T14:55:33 Scanning input folder: _INBOX
+2026-06-26T14:55:33 Scanning input folder: 03_Documents - Документи - Dokumente
+2026-06-26T14:55:33 Found 29 supported source files before archive/email expansion.
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/abrechnungmai2025.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/abrechnungseptember.zip
+2026-06-26T14:55:33 Read EML 00_INBOX - Входящи - Eingang/Enrico/Auffälligkeiten vorige Woche.eml with 0 attachments.
+2026-06-26T14:55:33 Extracted 5 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip
+2026-06-26T14:55:33 Extracted 4 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/gutschriftundrechnungen.zip
+2026-06-26T14:55:33 Read EML 00_INBOX - Входящи - Eingang/Enrico/original_msg.eml with 3 attachments.
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift382024zaharievmartin31_10_.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift422024zaharievmartin30_11_.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift442024zaharievmartin31_12_.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschriftmrz2025zahariev_pdf.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenleistungsnachweismartinzaharievfebruar.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievgutschrift4831_01_2025_.zip
+2026-06-26T14:55:33 Extracted 4 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte203608_01_202.zip
+2026-06-26T14:55:33 Extracted 4 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte205407_02_202.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte207008_03_202.zip
+2026-06-26T14:55:33 Extracted 4 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenrechnung1999vom06_11_2024sendungsverl.zip
+2026-06-26T14:55:33 Extracted 6 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip
+2026-06-26T14:55:33 Extracted 2 supported files from ZIP: 00_INBOX - Входящи - Eingang/Enrico/rechnungenfrjuli25.zip
+2026-06-26T14:55:33 Total supported files after archive/email expansion: 76
+2026-06-26T14:55:34 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/07.2024.pdf
+2026-06-26T14:55:34 Read EML 00_INBOX - Входящи - Eingang/Enrico/Auffälligkeiten vorige Woche.eml with 0 attachments.
+2026-06-26T14:55:34 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/Auffälligkeiten vorige Woche.eml
+2026-06-26T14:55:34 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf
+2026-06-26T14:55:34 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/gutschrift 71 2025 zahariev Sendungsverlust.pdf
+2026-06-26T14:55:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Enrico/Lohnauswertungen 01.2024.pdf :: pypdf failed: File has not been decrypted | pdfplumber is not installed | PyPDF2 is not installed | pdftotext executable is not available
+2026-06-26T14:55:34 Relevant document found but no financial rows extracted: 00_INBOX - Входящи - Eingang/Enrico/Lohnauswertungen 01.2024.pdf
+2026-06-26T14:55:34 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/Martin Zahariev Gutschrift 51 17.02.2025.pdf
+2026-06-26T14:55:35 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/Martin Zahariev Gutschrift 55 08.03.2025.pdf
+2026-06-26T14:55:35 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf
+2026-06-26T14:55:35 Read EML 00_INBOX - Входящи - Eingang/Enrico/original_msg.eml with 3 attachments.
+2026-06-26T14:55:35 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/original_msg.eml
+2026-06-26T14:55:35 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe document.pdf
+2026-06-26T14:55:35 PDF_READ_ERROR _INBOX/gewerbe unmeldung.pdf :: pypdf returned no text | pdfplumber is not installed | PyPDF2 is not installed | pdftotext executable is not available
+2026-06-26T14:55:35 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe unmeldung.pdf
+2026-06-26T14:55:35 Extracted 1 detail rows from: _INBOX/kundigung Dokument.pdf
+2026-06-26T14:55:35 PDF_READ_ERROR _INBOX/meldebeshaidigung.pdf :: pypdf returned no text | pdfplumber is not installed | PyPDF2 is not installed | pdftotext executable is not available
+2026-06-26T14:55:35 Skipped non-Enrico/Sachsenpower document: _INBOX/meldebeshaidigung.pdf
+2026-06-26T14:55:35 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/abrechnungmai2025.zip::Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T14:55:35 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/abrechnungmai2025.zip::gutschrift 66 Mai 2025 zahariev.pdf
+2026-06-26T14:55:36 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/abrechnungseptember.zip::Leistungsnachweis September 2024.pdf
+2026-06-26T14:55:36 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/abrechnungseptember.zip::Gutschrift 31-2024 Zahariev Martin 30.09.2024.pdf
+2026-06-26T14:55:36 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip::gutschrift 05.04. 2025 zahariev.pdf
+2026-06-26T14:55:37 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip::Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T14:55:37 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip::Rechnung 2764 Zahariev Hermes Kleidung.pdf
+2026-06-26T14:55:37 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip::Rechnung 2765 Zahariev Hermes Scannermiete.pdf
+2026-06-26T14:55:38 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/fwgutschriftrechnungen.zip::Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf
+2026-06-26T14:55:38 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/gutschriftundrechnungen.zip::Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf
+2026-06-26T14:55:39 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/gutschriftundrechnungen.zip::Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf
+2026-06-26T14:55:39 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/gutschriftundrechnungen.zip::Rechnung 2015 07.12.2024 Martin Zahariev.pdf
+2026-06-26T14:55:39 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/gutschriftundrechnungen.zip::Rechnung 2023 vom 07.12.2024  Zahariev HERMES Bekleidung.pdf
+2026-06-26T14:55:40 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift382024zaharievmartin31_10_.zip::Gutschrift 38-2024 Zahariev Martin 31.10.2024.pdf
+2026-06-26T14:55:40 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift382024zaharievmartin31_10_.zip::Leistungsnachweis Oktober 2024.pdf
+2026-06-26T14:55:40 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift422024zaharievmartin30_11_.zip::Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf
+2026-06-26T14:55:41 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift422024zaharievmartin30_11_.zip::Leistungsnachweis November 2024.pdf
+2026-06-26T14:55:41 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift442024zaharievmartin31_12_.zip::Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf
+2026-06-26T14:55:41 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschrift442024zaharievmartin31_12_.zip::Leistungsnachweis Dezember Zahariev 2024.pdf
+2026-06-26T14:55:42 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschriftmrz2025zahariev_pdf.zip::gutschrift märz 2025 zahariev.pdf
+2026-06-26T14:55:42 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendengutschriftmrz2025zahariev_pdf.zip::Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T14:55:42 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenleistungsnachweismartinzaharievfebruar.zip::Leistungsnachweis Martin Zahariev Februar 2025.pdf
+2026-06-26T14:55:43 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenleistungsnachweismartinzaharievfebruar.zip::Martin Zahariev Gutschrift 52 28.02.2025.pdf
+2026-06-26T14:55:43 Extracted 3 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievgutschrift4831_01_2025_.zip::Martin Zahariev Gutschrift 48 31.01.2025.pdf
+2026-06-26T14:55:44 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievgutschrift4831_01_2025_.zip::Leistungsnachweis Martin Zahariev Januar 2025.pdf
+2026-06-26T14:55:44 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte203608_01_202.zip::Martin Zahariev Transporte 2036 08.01.2025 Scannermiete.pdf
+2026-06-26T14:55:45 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte203608_01_202.zip::Martin Zahariev Transporte 2037 08.01.2025 Sendungsverluste.pdf
+2026-06-26T14:55:45 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte203608_01_202.zip::Martin Zahariev Transporte 2038 08.01.2025 Bearbeitungsgebühr.pdf
+2026-06-26T14:55:45 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte203608_01_202.zip::Martin Zahariev Transporte 2035 08.01.2025 Hermes Bekleidung.pdf
+2026-06-26T14:55:46 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte205407_02_202.zip::Martin Zahariev Transporte 2054 07.02.2025 Scannermiete.pdf
+2026-06-26T14:55:46 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte205407_02_202.zip::Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf
+2026-06-26T14:55:47 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte205407_02_202.zip::Martin Zahariev Transporte 2056 07.02.2025 Bearbeitungsgebühr.pdf
+2026-06-26T14:55:47 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte205407_02_202.zip::Martin Zahariev Transporte 2057 07.02.2025 Hermes Bekleidung.pdf
+2026-06-26T14:55:47 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte207008_03_202.zip::Martin Zahariev Transporte 2070 08.03.2025 Sendungsverluste.pdf
+2026-06-26T14:55:48 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenmartinzaharievtransporte207008_03_202.zip::Martin Zahariev Transporte 2069 08.03.2025 Sendungsverluste.pdf
+2026-06-26T14:55:49 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenrechnung1999vom06_11_2024sendungsverl.zip::Rechnung 1999 vom 06.11.2024 Sendungsverlust Zahariev.pdf
+2026-06-26T14:55:49 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenrechnung1999vom06_11_2024sendungsverl.zip::Rechnung 2000 vom 06.11.2024  Zahariev Bearbeitung.pdf
+2026-06-26T14:55:50 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenrechnung1999vom06_11_2024sendungsverl.zip::Rechnung 2001 vom 06.11.2024  Zahariev Hermes Bekleidung.pdf
+2026-06-26T14:55:50 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/peremailsendenrechnung1999vom06_11_2024sendungsverl.zip::Rechnung 2002 vom 06.11.2024 Scannermiete Zahariev.pdf
+2026-06-26T14:55:50 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Zahlungsavis Zahariev Juni 2025.pdf
+2026-06-26T14:55:51 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Rechnung 2814 zahariev bekleidung.pdf
+2026-06-26T14:55:51 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Rechnung 2813 zahariev bearbeitungsgeb_hr.pdf
+2026-06-26T14:55:52 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T14:55:53 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Rechnung 2811 Zahariev scannermiete.pdf
+2026-06-26T14:55:54 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenaus062025.zip::Rechnung 2810 Zahariev TF Touren.pdf
+2026-06-26T14:55:54 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenfrjuli25.zip::Rechnung 2837 zahariev bearbeitungsgebühr.pdf
+2026-06-26T14:55:55 Extracted 1 detail rows from: 00_INBOX - Входящи - Eingang/Enrico/rechnungenfrjuli25.zip::Rechnung 2836 zahariev sendungsverlust.pdf
+2026-06-26T14:55:55 Unique detail rows: 63
+2026-06-26T14:55:55 Duplicate rows: 11
+2026-06-26T14:55:55 Missing months: 7

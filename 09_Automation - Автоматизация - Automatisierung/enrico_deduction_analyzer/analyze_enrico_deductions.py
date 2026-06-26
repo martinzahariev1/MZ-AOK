@@ -32,7 +32,12 @@ from typing import Iterable
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DOCUMENTS_ROOT = REPO_ROOT / "03_Documents - Документи - Dokumente"
 INBOX_ROOT = REPO_ROOT / "_INBOX"
+ENRICO_INBOX_ROOT = REPO_ROOT / "00_INBOX - Входящи - Eingang" / "Enrico"
 REPORT_ROOT = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Enrico_Deductions"
+LOCAL_PACKAGES = REPO_ROOT / ".python_packages"
+
+if LOCAL_PACKAGES.exists():
+    sys.path.insert(0, str(LOCAL_PACKAGES))
 
 SUPPORTED_EXTENSIONS = {".pdf", ".zip", ".rar", ".txt", ".csv", ".eml"}
 PERIOD_START = (2024, 2)
@@ -156,6 +161,7 @@ class DetailRow:
 class ProcessingLog:
     def __init__(self) -> None:
         self.lines: list[str] = []
+        self.stats: dict[str, int] = defaultdict(int)
 
     def add(self, message: str) -> None:
         timestamp = datetime.now().isoformat(timespec="seconds")
@@ -202,7 +208,7 @@ def safe_extract_path(base_dir: Path, member_name: str) -> Path | None:
 
 
 def scan_input_files(log: ProcessingLog) -> list[SourceDocument]:
-    roots = [root for root in [INBOX_ROOT, DOCUMENTS_ROOT] if root.exists()]
+    roots = [root for root in [ENRICO_INBOX_ROOT, INBOX_ROOT, DOCUMENTS_ROOT] if root.exists()]
     documents: list[SourceDocument] = []
     for root in roots:
         log.add(f"Scanning input folder: {repo_relative(root)}")
@@ -210,6 +216,7 @@ def scan_input_files(log: ProcessingLog) -> list[SourceDocument]:
             if path.is_file() and path.suffix.lower() in SUPPORTED_EXTENSIONS:
                 documents.append(SourceDocument(path=path, display_path=repo_relative(path)))
     log.add(f"Found {len(documents)} supported source files before archive/email expansion.")
+    log.stats["scanned_files"] = len(documents)
     return documents
 
 
@@ -294,7 +301,15 @@ def message_body(message: Message) -> str:
                 except Exception:
                     payload = part.get_payload(decode=True) or b""
                     payload = payload.decode(part.get_content_charset() or "utf-8", errors="replace")
-                parts.append(str(payload))
+                text = str(payload)
+                if content_type == "text/html":
+                    try:
+                        from bs4 import BeautifulSoup  # type: ignore
+
+                        text = BeautifulSoup(text, "html.parser").get_text("\n")
+                    except ImportError:
+                        text = re.sub(r"<[^>]+>", " ", text)
+                parts.append(text)
     else:
         try:
             parts.append(str(message.get_content()))
@@ -388,31 +403,50 @@ def expand_archives_and_emails(initial_docs: list[SourceDocument], temp_root: Pa
             expanded.append(source)
 
     log.add(f"Total supported files after archive/email expansion: {len(expanded)}")
+    log.stats["expanded_files"] = len(expanded)
     return expanded
 
 
 def read_pdf_text(path: Path, log: ProcessingLog) -> tuple[str, str]:
+    errors: list[str] = []
     try:
         from pypdf import PdfReader  # type: ignore
 
         reader = PdfReader(str(path))
         text = "\n".join(page.extract_text() or "" for page in reader.pages)
-        return text, "PDF text extracted with pypdf."
+        if text.strip():
+            return text, "PDF text extracted with pypdf."
+        errors.append("pypdf returned no text")
     except ImportError:
-        pass
+        errors.append("pypdf is not installed")
     except Exception as exc:
-        log.add(f"pypdf failed for {repo_relative(path)}: {exc}")
+        errors.append(f"pypdf failed: {exc}")
+
+    try:
+        import pdfplumber  # type: ignore
+
+        with pdfplumber.open(str(path)) as pdf:
+            text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        if text.strip():
+            return text, "PDF text extracted with pdfplumber."
+        errors.append("pdfplumber returned no text")
+    except ImportError:
+        errors.append("pdfplumber is not installed")
+    except Exception as exc:
+        errors.append(f"pdfplumber failed: {exc}")
 
     try:
         from PyPDF2 import PdfReader  # type: ignore
 
         reader = PdfReader(str(path))
         text = "\n".join(page.extract_text() or "" for page in reader.pages)
-        return text, "PDF text extracted with PyPDF2."
+        if text.strip():
+            return text, "PDF text extracted with PyPDF2."
+        errors.append("PyPDF2 returned no text")
     except ImportError:
-        pass
+        errors.append("PyPDF2 is not installed")
     except Exception as exc:
-        log.add(f"PyPDF2 failed for {repo_relative(path)}: {exc}")
+        errors.append(f"PyPDF2 failed: {exc}")
 
     pdftotext = shutil.which("pdftotext")
     if pdftotext:
@@ -424,11 +458,16 @@ def read_pdf_text(path: Path, log: ProcessingLog) -> tuple[str, str]:
             check=False,
         )
         if result.returncode == 0:
-            return result.stdout, "PDF text extracted with pdftotext."
-        log.add(f"pdftotext failed for {repo_relative(path)}: {result.stderr.strip()}")
+            if result.stdout.strip():
+                return result.stdout, "PDF text extracted with pdftotext."
+            errors.append("pdftotext returned no text")
+        else:
+            errors.append(f"pdftotext failed: {result.stderr.strip()}")
+    else:
+        errors.append("pdftotext executable is not available")
 
-    log.add(f"PDF text unavailable; install pypdf, PyPDF2, or pdftotext: {repo_relative(path)}")
-    return "", "PDF text unavailable."
+    log.add(f"PDF_READ_ERROR {repo_relative(path)} :: " + " | ".join(errors))
+    return "", "PDF text unavailable: " + " | ".join(errors)
 
 
 def read_text_file(path: Path) -> str:
@@ -1038,6 +1077,7 @@ def analyze() -> tuple[list[DetailRow], list[dict[str, str]], list[dict[str, str
         unique_rows, duplicates = deduplicate(rows)
         monthly, missing = build_monthly(unique_rows)
         log.add(f"Unique detail rows: {len(unique_rows)}")
+        log.stats["extracted_financial_documents"] = len({row.source_file_path for row in unique_rows})
         log.add(f"Duplicate rows: {len(duplicates)}")
         log.add(f"Missing months: {len(missing)}")
         return unique_rows, monthly, missing, duplicates, log
@@ -1057,6 +1097,9 @@ def main() -> int:
     write_output_readme()
     log.write(REPORT_ROOT / "processing_log.txt")
 
+    print(f"Scanned files: {log.stats.get('scanned_files', 0)}")
+    print(f"Expanded files: {log.stats.get('expanded_files', 0)}")
+    print(f"Extracted financial documents: {log.stats.get('extracted_financial_documents', 0)}")
     print(f"Detailed rows: {len(rows)}")
     print(f"Missing months: {len(missing)}")
     print(f"Duplicates: {len(duplicates)}")
