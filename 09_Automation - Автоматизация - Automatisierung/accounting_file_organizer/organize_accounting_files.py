@@ -88,7 +88,25 @@ UNKNOWN_HEADERS = [
 
 KEYWORDS = {
     "01_Accountant_Emails": ["eml", "gmail", "brunettin", "marco", "accounting correspondence"],
-    "02_Payroll": ["lohnauswertungen", "lohnjournal", "brutto_netto", "brutto-netto", "payroll", "gesamtbrutto", "total payroll"],
+    "02_Payroll": [
+        "lohnauswertungen",
+        "lohnjournal",
+        "brutto_netto",
+        "brutto-netto",
+        "brutto netto",
+        "brutto_nettoprobe",
+        "brutto-nettoprobe",
+        "divauswertungen",
+        "div auswertungen",
+        "div_mitarbeiter",
+        "divmitarbeiter",
+        "lohnkonto",
+        "lohnkonten",
+        "lohnabrechnung gesamt",
+        "payroll",
+        "gesamtbrutto",
+        "total payroll",
+    ],
     "03_Employee_Payslips": ["entgeltbescheinigung", "entgeltbescheinigungen", "payslip", "salary slip", "lohnabrechnung"],
     "04_Health_Insurance": [
         "aok",
@@ -108,8 +126,43 @@ KEYWORDS = {
         "sv-beitraege",
         "sv-beiträge",
     ],
-    "05_Taxes": ["finanzamt", "stadt chemnitz", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer", "tax office", "tax liabilities"],
-    "06_Bank_Payments": ["bankkontoumsaetze", "bankkontoumsätze", "kontoauszug", "zahlungsnachweis", "ueberweisung", "überweisung", "sepa", "payment proof"],
+    "05_Taxes": [
+        "finanzamt",
+        "stadt chemnitz",
+        "gewerbesteuer",
+        "gewst",
+        "ustva",
+        "umsatzsteuer-voranmeldung",
+        "umsatzsteuervoranmeldung",
+        "umsatzsteuer",
+        "ust",
+        "lohnsteuer-anmeldung",
+        "lohnsteueranmeldung",
+        "lohnsteuer",
+        "lst",
+        "einkommensteuer",
+        "est",
+        "steuerbescheid",
+        "tax office",
+        "tax liabilities",
+    ],
+    "06_Bank_Payments": [
+        "bankkontoumsaetze",
+        "bankkontoumsätze",
+        "bankkonto",
+        "konto",
+        "kontoauszug",
+        "zahlungsnachweis",
+        "zahlungsavis",
+        "ueberweisung",
+        "überweisung",
+        "sepa",
+        "lastschrift",
+        "ruecklastschrift",
+        "rücklastschrift",
+        "payment proof",
+        "bank",
+    ],
     "07_Cash_Payments": ["barzahlung", "cash salary", "signed salary receipt", "nachweis von lohnzahlungen", "cash receipt"],
     "08_Operating_Costs": [
         "fuel",
@@ -129,15 +182,46 @@ KEYWORDS = {
         "kraftstoff",
         "fahrzeug",
         "reparatur",
+        "rechnung",
+        "quittung",
         "miete",
         "telefon",
         "büro",
         "buero",
     ],
     "09_Enrico_Forwarded": ["enrico weissflog", "enrico weißflog", "sachsenpower", "gutschrift", "sendungsverlust", "abschlag coincident", "leistungsnachweis", "scannermiete"],
-    "10_BWA_Reports": ["bwa", "betriebswirtschaftliche auswertung", "datev bwa", "preliminary result", "sales", "cost groups"],
-    "11_Contribution_Lists": ["contributions", "contribution table", "iban", "verwendungszweck"],
-    "12_Liability_Overview": ["offene posten", "opos", "offene verbindlichkeiten", "zahlungsübersicht", "zahlungsuebersicht", "amounts due", "unpaid balances", "payment plan", "rückstand", "rueckstand", "mahnung", "forderung"],
+    "10_BWA_Reports": [
+        "bwa",
+        "datev bwa",
+        "betriebswirtschaftliche auswertung",
+        "kurzfristige erfolgsrechnung",
+        "short-term profit",
+        "preliminary result",
+        "sales",
+        "cost groups",
+        "summen- und saldenliste",
+        "summen salden",
+        "susa",
+        "kontennachweis",
+    ],
+    "11_Contribution_Lists": ["contributions", "contribution table", "beitragsnachweise", "beitragsnachweis", "beitragsabrechnung", "iban", "sum", "verwendungszweck"],
+    "12_Liability_Overview": [
+        "offene posten",
+        "offene-posten-liste",
+        "opos",
+        "op-liste",
+        "offene verbindlichkeiten",
+        "verbindlichkeiten",
+        "zahlungsübersicht",
+        "zahlungsuebersicht",
+        "amounts due",
+        "unpaid balances",
+        "payment plan",
+        "rückstand",
+        "rueckstand",
+        "mahnung",
+        "forderung",
+    ],
 }
 
 PRIORITY = [
@@ -339,14 +423,16 @@ def detected_companies(text: str) -> str:
 
 
 def classify(path: Path, content: str, content_read: str) -> tuple[str, list[str], str, str, str]:
+    file_context = normalize(repo_relative(path))
     haystack = normalize(f"{repo_relative(path)}\n{content}")
     scores: dict[str, int] = {}
     reasons: dict[str, list[str]] = defaultdict(list)
     for category, words in KEYWORDS.items():
         score = 0
         for word in words:
-            if normalize(word) in haystack:
-                score += 1
+            normalized_word = normalize(word)
+            if normalized_word in haystack:
+                score += 3 if normalized_word in file_context else 1
                 reasons[category].append(word)
         if path.suffix.lower() == ".eml" and category == "01_Accountant_Emails":
             score += 3
@@ -361,13 +447,16 @@ def classify(path: Path, content: str, content_read: str) -> tuple[str, list[str
         scores["05_Taxes"] = scores.get("05_Taxes", 0) + 1
         reasons["05_Taxes"].append("Hauptzollamt")
 
+    if path.suffix.lower() in {".jpg", ".jpeg", ".png", ".mp4", ".mov"} and not scores:
+        return "13_Unknown_To_Review", [], "Image/Video", "LOW", "Image/video file has no category context and OCR is not implemented."
+
     if not scores:
         return "13_Unknown_To_Review", [], "Unknown", "LOW", "No category keywords detected."
 
     ordered = sorted(scores.items(), key=lambda item: (-item[1], PRIORITY.index(item[0]) if item[0] in PRIORITY else 999))
     primary, score = ordered[0]
     secondary = [category for category, _ in ordered[1:]]
-    confidence = "HIGH" if score >= 3 and content_read == "YES" else "MEDIUM" if score >= 2 or content_read == "YES" else "LOW"
+    confidence = "HIGH" if score >= 4 and (content_read == "YES" or any(normalize(reason) in file_context for reason in reasons[primary])) else "MEDIUM" if score >= 3 or content_read == "YES" else "LOW"
     if confidence == "LOW":
         return "13_Unknown_To_Review", secondary, "Unknown", "LOW", f"Low confidence match: {', '.join(reasons[primary])}"
     return primary, secondary, CATEGORIES[primary], confidence, f"Matched keywords: {', '.join(reasons[primary])}"
@@ -426,8 +515,23 @@ def write_xlsx(path: Path, headers: list[str], rows: list[dict[str, str]], sheet
         archive.writestr("xl/worksheets/sheet1.xml", worksheet)
 
 
-def write_report(manifest: list[dict[str, str]], duplicate_rows: list[dict[str, str]], unknown_rows: list[dict[str, str]]) -> None:
+def pattern_key(filename: str) -> str:
+    name = normalize(Path(filename).stem)
+    name = re.sub(r"\d{4,}", "YYYY", name)
+    name = re.sub(r"\d{1,2}[-_.]\d{4}", "MM-YYYY", name)
+    name = re.sub(r"copy\d+|kopie\d+|\(\d+\)", "copy", name)
+    tokens = [token for token in re.split(r"[^a-zA-ZäöüÄÖÜß]+", name) if token]
+    return " ".join(tokens[:4]) or Path(filename).suffix.lower() or "unknown"
+
+
+def write_report(
+    manifest: list[dict[str, str]],
+    duplicate_rows: list[dict[str, str]],
+    unknown_rows: list[dict[str, str]],
+    previous_unknown_count: int,
+) -> None:
     counts = Counter(row["detected_category"] for row in manifest)
+    unknown_patterns = Counter(pattern_key(row["filename"]) for row in unknown_rows)
     lines = [
         "# Accounting File Organization Report",
         "",
@@ -450,6 +554,26 @@ def write_report(manifest: list[dict[str, str]], duplicate_rows: list[dict[str, 
             "- Files were copied, not moved.",
             "- Low confidence files were placed in `13_Unknown_To_Review`.",
             "- Exact duplicates were placed in `14_Duplicates`.",
+            "",
+            "## Classification Diagnostic",
+            "",
+            f"- Previous unknown count: {previous_unknown_count}",
+            f"- New unknown count: {len(unknown_rows)}",
+            "",
+            "### Top Remaining Unknown File Patterns",
+            "",
+        ]
+    )
+    for pattern, count in unknown_patterns.most_common(20):
+        lines.append(f"- {pattern}: {count}")
+    lines.extend(
+        [
+            "",
+            "### Recommended Manual Review Groups",
+            "",
+            "- Date-only image/video files need OCR or manual visual review.",
+            "- Password/AES PDFs with no readable text should be reviewed after installing the missing crypto/PDF dependencies.",
+            "- Files without accounting keywords in filename/path should be grouped manually before the next classifier pass.",
         ]
     )
     (OUTPUT_ROOT / "ACCOUNTING_FILE_ORGANIZATION_REPORT.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -557,12 +681,17 @@ def organize() -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[st
 
 
 def main() -> int:
+    previous_unknown_count = 0
+    previous_unknown_path = OUTPUT_ROOT / "unknown_files.csv"
+    if previous_unknown_path.exists():
+        with previous_unknown_path.open("r", encoding="utf-8-sig", newline="") as handle:
+            previous_unknown_count = sum(1 for _ in csv.DictReader(handle))
     manifest, duplicates, unknown, log = organize()
     write_csv(OUTPUT_ROOT / "file_organization_manifest.csv", MANIFEST_HEADERS, manifest)
     write_xlsx(OUTPUT_ROOT / "file_organization_manifest.xlsx", MANIFEST_HEADERS, manifest, "Manifest")
     write_csv(OUTPUT_ROOT / "duplicate_files.csv", DUPLICATE_HEADERS, duplicates)
     write_csv(OUTPUT_ROOT / "unknown_files.csv", UNKNOWN_HEADERS, unknown)
-    write_report(manifest, duplicates, unknown)
+    write_report(manifest, duplicates, unknown, previous_unknown_count)
     log.write()
     counts = Counter(row["detected_category"] for row in manifest)
     print(f"Total files scanned: {len(manifest)}")
