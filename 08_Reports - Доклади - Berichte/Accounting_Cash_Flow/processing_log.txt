@@ -1,1 +1,1326 @@
-
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/1000040773.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/1000040774.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/1000047298 (1).jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/1000047301 (1).jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2).pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_02-2024_DivAuswertungen_00006_5Z1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/12-2024_Brutto_Netto_00090_X0B.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240105_214356.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240118_201244.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240118_201333.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213234.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213354.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213523.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240207_175537.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240207_175612.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_154432.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160151.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160355.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160605.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160917.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240213_183313.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240228_165447.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240308_203211.mp4
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240308_203259.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240313_192946.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240313_193308(1).jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240313_193308.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240318_074925.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240318_174927.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240321_074606.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240323_055457.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240323_060040.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240405_091317.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240405_165837.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240405_165922.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240409_145317.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200249.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200351.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200423.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240412_173242.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240421_160012.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240425_073935.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240503_165138.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240503_165410.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240506_174920.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240513_180215.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240518_133837.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240525_180048.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240603_123040.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240613_190612.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240620_175959.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240625_151011.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240629_074306.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240703_075444.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240725_170837.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240805_192746.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240805_193114.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240805_193118.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240807_150523.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240810_105035.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240908_151654.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240908_151754.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240908_152609.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240913_133524.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240918_170620.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240929_095748.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240929_095825.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240929_100504.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240929_100825.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20240930_164727.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241003_104857.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241010_123555.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241010_124450.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241014_155934.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241127_094823.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241212_132952.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241214_121525.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241214_121714.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241220_033940.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20241224_122812.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250107_102310.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250110_192304.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250113_174639.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250114_095805.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250115_195837.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250120_160820(1).jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250120_160820.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250120_160824.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250123_111752.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250127_151723.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250212_101528.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250212_102820.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250313_111831.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250314_082549.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250314_082554.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250320_141334.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250328_160329.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/20250402_095645.jpg
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/307538032.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/33882 - ESt-Bescheid 2020.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Aktualisiert- Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/41621 - GewSt-Bescheid 2023,2024.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_020725.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_040625.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_050825.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_061224.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_070225.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/6106074_080125.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/89878877, Antrag auf Ratenzahlung.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accounting.rar
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accounting1111111111111111111.rar
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail.htm
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files.rar
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings022024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings022025.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings032024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings042024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings052024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings062024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings072024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings092024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings102024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings112024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings122023.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/accountings122024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Aok plus.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Aok Sachsen Anhalt copy document from bank_.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/aokplusunbedenklichitsbewchaidigung.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt2.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Arbeitsbescheinigung Georgi Stefanov.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BKK .pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BKK Linde already clear . I paid.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BKK Linde Ratenzahlung.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/bonuses 05_2024.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/bonuses.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240103_104208_027680.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240516_114103_031693.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250106_123149_036763.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250130_141507_037353.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250207_104944_037434.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250312_121121_038078.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250425_105744_039055.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20251119_133706_044302.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/BWA 03-2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/CarlundCarla_RG424005125.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/CarlundCarla_RG424005157.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions 02.04.2025.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions 03.03.2025.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025(1).docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions 19.02.2025.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Contributions.docx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/DAK.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/DocScanner 27.01.2025 г. 15-09 ч..pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Docutain Dokument.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/enrico_deductions_detailed.xlsx
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4025268_vom_01.09.2024.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4026904_vom_01.11.2024.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4029768_vom_01.03.2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4030475_vom_01.04.2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4033045_vom_01.08.2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4034294_vom_01.09.2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _9005483_vom_04.07.2025.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/finanzamt.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwd.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungmai2025.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungseptember.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdbentigtezuarbeitfrdiesteuererklrungvonihrenmi.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen012024350690382950.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen0120243506903829501.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdihrenmitarbeiterherrnnikolaymetodievbentigtezuar.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift382024zaharievmartin3.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift422024zaharievmartin3.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift442024zaharievmartin3.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftapril2025zahariev_pdf.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftmrz2025zahariev_pdf.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweismartinzaharievfe.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuli2024.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuni25s.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievgutschrift4831_01_.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte207008_0.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenmai2025.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/gutschrift 71 2025 zahariev Sendungsverlust.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Hauptzollamt Erfurt Umbuchung der Zahlung.pdf
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Health insurance fund reimbursements.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrebestellung465795beiwebergmbh.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1).zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip
+2026-06-26T19:21:47 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/image.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/image001.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/image00122.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/image222.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/invoices.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Aktivierung Ihres SEPA-Mandats.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102600491.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102659867.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102665850.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102698674.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KD.-NR.550980 OP-Liste.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KKH(1).eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KKH.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/kkh.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/KKH1.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_April_2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_August_2024.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2024.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juni_2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Oktober_2024.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Mahnbescheid Amtsgericht Euskirchen _ AXA.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Mahnung Finanzamt.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev - Bescheid - Adressnachweis.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Gutschrift 51 17.02.2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Gutschrift 55 08.03.2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/original_msg(1).eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/original_msg(2).eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/original_msg.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Petya Stefanova AOK.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/PQ.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/RE-53380_2024 13.08.2024 09_17_16.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/RE-53652_2024 20.09.2024 10_56_50.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rechnung RE211073-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rechnung RE211073.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rechnung_RE058675_11.08.2025.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Remaining health insurances for 09_2024 und 10_2024.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/resteuererklrung2022und2023nikolaymetodiev.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980-1.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980-2.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980.PDF
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Schwerbehindertenabgabe _Überweisungsdaten.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20240212_173450_Samsung Internet.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250121_103739_Revolut.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250127_123918_Google.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250127_124135_Google.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/SEPA AOK Sachsen-Anhalt.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/SEPA List health security-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/SEPA List health security.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Still missing.PNG
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/tempFileForShare_20250127-132510.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Test Pay ROll.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/UB.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/ueberweisung2022_89878877_20240612110113.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed1.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed222.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed222.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed3.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed3333333.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/unnamed34.22png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2300157425.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2300157934.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400001108-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400001108.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400017841.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400018211.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Untitled.jpg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/updatedworkinghoursinflationsprmie.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Vasilev_Test Pay Slip.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/viactiv krankenv..png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Vivda BKK.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Voransicht2023_89878877.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/wgprqualifikationkepkdnr_60222rechnungjahresgeb.zip
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/working hours 04.2025(1).xlsx
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/working hours 04.2025.xlsx
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Zahlungsavis 8345-1440-1.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Zahlungsavis 8345-1440.pdf
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Zoll payment.eml
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Без им22е222.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Без име222.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32_002.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32_003.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/a.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/app.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/a_002.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/bscframe.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_0
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_1
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_2
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cleardot.gif
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cleardot_002.gif
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/gmail_lhn_icon_468fb3e91953c34a349664185ab06b12.svg
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/google_workspace_1x.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/google_workspace_2x.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/icon_3_pdf_x16.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/lazy.min.js
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_gmail_lockup_default_1x_r7.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_gmail_lockup_default_2x_r7.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_loading.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_loading_2x.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=a
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=b
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=ebdd,sps,l,spit,t,it,anc
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=m,m_i
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/RotateCookiesPage.htm
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/rs=AA2YrTuDWbAN8-VT3mmz0owHPs0Sou5KiA
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/rs=AA2YrTv6bergjBgiGMuELW2UtRLSUgJ9LA.css
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/SWG_GShield_Lockup_Horizontal_24px.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/thumb.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/thumb_002.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_002.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_003.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_004.png
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/api.js
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/cb=gapi.loaded_0
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/css2.css
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/m=_b,_tp
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/app_data/m=_b,_tp
+2026-06-26T19:21:48 Scanned file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/RotateCookiesPage_data/m=hfcr
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/89878877, Antrag auf Ratenzahlung.eml with 0 attachments.
+2026-06-26T19:21:48 RAR extraction unavailable: 00_INBOX - Входящи - Eingang/Accounting/Accounting.rar
+2026-06-26T19:21:48 RAR extraction unavailable: 00_INBOX - Входящи - Eingang/Accounting/Accounting1111111111111111111.rar
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.eml with 1 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml with 2 attachments.
+2026-06-26T19:21:48 RAR extraction unavailable: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files.rar
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml with 2 attachments.
+2026-06-26T19:21:48 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings022024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings022025.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings032024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings042024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings052024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings062024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings072024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings092024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings102024.zip
+2026-06-26T19:21:48 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings112024.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings122023.zip
+2026-06-26T19:21:48 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/accountings122024.zip
+2026-06-26T19:21:48 Read EML 00_INBOX - Входящи - Eingang/Accounting/Aok plus.eml with 0 attachments.
+2026-06-26T19:21:49 Read EML 00_INBOX - Входящи - Eingang/Accounting/Aok Sachsen Anhalt copy document from bank_.eml with 1 attachments.
+2026-06-26T19:21:49 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/aokplusunbedenklichitsbewchaidigung.zip
+2026-06-26T19:21:49 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt.zip
+2026-06-26T19:21:49 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt2.zip
+2026-06-26T19:21:49 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip
+2026-06-26T19:21:49 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip
+2026-06-26T19:21:49 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip
+2026-06-26T19:21:49 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip
+2026-06-26T19:21:49 Read EML 00_INBOX - Входящи - Eingang/Accounting/BKK Linde already clear . I paid.eml with 1 attachments.
+2026-06-26T19:21:49 Read EML 00_INBOX - Входящи - Eingang/Accounting/bonuses 05_2024.eml with 0 attachments.
+2026-06-26T19:21:50 Read EML 00_INBOX - Входящи - Eingang/Accounting/bonuses.eml with 0 attachments.
+2026-06-26T19:21:50 Read EML 00_INBOX - Входящи - Eingang/Accounting/DAK.eml with 0 attachments.
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/finanzamt.zip
+2026-06-26T19:21:50 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwd.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungmai2025.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungseptember.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdbentigtezuarbeitfrdiesteuererklrungvonihrenmi.zip
+2026-06-26T19:21:50 Extracted 5 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip
+2026-06-26T19:21:50 Extracted 7 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip
+2026-06-26T19:21:50 Extracted 5 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen012024350690382950.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen0120243506903829501.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdihrenmitarbeiterherrnnikolaymetodievbentigtezuar.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift382024zaharievmartin3.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift422024zaharievmartin3.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift442024zaharievmartin3.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftapril2025zahariev_pdf.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftmrz2025zahariev_pdf.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweismartinzaharievfe.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuli2024.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuni25s.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievgutschrift4831_01_.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte207008_0.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip
+2026-06-26T19:21:50 Extracted 6 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip
+2026-06-26T19:21:50 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenmai2025.zip
+2026-06-26T19:21:50 Read EML 00_INBOX - Входящи - Eingang/Accounting/Health insurance fund reimbursements.eml with 0 attachments.
+2026-06-26T19:21:50 Read EML 00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml with 2 attachments.
+2026-06-26T19:21:50 Read EML 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml with 3 attachments.
+2026-06-26T19:21:50 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrebestellung465795beiwebergmbh.zip
+2026-06-26T19:21:51 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1).zip
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip
+2026-06-26T19:21:51 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip
+2026-06-26T19:21:51 Extracted 5 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip
+2026-06-26T19:21:51 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip
+2026-06-26T19:21:51 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip
+2026-06-26T19:21:51 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip
+2026-06-26T19:21:51 Extracted 5 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip
+2026-06-26T19:21:51 Extracted 6 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip
+2026-06-26T19:21:51 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip
+2026-06-26T19:21:51 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip
+2026-06-26T19:21:51 Extracted 3 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip
+2026-06-26T19:21:51 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/invoices.eml with 0 attachments.
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH(1).eml with 0 attachments.
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH.eml with 1 attachments.
+2026-06-26T19:21:51 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/kkh.zip
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH1.eml with 0 attachments.
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/Mahnbescheid Amtsgericht Euskirchen _ AXA.eml with 0 attachments.
+2026-06-26T19:21:51 Read EML 00_INBOX - Входящи - Eingang/Accounting/Mahnung Finanzamt.eml with 1 attachments.
+2026-06-26T19:21:52 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg(1).eml with 3 attachments.
+2026-06-26T19:21:52 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg(2).eml with 0 attachments.
+2026-06-26T19:21:52 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg.eml with 0 attachments.
+2026-06-26T19:21:52 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip
+2026-06-26T19:21:53 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip
+2026-06-26T19:21:53 Read EML 00_INBOX - Входящи - Eingang/Accounting/Petya Stefanova AOK.eml with 0 attachments.
+2026-06-26T19:21:53 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip
+2026-06-26T19:21:53 Read EML 00_INBOX - Входящи - Eingang/Accounting/PQ.eml with 1 attachments.
+2026-06-26T19:21:53 Extracted 4 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip
+2026-06-26T19:21:53 Read EML 00_INBOX - Входящи - Eingang/Accounting/Remaining health insurances for 09_2024 und 10_2024.eml with 0 attachments.
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/resteuererklrung2022und2023nikolaymetodiev.zip
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/updatedworkinghoursinflationsprmie.zip
+2026-06-26T19:21:53 Extracted 2 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/wgprqualifikationkepkdnr_60222rechnungjahresgeb.zip
+2026-06-26T19:21:53 Read EML 00_INBOX - Входящи - Eingang/Accounting/Zoll payment.eml with 1 attachments.
+2026-06-26T19:21:53 Extracted 13 files from ZIP: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip
+2026-06-26T19:22:04 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/1000040773.jpg
+2026-06-26T19:22:04 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/1000040774.jpg
+2026-06-26T19:22:04 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/1000047298 (1).jpg
+2026-06-26T19:22:04 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/1000047301 (1).jpg
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_02-2024_DivAuswertungen_00006_5Z1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_02-2024_DivAuswertungen_00006_5Z1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_02-2024_DivAuswertungen_00006_5Z1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf
+2026-06-26T19:22:06 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf: YES
+2026-06-26T19:22:06 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:06 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf
+2026-06-26T19:22:07 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf
+2026-06-26T19:22:07 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf
+2026-06-26T19:22:07 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf: YES
+2026-06-26T19:22:07 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:07 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf
+2026-06-26T19:22:07 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf: YES
+2026-06-26T19:22:07 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:07 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf
+2026-06-26T19:22:07 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf: YES
+2026-06-26T19:22:07 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:07 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf
+2026-06-26T19:22:08 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/12-2024_Brutto_Netto_00090_X0B.pdf
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240105_214356.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240118_201244.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240118_201333.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213234.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213354.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240122_213523.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240207_175537.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240207_175612.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_154432.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160151.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160355.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160605.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_160917.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240213_183313.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240228_165447.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240308_203211.mp4
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240308_203259.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240313_192946.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240313_193308(1).jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240318_074925.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240318_174927.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240321_074606.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240323_055457.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240323_060040.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240405_091317.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240405_165837.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240405_165922.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240409_145317.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200249.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200351.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240411_200423.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240412_173242.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240421_160012.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240425_073935.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240503_165138.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240503_165410.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240506_174920.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240513_180215.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240518_133837.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240525_180048.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240603_123040.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240613_190612.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240620_175959.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240625_151011.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240629_074306.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240703_075444.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240725_170837.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240805_192746.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240805_193114.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240805_193118.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240807_150523.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240810_105035.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240908_151654.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240908_151754.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240908_152609.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240913_133524.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240918_170620.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240929_095748.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240929_095825.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240929_100504.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240929_100825.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20240930_164727.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241003_104857.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241010_123555.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241010_124450.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241014_155934.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241127_094823.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241212_132952.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241214_121525.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241214_121714.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241220_033940.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20241224_122812.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250107_102310.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250110_192304.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250113_174639.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250114_095805.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250115_195837.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250120_160820(1).jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250120_160824.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250123_111752.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250127_151723.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250212_101528.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250212_102820.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250313_111831.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250314_082549.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250314_082554.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250320_141334.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250328_160329.jpg
+2026-06-26T19:22:08 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/20250402_095645.jpg
+2026-06-26T19:22:08 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/307538032.pdf
+2026-06-26T19:22:08 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf: YES
+2026-06-26T19:22:08 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:08 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf
+2026-06-26T19:22:08 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/33882 - ESt-Bescheid 2020.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:08 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/33882 - ESt-Bescheid 2020.pdf
+2026-06-26T19:22:08 openpyxl failed for C:\MZ-AOK\00_INBOX - Входящи - Eingang\Accounting\38389 - Vorgangsmappe Lohn - Aktualisiert- Auszahlungen Inflationsprämie.xlsx: No module named 'openpyxl'
+2026-06-26T19:22:08 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Aktualisiert- Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:22:08 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx
+2026-06-26T19:22:08 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/41621 - GewSt-Bescheid 2023,2024.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:08 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/41621 - GewSt-Bescheid 2023,2024.pdf
+2026-06-26T19:22:09 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf
+2026-06-26T19:22:09 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_020725.pdf
+2026-06-26T19:22:10 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_040625.pdf
+2026-06-26T19:22:10 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_050825.pdf
+2026-06-26T19:22:11 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_061224.pdf
+2026-06-26T19:22:13 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_070225.pdf
+2026-06-26T19:22:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/6106074_080125.pdf
+2026-06-26T19:22:14 Read EML 00_INBOX - Входящи - Eingang/Accounting/89878877, Antrag auf Ratenzahlung.eml with 0 attachments.
+2026-06-26T19:22:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/89878877, Antrag auf Ratenzahlung.eml
+2026-06-26T19:22:14 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (1).pdf: YES
+2026-06-26T19:22:14 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:14 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:22:14 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf: YES
+2026-06-26T19:22:14 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:14 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf
+2026-06-26T19:22:14 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.eml with 1 attachments.
+2026-06-26T19:22:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.eml
+2026-06-26T19:22:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.pdf
+2026-06-26T19:22:14 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml with 2 attachments.
+2026-06-26T19:22:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml
+2026-06-26T19:22:14 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail.htm
+2026-06-26T19:22:14 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml with 2 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf
+2026-06-26T19:22:15 Read EML 00_INBOX - Входящи - Eingang/Accounting/Aok plus.eml with 0 attachments.
+2026-06-26T19:22:15 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Aok plus.eml
+2026-06-26T19:22:16 Read EML 00_INBOX - Входящи - Eingang/Accounting/Aok Sachsen Anhalt copy document from bank_.eml with 1 attachments.
+2026-06-26T19:22:16 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Aok Sachsen Anhalt copy document from bank_.eml
+2026-06-26T19:22:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Arbeitsbescheinigung Georgi Stefanov.pdf: YES
+2026-06-26T19:22:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Arbeitsbescheinigung Georgi Stefanov.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Arbeitsbescheinigung Georgi Stefanov.pdf
+2026-06-26T19:22:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BKK .pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BKK .pdf
+2026-06-26T19:22:16 Read EML 00_INBOX - Входящи - Eingang/Accounting/BKK Linde already clear . I paid.eml with 1 attachments.
+2026-06-26T19:22:16 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/BKK Linde already clear . I paid.eml
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BKK Linde Ratenzahlung.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BKK Linde Ratenzahlung.pdf
+2026-06-26T19:22:17 Read EML 00_INBOX - Входящи - Eingang/Accounting/bonuses 05_2024.eml with 0 attachments.
+2026-06-26T19:22:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/bonuses 05_2024.eml
+2026-06-26T19:22:17 Read EML 00_INBOX - Входящи - Eingang/Accounting/bonuses.eml with 0 attachments.
+2026-06-26T19:22:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/bonuses.eml
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240103_104208_027680.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240103_104208_027680.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240516_114103_031693.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20240516_114103_031693.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250106_123149_036763.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250106_123149_036763.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250130_141507_037353.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250130_141507_037353.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250207_104944_037434.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250207_104944_037434.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250312_121121_038078.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250312_121121_038078.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250425_105744_039055.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20250425_105744_039055.pdf
+2026-06-26T19:22:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20251119_133706_044302.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/BRN3C2AF492C3FA_20251119_133706_044302.pdf
+2026-06-26T19:22:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/BWA 03-2025.pdf
+2026-06-26T19:22:18 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/CarlundCarla_RG424005125.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/CarlundCarla_RG424005157.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions 02.04.2025.docx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions 03.03.2025.docx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025(1).docx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025.docx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions 19.02.2025.docx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Contributions.docx
+2026-06-26T19:22:20 Read EML 00_INBOX - Входящи - Eingang/Accounting/DAK.eml with 0 attachments.
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/DAK.eml
+2026-06-26T19:22:20 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/DocScanner 27.01.2025 г. 15-09 ч..pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:20 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/DocScanner 27.01.2025 г. 15-09 ч..pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Docutain Dokument.pdf
+2026-06-26T19:22:20 openpyxl failed for C:\MZ-AOK\00_INBOX - Входящи - Eingang\Accounting\enrico_deductions_detailed.xlsx: No module named 'openpyxl'
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/enrico_deductions_detailed.xlsx
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4025268_vom_01.09.2024.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4026904_vom_01.11.2024.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4029768_vom_01.03.2025.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4030475_vom_01.04.2025.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4033045_vom_01.08.2025.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _4034294_vom_01.09.2025.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Favorit MP Martin Zahariev _9005483_vom_04.07.2025.pdf
+2026-06-26T19:22:20 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/gutschrift 71 2025 zahariev Sendungsverlust.pdf
+2026-06-26T19:22:21 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Hauptzollamt Erfurt Umbuchung der Zahlung.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:21 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Hauptzollamt Erfurt Umbuchung der Zahlung.pdf
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/Health insurance fund reimbursements.eml with 0 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Health insurance fund reimbursements.eml
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml with 2 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml with 3 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml
+2026-06-26T19:22:21 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/image.png
+2026-06-26T19:22:21 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/image001.png
+2026-06-26T19:22:21 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/image00122.png
+2026-06-26T19:22:21 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/image222.png
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/invoices.eml with 0 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/invoices.eml
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Aktivierung Ihres SEPA-Mandats.PDF
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102600491.PDF
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102659867.PDF
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102665850.PDF
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KD-Nr. 550980 - Pre-Not._Nr. 6102698674.PDF
+2026-06-26T19:22:21 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/KD.-NR.550980 OP-Liste.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:21 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/KD.-NR.550980 OP-Liste.pdf
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH(1).eml with 0 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KKH(1).eml
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH.eml with 1 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KKH.eml
+2026-06-26T19:22:21 Read EML 00_INBOX - Входящи - Eingang/Accounting/KKH1.eml with 0 attachments.
+2026-06-26T19:22:21 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/KKH1.eml
+2026-06-26T19:22:21 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_April_2025.pdf: YES
+2026-06-26T19:22:21 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_April_2025.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:21 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_April_2025.pdf
+2026-06-26T19:22:21 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_August_2024.pdf: YES
+2026-06-26T19:22:21 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_August_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:21 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_August_2024.pdf
+2026-06-26T19:22:21 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2024.pdf: YES
+2026-06-26T19:22:21 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:21 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2024.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2025.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2025.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juli_2025.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juni_2025.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juni_2025.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Juni_2025.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024-1.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024-1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024-1.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Mai_2024.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024-1.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024-1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024-1.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_November_2024.pdf
+2026-06-26T19:22:22 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Oktober_2024.pdf: YES
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Oktober_2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Lohnauswertungen_Oktober_2024.pdf
+2026-06-26T19:22:22 Read EML 00_INBOX - Входящи - Eingang/Accounting/Mahnbescheid Amtsgericht Euskirchen _ AXA.eml with 0 attachments.
+2026-06-26T19:22:22 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Mahnbescheid Amtsgericht Euskirchen _ AXA.eml
+2026-06-26T19:22:22 Read EML 00_INBOX - Входящи - Eingang/Accounting/Mahnung Finanzamt.eml with 1 attachments.
+2026-06-26T19:22:22 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Mahnung Finanzamt.eml
+2026-06-26T19:22:22 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev - Bescheid - Adressnachweis.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:22 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev - Bescheid - Adressnachweis.pdf
+2026-06-26T19:22:22 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Gutschrift 51 17.02.2025.pdf
+2026-06-26T19:22:22 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Gutschrift 55 08.03.2025.pdf
+2026-06-26T19:22:22 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg(1).eml with 3 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/original_msg(1).eml
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg(2).eml with 0 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/original_msg(2).eml
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/original_msg.eml with 0 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/original_msg.eml
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/Petya Stefanova AOK.eml with 0 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Petya Stefanova AOK.eml
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/PQ.eml with 1 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/PQ.eml
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/RE-53380_2024 13.08.2024 09_17_16.pdf
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/RE-53652_2024 20.09.2024 10_56_50.pdf
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rechnung RE211073-1.pdf
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rechnung RE211073.pdf
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rechnung_RE058675_11.08.2025.pdf
+2026-06-26T19:22:24 Read EML 00_INBOX - Входящи - Eingang/Accounting/Remaining health insurances for 09_2024 und 10_2024.eml with 0 attachments.
+2026-06-26T19:22:24 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Remaining health insurances for 09_2024 und 10_2024.eml
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980-1.PDF
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980-2.PDF
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Rücklastschrift _ Ihre KD-Nr. 550980.PDF
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Schwerbehindertenabgabe _Überweisungsdaten.pdf
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20240212_173450_Samsung Internet.jpg
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250121_103739_Revolut.jpg
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250127_123918_Google.jpg
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Screenshot_20250127_124135_Google.jpg
+2026-06-26T19:22:25 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/SEPA AOK Sachsen-Anhalt.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:25 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/SEPA AOK Sachsen-Anhalt.pdf
+2026-06-26T19:22:25 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/SEPA List health security-1.pdf: YES
+2026-06-26T19:22:25 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/SEPA List health security-1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:25 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/SEPA List health security-1.pdf
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Still missing.PNG
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/tempFileForShare_20250127-132510.jpg
+2026-06-26T19:22:25 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Test Pay ROll.pdf: YES
+2026-06-26T19:22:25 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Test Pay ROll.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:25 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Test Pay ROll.pdf
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/UB.pdf
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ueberweisung2022_89878877_20240612110113.pdf
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed.png
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed1.png
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed222.jpg
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed222.png
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed3.png
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed3333333.jpg
+2026-06-26T19:22:25 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/unnamed34.22png
+2026-06-26T19:22:25 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2300157425.pdf
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2300157934.pdf
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400001108-1.pdf
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400017841.pdf
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Unternehmerabrechnung - VP 120-2400018211.pdf
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Untitled.jpg
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Vasilev_Test Pay Slip.pdf
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/viactiv krankenv..png
+2026-06-26T19:22:26 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Vivda BKK.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:26 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Vivda BKK.pdf
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Voransicht2023_89878877.pdf
+2026-06-26T19:22:26 openpyxl failed for C:\MZ-AOK\00_INBOX - Входящи - Eingang\Accounting\working hours 04.2025(1).xlsx: No module named 'openpyxl'
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/working hours 04.2025(1).xlsx
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Zahlungsavis 8345-1440-1.pdf
+2026-06-26T19:22:26 Read EML 00_INBOX - Входящи - Eingang/Accounting/Zoll payment.eml with 1 attachments.
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Zoll payment.eml
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Без им22е222.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Без име222.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2.htm
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32_002.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/32_003.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/a.htm
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/app.htm
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/bscframe.htm
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_0
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_1
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cb=gapi.loaded_2
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cleardot.gif
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/cleardot_002.gif
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/gmail_lhn_icon_468fb3e91953c34a349664185ab06b12.svg
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/google_workspace_1x.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/google_workspace_2x.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/icon_3_pdf_x16.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/lazy.min.js
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_gmail_lockup_default_1x_r7.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_gmail_lockup_default_2x_r7.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_loading.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/logo_loading_2x.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=a
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=b
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=ebdd,sps,l,spit,t,it,anc
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/m=m,m_i
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/RotateCookiesPage.htm
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/rs=AA2YrTuDWbAN8-VT3mmz0owHPs0Sou5KiA
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/rs=AA2YrTv6bergjBgiGMuELW2UtRLSUgJ9LA.css
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/SWG_GShield_Lockup_Horizontal_24px.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/thumb.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/thumb_002.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_002.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_003.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/unnamed_004.png
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/api.js
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/cb=gapi.loaded_0
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/css2.css
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/2_data/m=_b,_tp
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/app_data/m=_b,_tp
+2026-06-26T19:22:26 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files/RotateCookiesPage_data/m=hfcr
+2026-06-26T19:22:26 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml::41467 - Accountings 02-2024.pdf
+2026-06-26T19:22:27 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml::41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:27 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml::Accountings 02-2025.pdf
+2026-06-26T19:22:27 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml::46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf
+2026-06-26T19:22:27 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml::Accountings 03-2024.pdf: YES
+2026-06-26T19:22:27 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml::Accountings 03-2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:27 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml::Accountings 03-2024.pdf
+2026-06-26T19:22:27 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml::41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf
+2026-06-26T19:22:28 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml::Accountings 04-2024.pdf
+2026-06-26T19:22:28 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml::42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:29 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml::Accountings 05-2024.pdf
+2026-06-26T19:22:29 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml::Accountings 06-2024.pdf
+2026-06-26T19:22:30 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml::43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:30 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml::Accountings 07-2024.pdf
+2026-06-26T19:22:30 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml::43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml::Accountings 09-2024.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml::44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml::Accountings 10-2024.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml::45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml::Accountings 11-2024.pdf
+2026-06-26T19:22:31 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml::45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf
+2026-06-26T19:22:32 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml::Accountings 12-2024.pdf
+2026-06-26T19:22:32 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml::46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf
+2026-06-26T19:22:32 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::Accountings 01-2024.pdf
+2026-06-26T19:22:32 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf
+2026-06-26T19:22:32 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf
+2026-06-26T19:22:33 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::39922 - Accountings 11-2023.pdf
+2026-06-26T19:22:33 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf
+2026-06-26T19:22:33 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::90f3df27-1ca1-4b3a-9f1b-e33ffd37f10a.pdf
+2026-06-26T19:22:33 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/accountings122023.zip::40578 - Accountings 12-2023.pdf
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aokplusunbedenklichitsbewchaidigung.zip::20240408_084402.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aokplusunbedenklichitsbewchaidigung.zip::20240408_084359.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt.zip::20240703_075547.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt.zip::20240703_075559.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt.zip::20240703_075552.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt2.zip::20240311_164147.jpg
+2026-06-26T19:22:33 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/aoksachsenanhalt2.zip::20240311_164152.jpg
+2026-06-26T19:22:33 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf: YES
+2026-06-26T19:22:33 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:33 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf
+2026-06-26T19:22:33 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf: YES
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf
+2026-06-26T19:22:34 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf: YES
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf
+2026-06-26T19:22:34 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip::10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf: YES
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip::10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip::10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf
+2026-06-26T19:22:34 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\eadb97426eb21e6ce564b5f6c7f7282f80fcf94d\Working Hours 04.2024.xlsx: No module named 'openpyxl'
+2026-06-26T19:22:34 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip::Working Hours 04.2024.xlsx
+2026-06-26T19:22:34 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\eadb97426eb21e6ce564b5f6c7f7282f80fcf94d\38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx: No module named 'openpyxl'
+2026-06-26T19:22:34 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/awbonuses042024.zip::38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:22:34 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\fc0d532e6d981f8931186663bd29ef0ace42bb7b\38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx: No module named 'openpyxl'
+2026-06-26T19:22:34 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip::38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:22:34 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\fc0d532e6d981f8931186663bd29ef0ace42bb7b\38389 - Vorgangsmappe Lohn - Working Hours 03-2024 .xlsx: No module named 'openpyxl'
+2026-06-26T19:22:34 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip::38389 - Vorgangsmappe Lohn - Working Hours 03-2024 .xlsx
+2026-06-26T19:22:34 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip::10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf: YES
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip::10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/awbonusfoodbonus032024.zip::10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf
+2026-06-26T19:22:34 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00070_Stefanova_Petya_06_2024_Div_Auswertungen_F0B.pdf: NO
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00070_Stefanova_Petya_06_2024_Div_Auswertungen_F0B.pdf: No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00070_Stefanova_Petya_06_2024_Div_Auswertungen_F0B.pdf
+2026-06-26T19:22:34 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00069_Turchalieva_Maria_Desislava_07_2024_Div_Auswertungen_I03 (1).pdf: NO
+2026-06-26T19:22:34 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00069_Turchalieva_Maria_Desislava_07_2024_Div_Auswertungen_I03 (1).pdf: No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:34 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/awturchalievastefanova.zip::10001_00069_Turchalieva_Maria_Desislava_07_2024_Div_Auswertungen_I03 (1).pdf
+2026-06-26T19:22:34 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/finanzamt.zip::20240304_134707.jpg
+2026-06-26T19:22:34 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/finanzamt.zip::20240304_134727.jpg
+2026-06-26T19:22:34 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwd.zip::20250120_162838.jpg
+2026-06-26T19:22:34 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwd.zip::20250120_162844.jpg
+2026-06-26T19:22:34 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwd.zip::20250120_162848.jpg
+2026-06-26T19:22:34 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungmai2025.zip::Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T19:22:35 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungmai2025.zip::gutschrift 66 Mai 2025 zahariev.pdf
+2026-06-26T19:22:35 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungseptember.zip::Leistungsnachweis September 2024.pdf
+2026-06-26T19:22:35 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdabrechnungseptember.zip::Gutschrift 31-2024 Zahariev Martin 30.09.2024.pdf
+2026-06-26T19:22:36 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdbentigtezuarbeitfrdiesteuererklrungvonihrenmi.zip::2022 Arbeitgeberbestätigung zu den Arbeitstagen.pdf
+2026-06-26T19:22:36 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdbentigtezuarbeitfrdiesteuererklrungvonihrenmi.zip::2023 Arbeitgeberbestätigung zu den Arbeitstagen.pdf
+2026-06-26T19:22:36 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip::gutschrift 05.04. 2025 zahariev.pdf
+2026-06-26T19:22:37 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip::Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T19:22:38 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip::Rechnung 2764 Zahariev Hermes Kleidung.pdf
+2026-06-26T19:22:38 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip::Rechnung 2765 Zahariev Hermes Scannermiete.pdf
+2026-06-26T19:22:38 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdfwgutschriftrechnungen.zip::Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf
+2026-06-26T19:22:38 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip::Rechnung 2788 Zahariev Hermes Scannermiete.pdf
+2026-06-26T19:22:40 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip::Rechnung 2789 Zahariev TF Touren.pdf
+2026-06-26T19:22:40 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip::Rechnung 2794 Zahariev KFZ Miete.pdf
+2026-06-26T19:22:42 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip::Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T19:22:42 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgsundrechnungen052025.zip::Rechnung 2799 Bearbeitungsgebühr 10.06.2025 Zahariev.pdf
+2026-06-26T19:22:42 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf
+2026-06-26T19:22:42 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Zahariev Martin Rechnung 2013 05.12.2024 Scanner.doc
+2026-06-26T19:22:44 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf
+2026-06-26T19:22:44 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Rechnung 2015 07.12.2024 Martin Zahariev.pdf
+2026-06-26T19:22:45 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Rechnung 2023 vom 07.12.2024  Zahariev HERMES Bekleidung.pdf
+2026-06-26T19:22:45 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen012024350690382950.zip::Unternehmerabrechnung - VP 120-2400035414.pdf
+2026-06-26T19:22:45 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen012024350690382950.zip::Unternehmerabrechnung - VP 120-2400035649.pdf
+2026-06-26T19:22:45 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen0120243506903829501.zip::Unternehmerabrechnung - VP 120-2400000826.pdf
+2026-06-26T19:22:45 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdihreabrechnungsunterlagen0120243506903829501.zip::Unternehmerabrechnung - VP 120-2400000990.pdf
+2026-06-26T19:22:45 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip::1000038649 (1).jpg
+2026-06-26T19:22:45 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip::1000038655.jpg
+2026-06-26T19:22:45 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip::1000038651.jpg
+2026-06-26T19:22:45 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/fwdinvoicesfor4buses.zip::1000038657.jpg
+2026-06-26T19:22:45 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip::KKH.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:45 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip::KKH.pdf
+2026-06-26T19:22:45 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip::kranken.pdf: No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:45 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/fwdkkh.zip::kranken.pdf
+2026-06-26T19:22:46 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift382024zaharievmartin3.zip::Gutschrift 38-2024 Zahariev Martin 31.10.2024.pdf
+2026-06-26T19:22:46 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift382024zaharievmartin3.zip::Leistungsnachweis Oktober 2024.pdf
+2026-06-26T19:22:47 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift422024zaharievmartin3.zip::Leistungsnachweis November 2024.pdf
+2026-06-26T19:22:47 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift442024zaharievmartin3.zip::Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf
+2026-06-26T19:22:48 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschrift442024zaharievmartin3.zip::Leistungsnachweis Dezember Zahariev 2024.pdf
+2026-06-26T19:22:48 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftapril2025zahariev_pdf.zip::gutschrift April 2025 zahariev.pdf
+2026-06-26T19:22:49 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftapril2025zahariev_pdf.zip::Leistungsnachweis Zahariev April 25 Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T19:22:49 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftmrz2025zahariev_pdf.zip::gutschrift märz 2025 zahariev.pdf
+2026-06-26T19:22:49 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendengutschriftmrz2025zahariev_pdf.zip::Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T19:22:50 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweismartinzaharievfe.zip::Leistungsnachweis Martin Zahariev Februar 2025.pdf
+2026-06-26T19:22:50 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweismartinzaharievfe.zip::Martin Zahariev Gutschrift 52 28.02.2025.pdf
+2026-06-26T19:22:51 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuli2024.zip::Leistungsnachweis Zahariev Juli 2024.pdf
+2026-06-26T19:22:51 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuli2024.zip::Gutschrift 24-2024 Zahariev Martin 31.07.2024.pdf
+2026-06-26T19:22:52 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuni25s.zip::Leistungsnachweis Zahariev Juni 25 Sachsenpower GmbH & Co. KG.pdf
+2026-06-26T19:22:52 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenleistungsnachweiszaharievjuni25s.zip::Gutschrift Zahariev 74 30.06.2025.pdf
+2026-06-26T19:22:52 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievgutschrift4831_01_.zip::Martin Zahariev Gutschrift 48 31.01.2025.pdf
+2026-06-26T19:22:53 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievgutschrift4831_01_.zip::Leistungsnachweis Martin Zahariev Januar 2025.pdf
+2026-06-26T19:22:53 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip::Martin Zahariev Transporte 2036 08.01.2025 Scannermiete.pdf
+2026-06-26T19:22:54 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip::Martin Zahariev Transporte 2037 08.01.2025 Sendungsverluste.pdf
+2026-06-26T19:22:54 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip::Martin Zahariev Transporte 2038 08.01.2025 Bearbeitungsgebühr.pdf
+2026-06-26T19:22:55 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte203608_0.zip::Martin Zahariev Transporte 2035 08.01.2025 Hermes Bekleidung.pdf
+2026-06-26T19:22:55 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip::Martin Zahariev Transporte 2054 07.02.2025 Scannermiete.pdf
+2026-06-26T19:22:56 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip::Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf
+2026-06-26T19:22:56 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip::Martin Zahariev Transporte 2056 07.02.2025 Bearbeitungsgebühr.pdf
+2026-06-26T19:22:57 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip::Martin Zahariev Transporte 2057 07.02.2025 Hermes Bekleidung.pdf
+2026-06-26T19:22:57 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte207008_0.zip::Martin Zahariev Transporte 2070 08.03.2025 Sendungsverluste.pdf
+2026-06-26T19:22:58 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte207008_0.zip::Martin Zahariev Transporte 2069 08.03.2025 Sendungsverluste.pdf
+2026-06-26T19:22:58 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip::Rechnung 2778 Zahariev Hermes Scannermiete.pdf
+2026-06-26T19:22:59 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip::Rechnung 2777 Zahariev Hermes Unterstützungstouren.pdf
+2026-06-26T19:22:59 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip::Rechnung 2781 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T19:22:59 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenrechnung2778zaharievhermesscanne.zip::Rechnung 2782 Zahariev Hermes Bearbeitungsgebühr.pdf
+2026-06-26T19:22:59 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_0_89f2ccb8-cd44-42d1-8543-62fb154f58a2.pdf: NO
+2026-06-26T19:22:59 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_0_89f2ccb8-cd44-42d1-8543-62fb154f58a2.pdf: No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:59 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_0_89f2ccb8-cd44-42d1-8543-62fb154f58a2.pdf
+2026-06-26T19:22:59 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_1_87cf7c65-857f-4504-b9cf-65144676121d.pdf: NO
+2026-06-26T19:22:59 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_1_87cf7c65-857f-4504-b9cf-65144676121d.pdf: No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:22:59 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/fwdpostvonihrerkkh.zip::Anhang_1_87cf7c65-857f-4504-b9cf-65144676121d.pdf
+2026-06-26T19:23:00 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Zahlungsavis Zahariev Juni 2025.pdf
+2026-06-26T19:23:01 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Rechnung 2814 zahariev bekleidung.pdf
+2026-06-26T19:23:02 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Rechnung 2813 zahariev bearbeitungsgebühr.pdf
+2026-06-26T19:23:03 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf
+2026-06-26T19:23:03 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Rechnung 2811 Zahariev scannermiete.pdf
+2026-06-26T19:23:04 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/fwdrechnungenaus062025.zip::Rechnung 2810 Zahariev TF Touren.pdf
+2026-06-26T19:23:04 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml::image.png
+2026-06-26T19:23:04 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:04 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:04 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Lohnauswertungen.pdf
+2026-06-26T19:23:04 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Barauszahlungswerte_O0N.pdf: YES
+2026-06-26T19:23:04 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Barauszahlungswerte_O0N.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:04 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Barauszahlungswerte_O0N.pdf
+2026-06-26T19:23:04 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Abstimmliste (DE - SEPA, Langform) (2).pdf: YES
+2026-06-26T19:23:04 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Abstimmliste (DE - SEPA, Langform) (2).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:04 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml::Abstimmliste (DE - SEPA, Langform) (2).pdf
+2026-06-26T19:23:14 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrebestellung465795beiwebergmbh.zip::agb_doc.pdf
+2026-06-26T19:23:16 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrebestellung465795beiwebergmbh.zip::widerruf_doc.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Abstimmliste (DE - SEPA, Langform).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Abstimmliste (DE - SEPA, Langform).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(1)222.zip::Abstimmliste (DE - SEPA, Langform).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2).zip::Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Abstimmliste (DE - SEPA, Langform).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Abstimmliste (DE - SEPA, Langform).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(2)2.zip::Abstimmliste (DE - SEPA, Langform).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Abstimmliste (DE - SEPA, Langform) (3).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Abstimmliste (DE - SEPA, Langform) (3).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen(3).zip::Abstimmliste (DE - SEPA, Langform) (3).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\22b3bea9f10941fcb4382487129f253fca0a3fcb\working hours 06.2025  _____.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:16 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::working hours 06.2025  _____.xlsx
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List seizure.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List seizure.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List seizure.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List salaries.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List salaries.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List halth security.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List halth security.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen.zip::SEPA-List halth security.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (3).pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (3).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2.zip::Abstimmliste (DE - SEPA, Langform) (3).pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List salaries.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List salaries.pdf
+2026-06-26T19:23:16 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Zoll Kitanov.pdf: YES
+2026-06-26T19:23:16 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Zoll Kitanov.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:16 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::Zoll Kitanov.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List health securitys.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List health securitys.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen2024.zip::SEPA List health securitys.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Abstimmliste (DE - SEPA, Langform).pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Abstimmliste (DE - SEPA, Langform).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::Abstimmliste (DE - SEPA, Langform).pdf
+2026-06-26T19:23:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List salaries.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List salaries.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List health security.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List health security.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List health security.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List Seizures.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List Seizures.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::SEPA-List Seizures.pdf
+2026-06-26T19:23:17 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\a5111416305cbfb73a1e5e29c7d288d405cce74e\working hours 04.2025.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenapril2025.zip::working hours 04.2025.xlsx
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Cash-Payment.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Cash-Payment.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Cash-Payment.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (2) (1).pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (2) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (2) (1).pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:23:17 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\2f1d579a01a6c813d4f6303347af5f470b5ce3d4\working hours 12.2024.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:17 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungendezember2024.zip::working hours 12.2024.xlsx
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List seizures.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List seizures.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List seizures.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List salaries (2).pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List salaries (2).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenfebruar2025.zip::SEPA List salaries (2).pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjanuar2024.zip::Abstimmliste (DE - SEPA, Langform) (2).pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Lohnauswertungen_Juli_2025.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Lohnauswertungen_Juli_2025.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Lohnauswertungen_Juli_2025.pdf
+2026-06-26T19:23:17 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Salaries.pdf: YES
+2026-06-26T19:23:17 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:17 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Salaries.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Seizures.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Seizures.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Seizures.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Health Security.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Health Security.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenjuli2025.zip::Health Security.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List seizures.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List seizures.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List seizures.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List salaries.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmai2025.zip::SEPA-List salaries.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Abstimmliste (DE - SEPA, Langform) (4).pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Abstimmliste (DE - SEPA, Langform) (4).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2024.zip::Abstimmliste (DE - SEPA, Langform) (4).pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List salaries.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List salaries.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List salaries.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List seizures.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List seizures.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List seizures.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List health security.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List health security.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungenmrz2025.zip::SEPA List health security.pdf
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/KKH.eml::image.png
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/kkh.zip::20240405_165730.jpg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/kkh.zip::20240405_165739.jpg
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll082024.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::Lohnauswertungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::Lohnauswertungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::Lohnauswertungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Pfändungen.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Pfändungen.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Pfändungen.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Health insurances.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Health insurances.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - Health insurances.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - payroll.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - payroll.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll102024.zip::SEPA - payroll.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Pay Roll 12.2023.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Pay Roll 12.2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Pay Roll 12.2023.pdf
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/payroll12_2023.zip::Abstimmliste (DE - SEPA, Langform) (1).pdf
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip::IMG-20240531-WA0002.jpeg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip::IMG-20240531-WA0000.jpeg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip::IMG-20240531-WA0004.jpeg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/petyastefanova.zip::IMG-20240531-WA0006.jpeg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/PQ.eml::Screenshot_20250127_102323_Gmail.jpg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip::20250123_111809.jpg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip::20250123_111709.jpg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip::20250123_111818.jpg
+2026-06-26T19:23:18 UNPROCESSED unsupported file: 00_INBOX - Входящи - Eingang/Accounting/reaokplus.zip::20250123_111813.jpg
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip::Lohnauswertungen_März_2025.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip::Lohnauswertungen_März_2025.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip::Lohnauswertungen_März_2025.pdf
+2026-06-26T19:23:18 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\0e49be902abc93379543c0e8439b17c9b7b578d9\working hours 03.2025.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:18 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/testpayrollandworkinghours.zip::working hours 03.2025.xlsx
+2026-06-26T19:23:18 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip::10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf: YES
+2026-06-26T19:23:18 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip::10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:18 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip::10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf
+2026-06-26T19:23:18 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\c27b754087d244d27eca93c4660f1509b7f96885\38389 - Vorgangsmappe Lohn - 38389 - Aktualisiert- Auszahlungen Inflationsprämie.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:18 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/testpayslip.zip::38389 - Vorgangsmappe Lohn - 38389 - Aktualisiert- Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:23:18 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\bd76af2c54f5ee168694999628022ff2d581ac68\working hours 05.2024.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:19 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/updatedworkinghoursinflationsprmie.zip::working hours 05.2024.xlsx
+2026-06-26T19:23:19 openpyxl failed for C:\Users\35988\AppData\Local\Temp\accounting_cash_flow_bbfj6yex\zip\bd76af2c54f5ee168694999628022ff2d581ac68\38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx: No module named 'openpyxl'
+2026-06-26T19:23:19 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/updatedworkinghoursinflationsprmie.zip::38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx
+2026-06-26T19:23:19 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/wgprqualifikationkepkdnr_60222rechnungjahresgeb.zip::20240123_60222_10160_Rechnung.pdf
+2026-06-26T19:23:19 PROCESSED_STRUCTURED: 00_INBOX - Входящи - Eingang/Accounting/wgprqualifikationkepkdnr_60222rechnungjahresgeb.zip::3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf
+2026-06-26T19:23:19 PDF password attempted for 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf: YES
+2026-06-26T19:23:19 PDF_READ_ERROR 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf: No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber'
+2026-06-26T19:23:19 UNPROCESSED no text: 00_INBOX - Входящи - Eingang/Accounting/audit2024.zip::8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf

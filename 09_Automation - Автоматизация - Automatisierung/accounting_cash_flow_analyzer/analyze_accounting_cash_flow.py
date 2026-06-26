@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reconstruct monthly accounting cash flow from accounting inbox documents."""
+"""Robust accounting cash-flow reconstruction with full file audit."""
 
 from __future__ import annotations
 
@@ -9,6 +9,7 @@ import hashlib
 import html
 import re
 import shutil
+import subprocess
 import tempfile
 import zipfile
 import xml.etree.ElementTree as ET
@@ -17,7 +18,6 @@ from dataclasses import dataclass
 from datetime import datetime
 from decimal import Decimal, InvalidOperation
 from email import policy
-from email.message import Message
 from pathlib import Path
 from typing import Iterable
 
@@ -25,10 +25,11 @@ from typing import Iterable
 REPO_ROOT = Path(__file__).resolve().parents[2]
 INPUT_ROOT = REPO_ROOT / "00_INBOX - Входящи - Eingang" / "Accounting"
 REPORT_ROOT = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Accounting_Cash_Flow"
-ENRICO_MONTHLY = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Enrico_Deductions" / "enrico_deductions_monthly.csv"
+ENRICO_REPORT_DIR = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Enrico_Deductions"
+ENRICO_MONTHLY = ENRICO_REPORT_DIR / "enrico_deductions_monthly.csv"
+ENRICO_DETAIL = ENRICO_REPORT_DIR / "enrico_deductions_detailed.csv"
 LOCAL_PACKAGES = REPO_ROOT / ".python_packages"
 PDF_PASSWORD = "10001"
-SUPPORTED_EXTENSIONS = {".pdf", ".zip", ".rar", ".txt", ".csv", ".xlsx", ".eml"}
 PERIOD_START = (2024, 1)
 PERIOD_END = (2025, 6)
 
@@ -37,6 +38,9 @@ if LOCAL_PACKAGES.exists():
 
     sys.path.insert(0, str(LOCAL_PACKAGES))
 
+ARCHIVE_EXTENSIONS = {".zip", ".rar"}
+TEXT_EXTENSIONS = {".pdf", ".txt", ".csv", ".xlsx", ".docx", ".eml"}
+SUPPORTED_EXTENSIONS = ARCHIVE_EXTENSIONS | TEXT_EXTENSIONS
 
 EMPLOYEE_HEADERS = ["month", "employee_count", "employee_names", "source_documents", "confidence"]
 PAYROLL_HEADERS = ["month", "total_brutto", "total_netto", "source_documents", "confidence"]
@@ -72,9 +76,20 @@ OPERATING_HEADERS = [
     "source_documents",
     "confidence",
 ]
+ENRICO_HEADERS = [
+    "month",
+    "document_number",
+    "document_type",
+    "document_date",
+    "amount",
+    "source_file",
+    "already_in_enrico_report",
+    "action_needed",
+]
 MONTHLY_HEADERS = [
     "month",
     "enrico_deductions_total_if_available",
+    "revenue_if_available",
     "payroll_brutto",
     "payroll_netto",
     "health_insurance_due",
@@ -89,14 +104,28 @@ MONTHLY_HEADERS = [
     "total_monthly_obligations",
     "total_paid",
     "total_unpaid",
-    "first_visible_financial_pressure_yes_no",
     "notes",
     "confidence",
 ]
 MISSING_HEADERS = ["month", "has_accounting_document", "notes"]
 DUPLICATE_HEADERS = ["content_hash", "kept_source_file", "duplicate_source_file", "reason"]
+UNPROCESSED_HEADERS = [
+    "filename",
+    "full_path",
+    "file_type",
+    "detected_document_type",
+    "reason_not_processed",
+    "password_attempted",
+    "password_success",
+    "text_extracted",
+    "structured_rows_extracted",
+    "missing_required_fields",
+    "recommended_next_action",
+    "confidence",
+    "status",
+]
 
-HEALTH_INSURERS = ["AOK", "TK", "KKH", "Barmer", "DAK", "BKK", "IKK", "VIACTIV"]
+HEALTH_INSURERS = ["AOK Plus", "AOK", "TK", "KKH", "Barmer", "DAK", "BKK", "IKK", "VIACTIV", "Vivida BKK"]
 TAX_TYPES = ["Gewerbesteuer", "Umsatzsteuer", "Lohnsteuer", "Einkommensteuer"]
 OPERATING_KEYWORDS = {
     "fuel": ["fuel", "kraftstoff", "diesel", "benzin", "tank"],
@@ -108,15 +137,36 @@ OPERATING_KEYWORDS = {
     "phone": ["telefon", "phone", "mobilfunk"],
     "accounting fees": ["buchhaltung", "steuerberater", "accounting"],
     "equipment": ["ausstattung", "equipment", "scanner", "gerät", "geraet"],
+    "car rental": ["mietwagen", "autovermietung", "car rental"],
 }
+ENRICO_TERMS = [
+    "enrico weissflog",
+    "enrico weißflog",
+    "sachsenpower",
+    "gutschrift",
+    "sendungsverlust",
+    "abschlag coincident",
+    "leistungsnachweis",
+    "scannermiete",
+]
 
 
 @dataclass
-class SourceDocument:
+class SourceFile:
     path: Path
     display_path: str
     source_container: str = ""
     category_hint: str = ""
+    is_extracted: bool = False
+
+
+@dataclass
+class ReadResult:
+    text: str
+    confidence: str
+    password_attempted: str = "NO"
+    password_success: str = "NOT_APPLICABLE"
+    reason: str = ""
 
 
 class ProcessingLog:
@@ -150,19 +200,19 @@ def repo_relative(path: Path) -> str:
         return str(path.resolve())
 
 
+def normalize(value: str) -> str:
+    replacements = {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue"}
+    for src, dst in replacements.items():
+        value = value.replace(src, dst)
+    return value.lower()
+
+
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
         for chunk in iter(lambda: handle.read(1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
-
-
-def normalize(value: str) -> str:
-    replacements = {"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue"}
-    for source, replacement in replacements.items():
-        value = value.replace(source, replacement)
-    return value.lower()
 
 
 def parse_decimal(value: str) -> Decimal | None:
@@ -206,40 +256,42 @@ def first_match(patterns: Iterable[str], text: str, flags: int = re.IGNORECASE |
 
 def extract_month(text: str, display_path: str) -> str:
     combined = f"{display_path}\n{text}"
-    patterns = [
+    direct_patterns = [
         r"\b(20\d{2})[-_/ .](0?[1-9]|1[0-2])\b",
         r"\b(0?[1-9]|1[0-2])[-_/ .](20\d{2})\b",
-        r"\b(?:Januar|Jan)\s*(20\d{2})\b",
-        r"\b(?:Februar|Feb)\s*(20\d{2})\b",
-        r"\b(?:März|Maerz|Mar)\s*(20\d{2})\b",
-        r"\b(?:April|Apr)\s*(20\d{2})\b",
-        r"\b(?:Mai)\s*(20\d{2})\b",
-        r"\b(?:Juni|Jun)\s*(20\d{2})\b",
-        r"\b(?:Juli|Jul)\s*(20\d{2})\b",
-        r"\b(?:August|Aug)\s*(20\d{2})\b",
-        r"\b(?:September|Sep)\s*(20\d{2})\b",
-        r"\b(?:Oktober|Oct|Okt)\s*(20\d{2})\b",
-        r"\b(?:November|Nov)\s*(20\d{2})\b",
-        r"\b(?:Dezember|Dec|Dez)\s*(20\d{2})\b",
     ]
-    for index, pattern in enumerate(patterns):
+    for index, pattern in enumerate(direct_patterns):
         match = re.search(pattern, combined, re.IGNORECASE)
-        if not match:
-            continue
-        if index == 0:
+        if match and index == 0:
             return f"{int(match.group(1)):04d}-{int(match.group(2)):02d}"
-        if index == 1:
+        if match:
             return f"{int(match.group(2)):04d}-{int(match.group(1)):02d}"
-        return f"{int(match.group(1)):04d}-{index - 1:02d}"
+    month_names = [
+        ("januar|jan", 1),
+        ("februar|feb", 2),
+        ("märz|maerz|mar", 3),
+        ("april|apr", 4),
+        ("mai", 5),
+        ("juni|jun", 6),
+        ("juli|jul", 7),
+        ("august|aug", 8),
+        ("september|sep", 9),
+        ("oktober|oct|okt", 10),
+        ("november|nov", 11),
+        ("dezember|dec|dez", 12),
+    ]
+    for pattern, month in month_names:
+        match = re.search(rf"\b(?:{pattern})\s*(20\d{{2}})\b", combined, re.IGNORECASE)
+        if match:
+            return f"{int(match.group(1)):04d}-{month:02d}"
     return ""
 
 
 def category_hint(path: Path) -> str:
-    parts = " ".join(path.parts)
-    text = normalize(parts)
-    if any(term in text for term in ["lohn", "payroll", "entgelt"]):
+    text = normalize(" ".join(path.parts))
+    if any(term in text for term in ["lohn", "payroll", "entgelt", "brutto_netto", "brutto-netto"]):
         return "payroll"
-    if any(term in text for term in ["krankenkasse", "health", "aok", "barmer", "kkh"]):
+    if any(term in text for term in ["krankenkasse", "contribution", "aok", "barmer", "kkh", "hauptzollamt"]):
         return "health"
     if any(term in text for term in ["finanzamt", "steuer", "gewerbesteuer", "chemnitz"]):
         return "tax"
@@ -248,21 +300,36 @@ def category_hint(path: Path) -> str:
     return ""
 
 
-def scan_inputs(log: ProcessingLog) -> list[SourceDocument]:
-    docs: list[SourceDocument] = []
+def detect_document_type(text: str, source: SourceFile) -> str:
+    haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
+    if any(term in haystack for term in ["brutto", "netto", "lohn", "entgelt"]):
+        return "Payroll"
+    if any(name.lower() in haystack for name in HEALTH_INSURERS) or "krankenkasse" in haystack or "hauptzollamt" in haystack:
+        return "Health Insurance"
+    if any(term in haystack for term in ["finanzamt", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer", "stadt chemnitz"]):
+        return "Tax"
+    if any(term in haystack for terms in OPERATING_KEYWORDS.values() for term in terms):
+        return "Operating Cost"
+    if any(term in haystack for term in ENRICO_TERMS):
+        return "Enrico Cross-Check"
+    return source.category_hint or "Unknown"
+
+
+def scan_inputs(log: ProcessingLog) -> list[SourceFile]:
+    sources: list[SourceFile] = []
     if not INPUT_ROOT.exists():
         log.add(f"Input folder does not exist: {repo_relative(INPUT_ROOT)}")
-        return docs
+        return sources
     for path in INPUT_ROOT.rglob("*"):
-        if path.is_file() and path.suffix.lower() in SUPPORTED_EXTENSIONS:
-            docs.append(SourceDocument(path, repo_relative(path), category_hint(path)))
+        if path.is_file():
+            sources.append(SourceFile(path=path, display_path=repo_relative(path), category_hint=category_hint(path)))
             log.add(f"Scanned file: {repo_relative(path)}")
-    log.stats["scanned_files"] = len(docs)
-    return docs
+    log.stats["scanned_files"] = len(sources)
+    return sources
 
 
-def safe_extract_path(base: Path, name: str) -> Path | None:
-    target = (base / name).resolve()
+def safe_extract_path(base: Path, member_name: str) -> Path | None:
+    target = (base / member_name).resolve()
     try:
         target.relative_to(base.resolve())
     except ValueError:
@@ -270,9 +337,48 @@ def safe_extract_path(base: Path, name: str) -> Path | None:
     return target
 
 
-def extract_zip(source: SourceDocument, temp_root: Path, log: ProcessingLog) -> list[SourceDocument]:
-    out: list[SourceDocument] = []
-    target_root = temp_root / "zip" / hashlib.sha1(str(source.path).encode("utf-8")).hexdigest()
+def make_unprocessed(source: SourceFile, reason: str, detected_type: str = "", read: ReadResult | None = None, structured: int = 0) -> dict[str, str]:
+    read = read or ReadResult("", "LOW")
+    return {
+        "filename": source.path.name,
+        "full_path": source.display_path,
+        "file_type": source.path.suffix.lower(),
+        "detected_document_type": detected_type,
+        "reason_not_processed": reason,
+        "password_attempted": read.password_attempted,
+        "password_success": read.password_success,
+        "text_extracted": "YES" if read.text.strip() else "NO",
+        "structured_rows_extracted": str(structured),
+        "missing_required_fields": "structured accounting fields",
+        "recommended_next_action": recommended_action(reason, source),
+        "confidence": read.confidence,
+        "status": "UNPROCESSED_WITH_REASON",
+    }
+
+
+def recommended_action(reason: str, source: SourceFile) -> str:
+    if "RAR extraction unavailable" in reason:
+        return "Install 7-Zip, unrar, or rarfile backend and rerun analyzer."
+    if "Unsupported file type" in reason:
+        return "Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually."
+    if "No text extracted" in reason:
+        return "Run OCR or provide text-based source document."
+    if "No structured rows" in reason:
+        return "Review manually or add parser pattern for this accounting format."
+    return "Review source file manually."
+
+
+def seven_zip_executable() -> str | None:
+    for exe in ["7z", "7za", "unrar"]:
+        found = shutil.which(exe)
+        if found:
+            return found
+    return None
+
+
+def extract_zip(source: SourceFile, temp_root: Path, log: ProcessingLog) -> list[SourceFile]:
+    extracted: list[SourceFile] = []
+    target_root = temp_root / "zip" / hashlib.sha1(source.display_path.encode("utf-8")).hexdigest()
     target_root.mkdir(parents=True, exist_ok=True)
     try:
         with zipfile.ZipFile(source.path) as archive:
@@ -286,104 +392,93 @@ def extract_zip(source: SourceDocument, temp_root: Path, log: ProcessingLog) -> 
                 target.parent.mkdir(parents=True, exist_ok=True)
                 with archive.open(member) as src, target.open("wb") as dst:
                     shutil.copyfileobj(src, dst)
-                if target.suffix.lower() in SUPPORTED_EXTENSIONS:
-                    out.append(SourceDocument(target, f"{source.display_path}::{member.filename}", source.display_path, source.category_hint))
-        log.add(f"Extracted {len(out)} supported files from ZIP: {source.display_path}")
+                extracted.append(
+                    SourceFile(target, f"{source.display_path}::{member.filename}", source.display_path, source.category_hint, True)
+                )
+        log.add(f"Extracted {len(extracted)} files from ZIP: {source.display_path}")
     except Exception as exc:
         log.add(f"ZIP_READ_ERROR {source.display_path}: {exc}")
-    return out
+    return extracted
 
 
-def extract_rar(source: SourceDocument, temp_root: Path, log: ProcessingLog) -> list[SourceDocument]:
-    try:
-        import rarfile  # type: ignore
-    except ImportError:
-        log.add(f"RAR skipped, dependency missing: {source.display_path}")
-        return []
-    out: list[SourceDocument] = []
-    target_root = temp_root / "rar" / hashlib.sha1(str(source.path).encode("utf-8")).hexdigest()
-    target_root.mkdir(parents=True, exist_ok=True)
-    try:
-        with rarfile.RarFile(source.path) as archive:
-            for member in archive.infolist():
-                if member.isdir():
-                    continue
-                target = safe_extract_path(target_root, member.filename)
-                if target is None:
-                    log.add(f"Unsafe RAR member skipped: {member.filename}")
-                    continue
-                target.parent.mkdir(parents=True, exist_ok=True)
-                with archive.open(member) as src, target.open("wb") as dst:
-                    shutil.copyfileobj(src, dst)
-                if target.suffix.lower() in SUPPORTED_EXTENSIONS:
-                    out.append(SourceDocument(target, f"{source.display_path}::{member.filename}", source.display_path, source.category_hint))
-        log.add(f"Extracted {len(out)} supported files from RAR: {source.display_path}")
-    except Exception as exc:
-        log.add(f"RAR_READ_ERROR {source.display_path}: {exc}")
-    return out
+def extract_rar(source: SourceFile, temp_root: Path, log: ProcessingLog, unprocessed: list[dict[str, str]]) -> list[SourceFile]:
+    exe = seven_zip_executable()
+    if exe:
+        target_root = temp_root / "rar" / hashlib.sha1(source.display_path.encode("utf-8")).hexdigest()
+        target_root.mkdir(parents=True, exist_ok=True)
+        if Path(exe).name.lower().startswith("unrar"):
+            cmd = [exe, "x", "-y", str(source.path), str(target_root)]
+        else:
+            cmd = [exe, "x", "-y", f"-o{target_root}", str(source.path)]
+        result = subprocess.run(cmd, capture_output=True, text=True, errors="replace", check=False)
+        if result.returncode != 0:
+            reason = f"RAR extraction failed: {result.stderr or result.stdout}"
+            log.add(reason)
+            unprocessed.append(make_unprocessed(source, reason))
+            return []
+        out = [
+            SourceFile(path, f"{source.display_path}::{path.relative_to(target_root).as_posix()}", source.display_path, source.category_hint, True)
+            for path in target_root.rglob("*")
+            if path.is_file()
+        ]
+        log.add(f"Extracted {len(out)} files from RAR: {source.display_path}")
+        return out
+    reason = "RAR extraction unavailable"
+    log.add(f"{reason}: {source.display_path}")
+    unprocessed.append(make_unprocessed(source, reason))
+    return []
 
 
-def extract_eml(source: SourceDocument, temp_root: Path, log: ProcessingLog) -> tuple[str, list[SourceDocument]]:
+def extract_eml(source: SourceFile, temp_root: Path, log: ProcessingLog) -> tuple[str, list[SourceFile]]:
     try:
         with source.path.open("rb") as handle:
             message = email.message_from_binary_file(handle, policy=policy.default)
     except Exception as exc:
         log.add(f"EML_READ_ERROR {source.display_path}: {exc}")
         return "", []
-    body_parts: list[str] = [
+    body_parts = [
         f"email_date: {message.get('date', '')}",
         f"sender: {message.get('from', '')}",
         f"recipient: {message.get('to', '')}",
         f"subject: {message.get('subject', '')}",
     ]
-    attachments: list[SourceDocument] = []
-    target_root = temp_root / "eml" / hashlib.sha1(str(source.path).encode("utf-8")).hexdigest()
+    attachments: list[SourceFile] = []
+    target_root = temp_root / "eml" / hashlib.sha1(source.display_path.encode("utf-8")).hexdigest()
     target_root.mkdir(parents=True, exist_ok=True)
-    if message.is_multipart():
-        for index, part in enumerate(message.walk(), start=1):
-            if part.get_content_disposition() == "attachment":
-                filename = part.get_filename() or f"attachment-{index}"
-                payload = part.get_payload(decode=True)
-                if payload is None:
-                    continue
-                target = safe_extract_path(target_root, filename)
-                if target is None:
-                    log.add(f"Unsafe EML attachment skipped: {filename}")
-                    continue
-                target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(payload)
-                if target.suffix.lower() in SUPPORTED_EXTENSIONS:
-                    attachments.append(SourceDocument(target, f"{source.display_path}::{filename}", source.display_path, source.category_hint))
-            elif part.get_content_type() in {"text/plain", "text/html"}:
-                try:
-                    body_parts.append(str(part.get_content()))
-                except Exception:
-                    pass
-    else:
-        try:
-            body_parts.append(str(message.get_content()))
-        except Exception:
-            pass
-    log.add(f"Read EML {source.display_path} with {len(attachments)} supported attachments.")
+    for index, part in enumerate(message.walk() if message.is_multipart() else [message], start=1):
+        if part.get_content_disposition() == "attachment":
+            filename = part.get_filename() or f"attachment-{index}"
+            payload = part.get_payload(decode=True)
+            if payload is None:
+                continue
+            target = safe_extract_path(target_root, filename)
+            if target is None:
+                log.add(f"Unsafe EML attachment skipped: {filename}")
+                continue
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(payload)
+            attachments.append(SourceFile(target, f"{source.display_path}::{filename}", source.display_path, source.category_hint, True))
+        elif part.get_content_type() in {"text/plain", "text/html"}:
+            try:
+                body_parts.append(str(part.get_content()))
+            except Exception:
+                payload = part.get_payload(decode=True) or b""
+                body_parts.append(payload.decode(part.get_content_charset() or "utf-8", errors="replace"))
+    log.add(f"Read EML {source.display_path} with {len(attachments)} attachments.")
     return "\n".join(body_parts), attachments
 
 
-def expand_sources(initial: list[SourceDocument], temp_root: Path, log: ProcessingLog) -> list[SourceDocument]:
-    expanded: list[SourceDocument] = []
+def expand_all(initial: list[SourceFile], temp_root: Path, log: ProcessingLog, unprocessed: list[dict[str, str]]) -> list[SourceFile]:
+    expanded: list[SourceFile] = []
     queue = list(initial)
-    seen: set[Path] = set()
     while queue:
         source = queue.pop(0)
-        resolved = source.path.resolve()
-        if resolved in seen:
-            continue
-        seen.add(resolved)
         suffix = source.path.suffix.lower()
         if suffix == ".zip":
             queue.extend(extract_zip(source, temp_root, log))
             expanded.append(source)
         elif suffix == ".rar":
-            queue.extend(extract_rar(source, temp_root, log))
+            queue.extend(extract_rar(source, temp_root, log, unprocessed))
             expanded.append(source)
         elif suffix == ".eml":
             _, attachments = extract_eml(source, temp_root, log)
@@ -391,37 +486,42 @@ def expand_sources(initial: list[SourceDocument], temp_root: Path, log: Processi
             expanded.append(source)
         else:
             expanded.append(source)
-    log.stats["expanded_files"] = len(expanded)
+    extracted_count = sum(1 for item in expanded if item.is_extracted)
+    log.stats["expanded_archive_files"] = extracted_count
     return expanded
 
 
-def read_pdf(path: Path, log: ProcessingLog) -> tuple[str, str]:
+def read_pdf(source: SourceFile, log: ProcessingLog) -> ReadResult:
     errors: list[str] = []
     try:
         from pypdf import PdfReader  # type: ignore
 
-        reader = PdfReader(str(path))
+        reader = PdfReader(str(source.path))
+        attempted = "YES"
+        success = "NOT_APPLICABLE"
         if reader.is_encrypted:
-            result = reader.decrypt(PDF_PASSWORD)
-            log.add(f"PDF decrypt attempted for {repo_relative(path)} with result {result}")
+            decrypt_result = reader.decrypt(PDF_PASSWORD)
+            success = "YES" if decrypt_result else "NO"
+            log.add(f"PDF password attempted for {source.display_path}: {success}")
         text = "\n".join(page.extract_text() or "" for page in reader.pages)
         if text.strip():
-            return text, "HIGH"
+            return ReadResult(text, "HIGH", attempted, success)
         errors.append("pypdf returned no text")
     except Exception as exc:
         errors.append(f"pypdf failed: {exc}")
     try:
         import pdfplumber  # type: ignore
 
-        with pdfplumber.open(str(path), password=PDF_PASSWORD) as pdf:
+        with pdfplumber.open(str(source.path), password=PDF_PASSWORD) as pdf:
             text = "\n".join(page.extract_text() or "" for page in pdf.pages)
         if text.strip():
-            return text, "HIGH"
+            return ReadResult(text, "HIGH", "YES", "YES")
         errors.append("pdfplumber returned no text")
     except Exception as exc:
         errors.append(f"pdfplumber failed: {exc}")
-    log.add(f"PDF_READ_ERROR {repo_relative(path)} :: {' | '.join(errors)}")
-    return "", "LOW"
+    reason = "No text extracted from PDF: " + " | ".join(errors)
+    log.add(f"PDF_READ_ERROR {source.display_path}: {reason}")
+    return ReadResult("", "LOW", "YES", "NO", reason)
 
 
 def read_text(path: Path) -> str:
@@ -433,7 +533,22 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8", errors="replace")
 
 
-def read_xlsx_text(path: Path, log: ProcessingLog) -> tuple[str, str]:
+def read_docx(path: Path, log: ProcessingLog) -> ReadResult:
+    try:
+        with zipfile.ZipFile(path) as archive:
+            texts: list[str] = []
+            for name in archive.namelist():
+                if name.startswith("word/") and name.endswith(".xml"):
+                    root = ET.fromstring(archive.read(name))
+                    texts.append(" ".join(root.itertext()))
+            return ReadResult("\n".join(texts), "MEDIUM")
+    except Exception as exc:
+        reason = f"DOCX_READ_ERROR: {exc}"
+        log.add(f"{reason} {path}")
+        return ReadResult("", "LOW", reason=reason)
+
+
+def read_xlsx(path: Path, log: ProcessingLog) -> ReadResult:
     try:
         import openpyxl  # type: ignore
 
@@ -443,54 +558,46 @@ def read_xlsx_text(path: Path, log: ProcessingLog) -> tuple[str, str]:
             values.append(f"Sheet: {sheet.title}")
             for row in sheet.iter_rows(values_only=True):
                 values.append(" | ".join("" if cell is None else str(cell) for cell in row))
-        return "\n".join(values), "HIGH"
+        return ReadResult("\n".join(values), "HIGH")
     except Exception as exc:
-        log.add(f"openpyxl unavailable or failed for {repo_relative(path)}: {exc}")
+        log.add(f"openpyxl failed for {path}: {exc}")
     try:
         with zipfile.ZipFile(path) as archive:
-            shared: list[str] = []
-            if "xl/sharedStrings.xml" in archive.namelist():
-                root = ET.fromstring(archive.read("xl/sharedStrings.xml"))
-                shared = ["".join(node.itertext()) for node in root]
-            values = []
+            values: list[str] = []
             for name in archive.namelist():
                 if name.startswith("xl/worksheets/") and name.endswith(".xml"):
                     root = ET.fromstring(archive.read(name))
-                    for cell in root.iter():
-                        if cell.tag.endswith("}c"):
-                            cell_type = cell.attrib.get("t")
-                            v = next((child for child in cell if child.tag.endswith("}v")), None)
-                            if v is not None and v.text:
-                                if cell_type == "s" and v.text.isdigit() and int(v.text) < len(shared):
-                                    values.append(shared[int(v.text)])
-                                else:
-                                    values.append(v.text)
-            return "\n".join(values), "LOW"
+                    values.append(" ".join(root.itertext()))
+            return ReadResult("\n".join(values), "LOW")
     except Exception as exc:
-        log.add(f"XLSX_READ_ERROR {repo_relative(path)}: {exc}")
-        return "", "LOW"
+        reason = f"XLSX_READ_ERROR: {exc}"
+        log.add(f"{reason} {path}")
+        return ReadResult("", "LOW", reason=reason)
 
 
-def read_source(source: SourceDocument, temp_root: Path, log: ProcessingLog) -> tuple[str, str]:
+def read_source(source: SourceFile, temp_root: Path, log: ProcessingLog) -> ReadResult:
     suffix = source.path.suffix.lower()
     if suffix == ".pdf":
-        return read_pdf(source.path, log)
+        return read_pdf(source, log)
     if suffix in {".txt", ".csv"}:
-        return read_text(source.path), "MEDIUM"
+        return ReadResult(read_text(source.path), "MEDIUM")
     if suffix == ".xlsx":
-        return read_xlsx_text(source.path, log)
+        return read_xlsx(source.path, log)
+    if suffix == ".docx":
+        return read_docx(source.path, log)
     if suffix == ".eml":
         body, _ = extract_eml(source, temp_root, log)
-        return body, "MEDIUM" if body else "LOW"
-    return "", "LOW"
+        return ReadResult(body, "MEDIUM" if body.strip() else "LOW")
+    return ReadResult("", "LOW", reason=f"Unsupported file type: {suffix}")
 
 
-def deduplicate(sources: list[SourceDocument], log: ProcessingLog) -> tuple[list[SourceDocument], list[dict[str, str]]]:
-    seen: dict[str, SourceDocument] = {}
-    unique: list[SourceDocument] = []
+def deduplicate(sources: list[SourceFile], log: ProcessingLog) -> tuple[list[SourceFile], list[dict[str, str]], set[str]]:
+    seen: dict[str, SourceFile] = {}
+    unique: list[SourceFile] = []
     duplicates: list[dict[str, str]] = []
+    duplicate_paths: set[str] = set()
     for source in sources:
-        if source.path.suffix.lower() in {".zip", ".rar"}:
+        if source.path.suffix.lower() in ARCHIVE_EXTENSIONS:
             continue
         try:
             digest = sha256_file(source.path)
@@ -506,16 +613,16 @@ def deduplicate(sources: list[SourceDocument], log: ProcessingLog) -> tuple[list
                     "reason": "Same file hash.",
                 }
             )
+            duplicate_paths.add(source.display_path)
             continue
         seen[digest] = source
         unique.append(source)
-    return unique, duplicates
+    return unique, duplicates, duplicate_paths
 
 
 def extract_amount_near(text: str, terms: Iterable[str]) -> Decimal | None:
     for term in terms:
-        pattern = rf"{term}.{{0,120}}?({money_pattern()})\s*(?:EUR|€)?"
-        match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+        match = re.search(rf"{term}.{{0,160}}?({money_pattern()})\s*(?:EUR|€)?", text, re.IGNORECASE | re.DOTALL)
         if match:
             return parse_decimal(match.group(1))
     return None
@@ -529,12 +636,24 @@ def extract_employee_names(text: str) -> list[str]:
     ]:
         for match in re.finditer(pattern, text):
             name = re.sub(r"\s+", " ", match.group(1)).strip(" ,-")
-            if len(name) <= 80:
+            if 4 <= len(name) <= 80:
                 names.add(name)
     return sorted(names)
 
 
-def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+def detect_health_insurer(haystack: str) -> str:
+    for name in HEALTH_INSURERS:
+        if normalize(name) in haystack:
+            return name
+    if "krankenkasse" in haystack:
+        return "other"
+    if "hauptzollamt" in haystack:
+        return "Hauptzollamt linked Krankenkasse claim"
+    return ""
+
+
+def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+    text = read.text
     month = extract_month(text, source.display_path)
     haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
     src = source.display_path
@@ -543,6 +662,25 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
     health_rows: list[dict[str, str]] = []
     tax_rows: list[dict[str, str]] = []
     operating_rows: list[dict[str, str]] = []
+    enrico_rows: list[dict[str, str]] = []
+
+    if any(term in haystack for term in ENRICO_TERMS):
+        number = first_match([r"(?:Gutschrift|Rechnung)\s+Nr\.?\s*[:#]?\s*([A-Z0-9./_-]+(?:\s*-\s*\d{2,4})?)"], text)
+        doc_type = first_match([r"\b(Gutschrift|Rechnung|Leistungsnachweis|Sendungsverlust|Scannermiete)\b"], text)
+        date = first_match([r"(?:Datum|Rechnungsdatum|Gutschriftdatum)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
+        amount = extract_amount_near(text, ["Gesamtbetrag", "Endbetrag", "Nettosumme", "Rechnungsbetrag", "Betrag"])
+        enrico_rows.append(
+            {
+                "month": month,
+                "document_number": re.sub(r"\s+", "", number),
+                "document_type": doc_type,
+                "document_date": date,
+                "amount": fmt(amount),
+                "source_file": src,
+                "already_in_enrico_report": "UNKNOWN",
+                "action_needed": "",
+            }
+        )
 
     if any(term in haystack for term in ["lohn", "entgelt", "brutto", "netto", "arbeitnehmer", "mitarbeiter"]):
         names = extract_employee_names(text)
@@ -564,16 +702,16 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
                     "total_brutto": fmt(brutto),
                     "total_netto": fmt(netto),
                     "source_documents": src,
-                    "confidence": confidence if brutto is not None or netto is not None else "LOW",
+                    "confidence": read.confidence,
                 }
             )
 
-    if any(term.lower() in haystack for term in [name.lower() for name in HEALTH_INSURERS]) or "krankenkasse" in haystack:
-        insurer = next((name for name in HEALTH_INSURERS if name.lower() in haystack), "other")
-        due = extract_amount_near(text, ["fällig", "faellig", "Soll", "Beitrag", "amount due", "Gesamt"])
-        paid = extract_amount_near(text, ["bezahlt", "gezahlt", "payment", "paid", "Ist"])
-        unpaid = extract_amount_near(text, ["offen", "rückstand", "rueckstand", "unpaid", "balance"])
-        late = extract_amount_near(text, ["Säumniszuschlag", "Saeumniszuschlag", "late fee"])
+    insurer = detect_health_insurer(haystack)
+    if insurer:
+        due = extract_amount_near(text, ["fällig", "faellig", "Soll", "Beitrag", "Forderung", "Gesamt", "Betrag"])
+        paid = extract_amount_near(text, ["bezahlt", "gezahlt", "payment", "paid", "Ist", "Überweisung", "Ueberweisung"])
+        unpaid = extract_amount_near(text, ["offen", "Rückstand", "Rueckstand", "unpaid", "balance", "Rest"])
+        late = extract_amount_near(text, ["Säumniszuschlag", "Saeumniszuschlag", "late fee", "Mahngebühr", "Mahngebuehr"])
         due_date = first_match([r"(?:fällig|faellig|due date)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
         health_rows.append(
             {
@@ -585,16 +723,16 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
                 "due_date": due_date,
                 "late_fees": fmt(late),
                 "source_documents": src,
-                "confidence": confidence if any(v is not None for v in [due, paid, unpaid, late]) else "LOW",
+                "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid, late]) else "LOW",
             }
         )
 
-    if any(term in haystack for term in ["finanzamt", "stadt chemnitz", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer", "steuer"]):
-        creditor = "Finanzamt" if "finanzamt" in haystack else "Stadt Chemnitz" if "stadt chemnitz" in haystack or "gewerbesteuer" in haystack else ""
+    if any(term in haystack for term in ["finanzamt", "stadt chemnitz", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer", "hauptzollamt"]):
+        creditor = "Finanzamt" if "finanzamt" in haystack else "Stadt Chemnitz" if "stadt chemnitz" in haystack or "gewerbesteuer" in haystack else "Hauptzollamt" if "hauptzollamt" in haystack else ""
         tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "other public liability")
-        due = extract_amount_near(text, ["fällig", "faellig", "Steuer", "Soll", "amount due", "Gesamt"])
+        due = extract_amount_near(text, ["fällig", "faellig", "Steuer", "Soll", "Forderung", "Gesamt", "Betrag"])
         paid = extract_amount_near(text, ["bezahlt", "gezahlt", "payment", "paid", "Ist"])
-        unpaid = extract_amount_near(text, ["offen", "rückstand", "rueckstand", "unpaid", "balance"])
+        unpaid = extract_amount_near(text, ["offen", "Rückstand", "Rueckstand", "unpaid", "balance", "Rest"])
         due_date = first_match([r"(?:fällig|faellig|due date)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
         tax_rows.append(
             {
@@ -606,7 +744,7 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
                 "unpaid_balance": fmt(unpaid),
                 "due_date": due_date,
                 "source_documents": src,
-                "confidence": confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
+                "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
             }
         )
 
@@ -614,7 +752,7 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
         if any(term in haystack for term in terms):
             due = extract_amount_near(text, ["Betrag", "Rechnung", "Kosten", "amount due", "Gesamt"])
             paid = extract_amount_near(text, ["bezahlt", "gezahlt", "paid"])
-            unpaid = extract_amount_near(text, ["offen", "unpaid", "balance"])
+            unpaid = extract_amount_near(text, ["offen", "unpaid", "balance", "Rest"])
             creditor = first_match([r"(?:Kreditor|Lieferant|Gläubiger|Glaeubiger)\s*[:#]?\s*([^\n\r]+)"], text)
             operating_rows.append(
                 {
@@ -625,12 +763,44 @@ def extract_rows(source: SourceDocument, text: str, confidence: str) -> tuple[li
                     "amount_paid": fmt(paid),
                     "unpaid_balance": fmt(unpaid),
                     "source_documents": src,
-                    "confidence": confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
+                    "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
                 }
             )
             break
 
-    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows
+    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, enrico_rows
+
+
+def load_enrico_index() -> tuple[dict[str, str], set[str]]:
+    monthly: dict[str, str] = {}
+    detail_numbers: set[str] = set()
+    if ENRICO_MONTHLY.exists():
+        with ENRICO_MONTHLY.open("r", encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                monthly[row.get("month", "")] = row.get("total_deductions_negative") or row.get("total_deductions") or ""
+    if ENRICO_DETAIL.exists():
+        with ENRICO_DETAIL.open("r", encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                number = row.get("document_number", "")
+                if number:
+                    detail_numbers.add(number.replace(" ", ""))
+    return monthly, detail_numbers
+
+
+def finalize_enrico_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    _, detail_numbers = load_enrico_index()
+    for row in rows:
+        number = row.get("document_number", "").replace(" ", "")
+        if number and number in detail_numbers:
+            row["already_in_enrico_report"] = "YES"
+            row["action_needed"] = ""
+        elif number:
+            row["already_in_enrico_report"] = "NO"
+            row["action_needed"] = "POSSIBLE_MISSING_ENRICO_EVIDENCE"
+        else:
+            row["already_in_enrico_report"] = "UNKNOWN"
+            row["action_needed"] = "REVIEW_ENRICO_DOCUMENT"
+    return rows
 
 
 def write_csv(path: Path, headers: list[str], rows: Iterable[dict[str, str]]) -> None:
@@ -641,7 +811,7 @@ def write_csv(path: Path, headers: list[str], rows: Iterable[dict[str, str]]) ->
             writer.writerow(row)
 
 
-def column_name(index: int) -> str:
+def col_name(index: int) -> str:
     result = ""
     while index:
         index, rem = divmod(index - 1, 26)
@@ -653,9 +823,9 @@ def write_xlsx(path: Path, headers: list[str], rows: list[dict[str, str]], sheet
     values = [headers] + [[str(row.get(header, "")) for header in headers] for row in rows]
     sheet_rows: list[str] = []
     for row_index, row_values in enumerate(values, start=1):
-        cells = []
+        cells: list[str] = []
         for col_index, value in enumerate(row_values, start=1):
-            ref = f"{column_name(col_index)}{row_index}"
+            ref = f"{col_name(col_index)}{row_index}"
             cells.append(f'<c r="{ref}" t="inlineStr"><is><t>{html.escape(value)}</t></is></c>')
         sheet_rows.append(f'<row r="{row_index}">{"".join(cells)}</row>')
     worksheet = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetData>' + "".join(sheet_rows) + "</sheetData></worksheet>"
@@ -675,25 +845,17 @@ def sum_rows(rows: list[dict[str, str]], month: str, field: str) -> Decimal:
     return sum((amount_to_decimal(row.get(field, "")) for row in rows if row.get("month") == month), Decimal("0"))
 
 
-def read_enrico_totals() -> dict[str, str]:
-    if not ENRICO_MONTHLY.exists():
-        return {}
-    try:
-        with ENRICO_MONTHLY.open("r", encoding="utf-8-sig", newline="") as handle:
-            return {
-                row["month"]: row.get("total_deductions_negative") or row.get("total_deductions") or ""
-                for row in csv.DictReader(handle)
-            }
-    except Exception:
-        return {}
-
-
-def build_monthly(employee_rows: list[dict[str, str]], payroll_rows: list[dict[str, str]], health_rows: list[dict[str, str]], tax_rows: list[dict[str, str]], operating_rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[dict[str, str]], str]:
-    enrico = read_enrico_totals()
+def build_monthly(
+    employee_rows: list[dict[str, str]],
+    payroll_rows: list[dict[str, str]],
+    health_rows: list[dict[str, str]],
+    tax_rows: list[dict[str, str]],
+    operating_rows: list[dict[str, str]],
+) -> tuple[list[dict[str, str]], list[dict[str, str]], str]:
+    enrico_monthly, _ = load_enrico_index()
     monthly: list[dict[str, str]] = []
     missing: list[dict[str, str]] = []
     first_unpaid_health = ""
-    first_pressure_found = False
     for month in month_range():
         payroll_brutto = sum_rows(payroll_rows, month, "total_brutto")
         payroll_netto = sum_rows(payroll_rows, month, "total_netto")
@@ -711,18 +873,14 @@ def build_monthly(employee_rows: list[dict[str, str]], payroll_rows: list[dict[s
             missing.append({"month": month, "has_accounting_document": "NO", "notes": "No accounting document data extracted for this month."})
         if health_unpaid > 0 and not first_unpaid_health:
             first_unpaid_health = month
-        total_obligations = payroll_brutto + health_due + tax_due + op_due
-        total_paid = payroll_netto + health_paid + tax_paid + op_paid
-        total_unpaid = health_unpaid + tax_unpaid + op_unpaid
-        pressure = total_unpaid > 0
-        first_pressure = "YES" if pressure and not first_pressure_found else "NO"
-        if pressure:
-            first_pressure_found = True
-        confidence = "MEDIUM" if has_docs else "LOW"
+        obligations = payroll_brutto + health_due + tax_due + op_due
+        paid = payroll_netto + health_paid + tax_paid + op_paid
+        unpaid = health_unpaid + tax_unpaid + op_unpaid
         monthly.append(
             {
                 "month": month,
-                "enrico_deductions_total_if_available": enrico.get(month, ""),
+                "enrico_deductions_total_if_available": enrico_monthly.get(month, ""),
+                "revenue_if_available": "",
                 "payroll_brutto": fmt(payroll_brutto) if payroll_brutto else "",
                 "payroll_netto": fmt(payroll_netto) if payroll_netto else "",
                 "health_insurance_due": fmt(health_due) if health_due else "",
@@ -734,12 +892,11 @@ def build_monthly(employee_rows: list[dict[str, str]], payroll_rows: list[dict[s
                 "operating_costs_due": fmt(op_due) if op_due else "",
                 "operating_costs_paid": fmt(op_paid) if op_paid else "",
                 "operating_costs_unpaid": fmt(op_unpaid) if op_unpaid else "",
-                "total_monthly_obligations": fmt(total_obligations) if total_obligations else "",
-                "total_paid": fmt(total_paid) if total_paid else "",
-                "total_unpaid": fmt(total_unpaid) if total_unpaid else "",
-                "first_visible_financial_pressure_yes_no": first_pressure,
+                "total_monthly_obligations": fmt(obligations) if obligations else "",
+                "total_paid": fmt(paid) if paid else "",
+                "total_unpaid": fmt(unpaid) if unpaid else "",
                 "notes": "" if has_docs else "No extracted accounting values for this month.",
-                "confidence": confidence,
+                "confidence": "MEDIUM" if has_docs else "LOW",
             }
         )
     return monthly, missing, first_unpaid_health
@@ -752,9 +909,22 @@ def markdown_table(headers: list[str], rows: list[dict[str, str]]) -> str:
     return "\n".join(lines)
 
 
+def write_unprocessed_report(rows: list[dict[str, str]]) -> None:
+    grouped: dict[str, int] = defaultdict(int)
+    for row in rows:
+        grouped[row.get("reason_not_processed", "")] += 1
+    lines = ["# Unprocessed Files Report", "", f"Total unprocessed or partial files: {len(rows)}", ""]
+    lines.append("## Reasons")
+    for reason, count in sorted(grouped.items()):
+        lines.append(f"- {reason}: {count}")
+    lines.append("")
+    lines.append(markdown_table(["filename", "file_type", "reason_not_processed", "recommended_next_action"], rows[:200]))
+    (REPORT_ROOT / "unprocessed_files_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def write_report(monthly: list[dict[str, str]], missing: list[dict[str, str]], first_unpaid_health: str, documents_used: list[str]) -> None:
     missing_lines = "\n".join(f"- {row['month']}: {row['notes']}" for row in missing) or "- None detected"
-    docs = "\n".join(f"- {doc}" for doc in documents_used) or "- No accounting source documents produced extractable rows."
+    docs = "\n".join(f"- {doc}" for doc in documents_used[:500]) or "- No accounting source documents produced extractable rows."
     report = f"""# Accounting Cash Flow Reconstruction
 
 ## Period Analyzed
@@ -777,13 +947,9 @@ January 2024 through June 2025.
 
 {markdown_table(['month', 'tax_due', 'tax_paid', 'tax_unpaid'], monthly)}
 
-## First Month With Unpaid Health Insurance
+## First Visible Unpaid Health Insurance Month
 
 {first_unpaid_health or 'Not detected'}
-
-## First Month With Growing Arrears
-
-Not detected automatically. Review unpaid balance trends after source data is available.
 
 ## Months With Missing Data
 
@@ -798,14 +964,15 @@ Not detected automatically. Review unpaid balance trends after source data is av
 - OCR is not implemented.
 - Empty values mean no reliable value was extracted.
 - Password-protected PDFs are attempted with password `10001`.
+- RAR extraction depends on 7-Zip, unrar, or an equivalent backend.
 - Complex accounting spreadsheets may require manual review.
 
 ## Next Documents Needed
 
-- Monthly payroll summaries for every month from 2024-01 to 2025-06.
+- Missing monthly payroll summaries from 2024-01 to 2025-06.
 - Krankenkassen statements showing due, paid, and unpaid amounts.
-- Finanzamt and Stadt Chemnitz notices or open-liability tables.
-- Bankkonto payment proofs and cash payment confirmations where available.
+- Finanzamt, Stadt Chemnitz, Hauptzollamt, and open-liability tables.
+- Text-based or OCR-ready versions of image-only documents.
 """
     (REPORT_ROOT / "ACCOUNTING_CASH_FLOW_RECONSTRUCTION.md").write_text(report, encoding="utf-8")
 
@@ -815,14 +982,35 @@ def write_output_readme() -> None:
 
 Generated by `analyze_accounting_cash_flow.py`.
 
-The files in this folder reconstruct employee, payroll, health insurance, tax, operating-cost, and monthly cash-flow timelines from accounting inbox documents.
+This folder contains reconstructed accounting timelines, Enrico cross-checks, duplicate detection, and a full file audit.
+
+Every scanned or expanded file receives one final status:
+
+- `PROCESSED_STRUCTURED`
+- `PROCESSED_PARTIAL`
+- `DUPLICATE`
+- `ENRICO_CROSS_CHECK`
+- `UNPROCESSED_WITH_REASON`
 
 Empty values mean the analyzer could not reliably extract a number.
 """
     (REPORT_ROOT / "README.md").write_text(text, encoding="utf-8")
 
 
-def analyze() -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], str, ProcessingLog]:
+def analyze() -> tuple[
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    list[dict[str, str]],
+    str,
+    ProcessingLog,
+]:
     log = ProcessingLog()
     REPORT_ROOT.mkdir(parents=True, exist_ok=True)
     employee_rows: list[dict[str, str]] = []
@@ -830,40 +1018,122 @@ def analyze() -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str
     health_rows: list[dict[str, str]] = []
     tax_rows: list[dict[str, str]] = []
     operating_rows: list[dict[str, str]] = []
+    enrico_rows: list[dict[str, str]] = []
+    unprocessed: list[dict[str, str]] = []
+
     with tempfile.TemporaryDirectory(prefix="accounting_cash_flow_") as temp_dir:
-        sources = expand_sources(scan_inputs(log), Path(temp_dir), log)
-        unique, duplicates = deduplicate(sources, log)
-        for source in unique:
-            text, confidence = read_source(source, Path(temp_dir), log)
-            if not text.strip():
-                log.add(f"Unreadable or empty text: {source.display_path}")
+        sources = expand_all(scan_inputs(log), Path(temp_dir), log, unprocessed)
+        unique_sources, duplicates, duplicate_paths = deduplicate(sources, log)
+        for duplicate in duplicates:
+            unprocessed.append(
+                {
+                    "filename": Path(duplicate["duplicate_source_file"]).name,
+                    "full_path": duplicate["duplicate_source_file"],
+                    "file_type": Path(duplicate["duplicate_source_file"]).suffix.lower(),
+                    "detected_document_type": "",
+                    "reason_not_processed": "Duplicate file",
+                    "password_attempted": "NO",
+                    "password_success": "NOT_APPLICABLE",
+                    "text_extracted": "NO",
+                    "structured_rows_extracted": "0",
+                    "missing_required_fields": "",
+                    "recommended_next_action": "Use kept source file.",
+                    "confidence": "HIGH",
+                    "status": "DUPLICATE",
+                }
+            )
+
+        for source in unique_sources:
+            suffix = source.path.suffix.lower()
+            if suffix in ARCHIVE_EXTENSIONS:
                 continue
-            extracted = extract_rows(source, text, confidence)
+            if suffix not in TEXT_EXTENSIONS:
+                unprocessed.append(make_unprocessed(source, f"Unsupported file type: {suffix}"))
+                log.add(f"UNPROCESSED unsupported file: {source.display_path}")
+                continue
+
+            read = read_source(source, Path(temp_dir), log)
+            detected_type = detect_document_type(read.text, source)
+            if not read.text.strip():
+                unprocessed.append(make_unprocessed(source, read.reason or "No text extracted", detected_type, read))
+                log.add(f"UNPROCESSED no text: {source.display_path}")
+                continue
+
+            extracted = extract_rows(source, read)
             employee_rows.extend(extracted[0])
             payroll_rows.extend(extracted[1])
             health_rows.extend(extracted[2])
             tax_rows.extend(extracted[3])
             operating_rows.extend(extracted[4])
-            log.add(f"Processed file: {source.display_path}")
+            enrico_rows.extend(extracted[5])
+            structured_count = sum(len(part) for part in extracted)
+
+            if extracted[5] and structured_count == len(extracted[5]):
+                status = "ENRICO_CROSS_CHECK"
+            elif structured_count:
+                status = "PROCESSED_STRUCTURED"
+            else:
+                status = "PROCESSED_PARTIAL"
+
+            if status == "PROCESSED_PARTIAL":
+                row = make_unprocessed(source, "No structured rows extracted", detected_type, read, structured_count)
+                row["status"] = "PROCESSED_PARTIAL"
+                unprocessed.append(row)
+            log.stats[status.lower()] += 1
+            log.add(f"{status}: {source.display_path}")
+
+    enrico_rows = finalize_enrico_rows(enrico_rows)
     monthly, missing, first_unpaid_health = build_monthly(employee_rows, payroll_rows, health_rows, tax_rows, operating_rows)
     log.stats["employee_rows"] = len(employee_rows)
     log.stats["payroll_rows"] = len(payroll_rows)
     log.stats["health_rows"] = len(health_rows)
     log.stats["tax_rows"] = len(tax_rows)
     log.stats["operating_rows"] = len(operating_rows)
-    log.stats["missing_months"] = len(missing)
-    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, monthly, missing, duplicates, first_unpaid_health, log
+    log.stats["enrico_cross_check"] = len(enrico_rows)
+    log.stats["unprocessed"] = sum(1 for row in unprocessed if row["status"] == "UNPROCESSED_WITH_REASON")
+    log.stats["partial"] = sum(1 for row in unprocessed if row["status"] == "PROCESSED_PARTIAL")
+    log.stats["duplicates"] = len(duplicates)
+    return (
+        employee_rows,
+        payroll_rows,
+        health_rows,
+        tax_rows,
+        operating_rows,
+        enrico_rows,
+        monthly,
+        missing,
+        duplicates,
+        unprocessed,
+        first_unpaid_health,
+        log,
+    )
 
 
 def main() -> int:
-    employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, monthly, missing, duplicates, first_unpaid_health, log = analyze()
+    (
+        employee_rows,
+        payroll_rows,
+        health_rows,
+        tax_rows,
+        operating_rows,
+        enrico_rows,
+        monthly,
+        missing,
+        duplicates,
+        unprocessed,
+        first_unpaid_health,
+        log,
+    ) = analyze()
+
     outputs = [
         ("employee_timeline", EMPLOYEE_HEADERS, employee_rows, "Employees"),
         ("payroll_timeline", PAYROLL_HEADERS, payroll_rows, "Payroll"),
         ("health_insurance_timeline", HEALTH_HEADERS, health_rows, "Health"),
         ("tax_timeline", TAX_HEADERS, tax_rows, "Taxes"),
         ("operating_costs_timeline", OPERATING_HEADERS, operating_rows, "Operating"),
+        ("enrico_cross_check", ENRICO_HEADERS, enrico_rows, "Enrico"),
         ("monthly_cash_flow_reconstruction", MONTHLY_HEADERS, monthly, "Monthly"),
+        ("unprocessed_files", UNPROCESSED_HEADERS, unprocessed, "Unprocessed"),
     ]
     for stem, headers, rows, sheet in outputs:
         write_csv(REPORT_ROOT / f"{stem}.csv", headers, rows)
@@ -878,15 +1148,23 @@ def main() -> int:
         }
     )
     write_report(monthly, missing, first_unpaid_health, documents_used)
+    write_unprocessed_report(unprocessed)
     write_output_readme()
     log.write(REPORT_ROOT / "processing_log.txt")
+
     print(f"Scanned files: {log.stats.get('scanned_files', 0)}")
-    print(f"Extracted employee rows: {len(employee_rows)}")
-    print(f"Extracted payroll rows: {len(payroll_rows)}")
-    print(f"Extracted health insurance rows: {len(health_rows)}")
-    print(f"Extracted tax rows: {len(tax_rows)}")
-    print(f"Extracted operating cost rows: {len(operating_rows)}")
-    print(f"First unpaid health insurance month: {first_unpaid_health or 'Not detected'}")
+    print(f"Expanded archive files: {log.stats.get('expanded_archive_files', 0)}")
+    print(f"Processed structured count: {log.stats.get('processed_structured', 0)}")
+    print(f"Processed partial count: {log.stats.get('partial', 0)}")
+    print(f"Unprocessed count: {log.stats.get('unprocessed', 0)}")
+    print(f"Duplicate count: {log.stats.get('duplicates', 0)}")
+    print(f"Enrico cross-check count: {len(enrico_rows)}")
+    print(f"Employee rows: {len(employee_rows)}")
+    print(f"Payroll rows: {len(payroll_rows)}")
+    print(f"Health insurance rows: {len(health_rows)}")
+    print(f"Tax rows: {len(tax_rows)}")
+    print(f"Operating cost rows: {len(operating_rows)}")
+    print(f"First visible unpaid health insurance month: {first_unpaid_health or 'Not detected'}")
     print(f"Missing months: {len(missing)}")
     print(f"Output folder: {repo_relative(REPORT_ROOT)}")
     return 0

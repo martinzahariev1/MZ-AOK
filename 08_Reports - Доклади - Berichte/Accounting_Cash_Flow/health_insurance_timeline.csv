@@ -1,1 +1,36 @@
 ﻿month,insurance_name,amount_due,amount_paid,unpaid_balance,due_date,late_fees,source_documents,confidence
+2024-01,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,LOW
+2024-10,TK,702400.72,516.00,,,,00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
+2025-01,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
+2024-02,TK,991.96,833.58,,,,00_INBOX - Входящи - Eingang/Accounting/307538032.pdf,HIGH
+2025-05,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
+2025-08,Barmer,4052.18,1013.05,1013.05,,,"00_INBOX - Входящи - Eingang/Accounting/89878877, Antrag auf Ratenzahlung.eml",MEDIUM
+,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf,LOW
+2025-01,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf,LOW
+2025-11,AOK Plus,88.53,,,,,00_INBOX - Входящи - Eingang/Accounting/Aok plus.eml,MEDIUM
+2025-09,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting/Aok Sachsen Anhalt copy document from bank_.eml,LOW
+2025-03,BKK,,,,,,00_INBOX - Входящи - Eingang/Accounting/BKK Linde already clear . I paid.eml,LOW
+2025-03,TK,167412.67,167412.67,,,,00_INBOX - Входящи - Eingang/Accounting/BWA 03-2025.pdf,HIGH
+2025-04,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 02.04.2025.docx,LOW
+2025-03,AOK Plus,,13649.05,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 03.03.2025.docx,MEDIUM
+2025-03,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025(1).docx,LOW
+2025-03,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025.docx,LOW
+2025-02,AOK Plus,,13649.05,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 19.02.2025.docx,MEDIUM
+,AOK Plus,41544.44,41544.44,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions.docx,MEDIUM
+2004-12,DAK,,,,,,00_INBOX - Входящи - Eingang/Accounting/DAK.eml,LOW
+2025-02,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting/Healts Vers..eml,LOW
+2024-09,AOK Plus,,15451.27,,,,00_INBOX - Входящи - Eingang/Accounting/Ihre Lohnauswertungen.eml,MEDIUM
+2025-01,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting/KKH(1).eml,LOW
+2025-11,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting/KKH.eml,LOW
+2025-09,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting/KKH1.eml,LOW
+2025-10,AOK Plus,41544.44,,,,,00_INBOX - Входящи - Eingang/Accounting/original_msg(2).eml,MEDIUM
+2024-07,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting/Petya Stefanova AOK.eml,LOW
+2024-09,AOK Plus,88.53,,,,,00_INBOX - Входящи - Eingang/Accounting/Remaining health insurances for 09_2024 und 10_2024.eml,MEDIUM
+2026-03,AOK Plus,40.13,5.20,2494.00,,29.00,00_INBOX - Входящи - Eingang/Accounting/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH
+2024-09,Barmer,,,,,,00_INBOX - Входящи - Eingang/Accounting/UB.pdf,LOW
+2025-12,TK,2052.97,,,,,00_INBOX - Входящи - Eingang/Accounting/Vasilev_Test Pay Slip.pdf,HIGH
+2025-10,KKH,,2290.99,,,,00_INBOX - Входящи - Eingang/Accounting/Zoll payment.eml,MEDIUM
+2024-12,DAK,7.09,,,,,00_INBOX - Входящи - Eingang/Accounting/fwdgutschriftundrechnungen.zip::Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf,HIGH
+2055-07,TK,12.11,,,,,00_INBOX - Входящи - Eingang/Accounting/fwdperemailsendenmartinzaharievtransporte205407_0.zip::Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf,HIGH
+2018-05,other,,,,,,00_INBOX - Входящи - Eingang/Accounting/ihrelohnauswertungen3333.zip::BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf,LOW
+2024-01,DAK,435.00,21.02,,,,00_INBOX - Входящи - Eingang/Accounting/wgprqualifikationkepkdnr_60222rechnungjahresgeb.zip::20240123_60222_10160_Rechnung.pdf,HIGH

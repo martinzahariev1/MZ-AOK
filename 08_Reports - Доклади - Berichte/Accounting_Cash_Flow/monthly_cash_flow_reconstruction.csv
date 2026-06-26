@@ -1,19 +1,19 @@
-﻿month,enrico_deductions_total_if_available,payroll_brutto,payroll_netto,health_insurance_due,health_insurance_paid,health_insurance_unpaid,tax_due,tax_paid,tax_unpaid,operating_costs_due,operating_costs_paid,operating_costs_unpaid,total_monthly_obligations,total_paid,total_unpaid,first_visible_financial_pressure_yes_no,notes,confidence
-2024-01,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-02,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-03,-6549.17,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-04,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-05,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-06,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-07,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-08,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-09,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-10,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-11,163.65,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2024-12,12.50,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-01,67.89,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-02,89.29,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-03,239.05,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-04,18.50,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-05,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
-2025-06,,,,,,,,,,,,,,,,NO,No extracted accounting values for this month.,LOW
+﻿month,enrico_deductions_total_if_available,revenue_if_available,payroll_brutto,payroll_netto,health_insurance_due,health_insurance_paid,health_insurance_unpaid,tax_due,tax_paid,tax_unpaid,operating_costs_due,operating_costs_paid,operating_costs_unpaid,total_monthly_obligations,total_paid,total_unpaid,notes,confidence
+2024-01,,,517.65,137896.85,435.00,21.02,,19.00,1.77,20.00,141002.75,,20.00,141974.40,137919.64,40.00,,MEDIUM
+2024-02,,,10500.10,11056.17,991.96,833.58,,10531.34,821.97,53.04,826140081.04,,53.04,826162104.44,12711.72,106.08,,MEDIUM
+2024-03,-6549.17,,,19.00,,,,19.00,1.77,20.00,30.04,,20.00,49.04,20.77,40.00,,MEDIUM
+2024-04,,,,19.00,,,,19.00,1.77,20.00,30.05,,20.00,49.05,20.77,40.00,,MEDIUM
+2024-05,,,,,,,,,,,,,,,,,,MEDIUM
+2024-06,,,,38.00,,,,38.00,3.54,40.00,60.13,,40.00,98.13,41.54,80.00,,MEDIUM
+2024-07,,,,151148.76,,,,32.12,1.77,27.09,23175.77,,27.09,23207.89,151150.53,54.18,,MEDIUM
+2024-08,,,,,,,,,,,,,,,,,,MEDIUM
+2024-09,,,,148369.66,88.53,15451.27,,5901.32,1.77,39.11,40907.07,37.18,39.11,46896.92,163859.88,78.22,,MEDIUM
+2024-10,,,,166852.66,702400.72,516.00,,702445.44,517.77,40.20,769745.06,516.00,40.20,2174591.22,168402.43,80.40,,MEDIUM
+2024-11,163.65,,,195244.85,,,,6434.68,16.88,67.19,95755.41,15.11,67.19,102190.09,195276.84,134.38,,MEDIUM
+2024-12,12.50,,11062.00,180268.79,7.09,,,11075.34,17.00,34.03,34519.54,,34.03,56663.97,180285.79,68.06,,MEDIUM
+2025-01,67.89,,,159310.00,,,,13.34,,14.03,24239.62,,14.03,24252.96,159310.00,28.06,,MEDIUM
+2025-02,89.29,,,143204.08,,13649.05,,19.00,13650.93,20.00,206.30,13649.05,20.00,225.30,184153.11,40.00,,MEDIUM
+2025-03,239.05,,,171721.61,167412.67,181061.72,,,13649.05,,4268.37,13649.05,,171681.04,380081.43,,,MEDIUM
+2025-04,18.50,,,153436.60,,,,,,,872.35,,,872.35,153436.60,,,MEDIUM
+2025-05,,,,102207.65,,,,,,,2497.56,,,2497.56,102207.65,,,MEDIUM
+2025-06,,,,54103.70,,,,,,,12030.37,,,12030.37,54103.70,,,MEDIUM
