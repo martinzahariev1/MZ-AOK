@@ -1,228 +1,224 @@
 # Unprocessed Files Report
 
-Total unprocessed or partial files: 382
+Total unprocessed or partial files: 1078
 
 ## Reasons
-- Duplicate file: 61
-- No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber': 4
-- No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber': 109
-- No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber': 19
-- RAR extraction unavailable: 3
-- Unsupported file type: : 8
-- Unsupported file type: .22png: 1
-- Unsupported file type: .css: 2
+- Duplicate file: 233
+- No text extracted from PDF: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber': 2
+- No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber': 111
+- No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber': 26
+- Skipped Duplicates category; original or kept copy should be processed instead.: 110
+- Skipped Unknown_To_Review category; manual review is required before financial extraction.: 447
+- Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them.: 126
+- Skipped non-focused organized category: ACCOUNTING_FILE_ORGANIZATION_REPORT.md: 1
+- Skipped non-focused organized category: duplicate_files.csv: 1
+- Skipped non-focused organized category: file_organization_manifest.csv: 1
+- Skipped non-focused organized category: file_organization_manifest.xlsx: 1
+- Skipped non-focused organized category: organization_log.txt: 1
+- Skipped non-focused organized category: unknown_files.csv: 1
 - Unsupported file type: .doc: 1
-- Unsupported file type: .gif: 2
-- Unsupported file type: .htm: 6
-- Unsupported file type: .jpeg: 4
-- Unsupported file type: .jpg: 123
-- Unsupported file type: .js: 2
-- Unsupported file type: .loaded_0: 2
-- Unsupported file type: .loaded_1: 1
-- Unsupported file type: .loaded_2: 1
-- Unsupported file type: .mp4: 1
-- Unsupported file type: .png: 31
-- Unsupported file type: .svg: 1
+- Unsupported file type: .jpg: 15
+- Unsupported file type: .png: 1
 
 | filename | file_type | reason_not_processed | recommended_next_action |
 | --- | --- | --- | --- |
-| Accounting.rar | .rar | RAR extraction unavailable | Install 7-Zip, unrar, or rarfile backend and rerun analyzer. |
-| Accounting1111111111111111111.rar | .rar | RAR extraction unavailable | Install 7-Zip, unrar, or rarfile backend and rerun analyzer. |
-| Accountings 02-2025 - martin.zahariev@gmail.com - Gmail_files.rar | .rar | RAR extraction unavailable | Install 7-Zip, unrar, or rarfile backend and rerun analyzer. |
-| 10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2).pdf | .pdf | Duplicate file | Use kept source file. |
-| 20240313_193308.jpg | .jpg | Duplicate file | Use kept source file. |
-| 20250120_160820.jpg | .jpg | Duplicate file | Use kept source file. |
-| 42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| SEPA List health security.pdf | .pdf | Duplicate file | Use kept source file. |
-| Unternehmerabrechnung - VP 120-2400001108.pdf | .pdf | Duplicate file | Use kept source file. |
-| working hours 04.2025.xlsx | .xlsx | Duplicate file | Use kept source file. |
-| Zahlungsavis 8345-1440.pdf | .pdf | Duplicate file | Use kept source file. |
-| a_002.htm | .htm | Duplicate file | Use kept source file. |
-| Accountings 01-2025.eml::Accountings 01-2025.pdf | .pdf | Duplicate file | Use kept source file. |
-| Accountings 05-2024.eml::42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings022024.zip::41467 - Accountings 02-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings022024.zip::41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings022025.zip::Accountings 02-2025.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings022025.zip::46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings032024.zip::Accountings 03-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings032024.zip::41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings042024.zip::Accountings 04-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings042024.zip::42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings052024.zip::Accountings 05-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings052024.zip::42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings062024.zip::Accountings 06-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings062024.zip::43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings072024.zip::Accountings 07-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings072024.zip::43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings092024.zip::Accountings 09-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings092024.zip::44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings102024.zip::Accountings 10-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings102024.zip::45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings112024.zip::Accountings 11-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings112024.zip::45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings122023.zip::40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings122024.zip::Accountings 12-2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| accountings122024.zip::46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf | .pdf | Duplicate file | Use kept source file. |
-| Aok Sachsen Anhalt copy document from bank_.eml::20250114_095805.jpg | .jpg | Duplicate file | Use kept source file. |
-| BKK Linde already clear . I paid.eml::20250320_141334.jpg | .jpg | Duplicate file | Use kept source file. |
-| fwdgsundrechnungen052025.zip::gutschrift 66 Mai 2025 zahariev.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdgsundrechnungen052025.zip::gutschrift 71 2025 zahariev Sendungsverlust.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdihrenmitarbeiterherrnnikolaymetodievbentigtezuar.zip::2022 Arbeitgeberbestätigung zu den Arbeitstagen.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdihrenmitarbeiterherrnnikolaymetodievbentigtezuar.zip::2023 Arbeitgeberbestätigung zu den Arbeitstagen.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdperemailsendengutschrift422024zaharievmartin3.zip::Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdperemailsendenmartinzaharievtransporte207008_0.zip::image222.png | .png | Duplicate file | Use kept source file. |
-| fwdperemailsendenmartinzaharievtransporte207008_0.zip::unnamed34.22png | .22png | Duplicate file | Use kept source file. |
-| fwdrechnungenmai2025.zip::Rechnung 2788 Zahariev Hermes Scannermiete.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdrechnungenmai2025.zip::Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdrechnungenmai2025.zip::Rechnung 2794 Zahariev KFZ Miete.pdf | .pdf | Duplicate file | Use kept source file. |
-| fwdrechnungenmai2025.zip::Rechnung 2799 Bearbeitungsgebühr 10.06.2025 Zahariev.pdf | .pdf | Duplicate file | Use kept source file. |
-| Healts Vers..eml::image.png | .png | Duplicate file | Use kept source file. |
-| ihrelohnauswertungen(1).zip::Lohnauswertungen.pdf | .pdf | Duplicate file | Use kept source file. |
-| ihrelohnauswertungen(1).zip::Barauszahlungswerte_O0N.pdf | .pdf | Duplicate file | Use kept source file. |
-| ihrelohnauswertungen(1).zip::Abstimmliste (DE - SEPA, Langform) (2).pdf | .pdf | Duplicate file | Use kept source file. |
-| ihrelohnauswertungen(3).zip::38389 - Vorgangsmappe Lohn - Auszahlungen Inflationsprämie.xlsx | .xlsx | Duplicate file | Use kept source file. |
-| ihrelohnauswertungendezember2024.zip::Abstimmliste (DE - SEPA, Langform) (3) (1).pdf | .pdf | Duplicate file | Use kept source file. |
-| ihrelohnauswertungenfebruar2025.zip::SEPA List health security.pdf | .pdf | Duplicate file | Use kept source file. |
-| Mahnung Finanzamt.eml::BRN3C2AF492C3FA_20250106_123149_036763.pdf | .pdf | Duplicate file | Use kept source file. |
-| original_msg(1).eml::20250120_162838.jpg | .jpg | Duplicate file | Use kept source file. |
-| original_msg(1).eml::20250120_162844.jpg | .jpg | Duplicate file | Use kept source file. |
-| original_msg(1).eml::20250120_162848.jpg | .jpg | Duplicate file | Use kept source file. |
-| resteuererklrung2022und2023nikolaymetodiev.zip::2022 ArbeitgeberbestA__tigung zu den Arbeitstagen.pdf | .pdf | Duplicate file | Use kept source file. |
-| resteuererklrung2022und2023nikolaymetodiev.zip::2023 ArbeitgeberbestA__tigung zu den Arbeitstagen.pdf | .pdf | Duplicate file | Use kept source file. |
-| Zoll payment.eml::Hauptzollamt Erfurt Umbuchung der Zahlung.pdf | .pdf | Duplicate file | Use kept source file. |
-| 1000040773.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 1000040774.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 1000047298 (1).jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 1000047301 (1).jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_02-2024_DivAuswertungen_00006_5Z1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 20240105_214356.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240118_201244.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240118_201333.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240122_213234.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240122_213354.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240122_213523.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240207_175537.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240207_175612.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_154432.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_160151.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_160355.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_160605.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_160917.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240213_183313.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240228_165447.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240308_203211.mp4 | .mp4 | Unsupported file type: .mp4 | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240308_203259.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240313_192946.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240313_193308(1).jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240318_074925.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240318_174927.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240321_074606.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240323_055457.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240323_060040.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240405_091317.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240405_165837.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240405_165922.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240409_145317.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240411_200249.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240411_200351.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240411_200423.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240412_173242.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240421_160012.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240425_073935.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240503_165138.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240503_165410.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240506_174920.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240513_180215.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240518_133837.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240525_180048.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240603_123040.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240613_190612.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240620_175959.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240625_151011.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240629_074306.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240703_075444.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240725_170837.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240805_192746.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240805_193114.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240805_193118.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240807_150523.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240810_105035.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240908_151654.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240908_151754.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240908_152609.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240913_133524.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240918_170620.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240929_095748.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240929_095825.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240929_100504.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240929_100825.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20240930_164727.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241003_104857.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241010_123555.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241010_124450.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241014_155934.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241127_094823.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241212_132952.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241214_121525.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241214_121714.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241220_033940.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20241224_122812.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250107_102310.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250110_192304.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250113_174639.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250114_095805.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250115_195837.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250120_160820(1).jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250120_160824.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250123_111752.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250127_151723.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250212_101528.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250212_102820.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250313_111831.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250314_082549.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250314_082554.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250320_141334.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250328_160329.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 20250402_095645.jpg | .jpg | Unsupported file type: .jpg | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| 312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 33882 - ESt-Bescheid 2020.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| 41621 - GewSt-Bescheid 2023,2024.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Abstimmliste (DE - SEPA, Langform) (1).pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Abstimmliste (DE - SEPA, Langform) (3) (1).pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Accountings 02-2025 - martin.zahariev@gmail.com - Gmail.htm | .htm | Unsupported file type: .htm | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| Arbeitsbescheinigung Georgi Stefanov.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BKK .pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BKK Linde Ratenzahlung.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20240103_104208_027680.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20240516_114103_031693.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20250106_123149_036763.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20250130_141507_037353.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20250207_104944_037434.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20250312_121121_038078.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20250425_105744_039055.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| BRN3C2AF492C3FA_20251119_133706_044302.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| DocScanner 27.01.2025 г. 15-09 ч..pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Hauptzollamt Erfurt Umbuchung der Zahlung.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| image.png | .png | Unsupported file type: .png | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| image001.png | .png | Unsupported file type: .png | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| image00122.png | .png | Unsupported file type: .png | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| image222.png | .png | Unsupported file type: .png | Convert file to PDF/TXT/CSV/XLSX/DOCX or process manually. |
-| KD.-NR.550980 OP-Liste.pdf | .pdf | No text extracted from PDF: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_April_2025.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_August_2024.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_Juli_2024.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_Juli_2025.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_Juni_2025.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_Mai_2024-1.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
-| Lohnauswertungen_Mai_2024.pdf | .pdf | No text extracted from PDF: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | Run OCR or provide text-based source document. |
+| ACCOUNTING_FILE_ORGANIZATION_REPORT.md | .md | Skipped non-focused organized category: ACCOUNTING_FILE_ORGANIZATION_REPORT.md | Review source file manually. |
+| duplicate_files.csv | .csv | Skipped non-focused organized category: duplicate_files.csv | Review source file manually. |
+| file_organization_manifest.csv | .csv | Skipped non-focused organized category: file_organization_manifest.csv | Review source file manually. |
+| file_organization_manifest.xlsx | .xlsx | Skipped non-focused organized category: file_organization_manifest.xlsx | Review source file manually. |
+| organization_log.txt | .txt | Skipped non-focused organized category: organization_log.txt | Review source file manually. |
+| unknown_files.csv | .csv | Skipped non-focused organized category: unknown_files.csv | Review source file manually. |
+| 2.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 32.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 32_002.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 32_003.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 89878877, Antrag auf Ratenzahlung.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 89878877, Antrag auf Ratenzahlung__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 90f3df27-1ca1-4b3a-9f1b-e33ffd37f10a.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| a.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 01-2025.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 01-2025__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 02-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 02-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 02-2025 - martin.zahariev@gmail.com - Gmail.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 02-2025.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 02-2025__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 03-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 03-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 04-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 04-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 05-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 05-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 06-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 06-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 07-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 07-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 09-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 09-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 10-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 10-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 11-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 11-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 12-2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Accountings 12-2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Aok plus.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Aok plus__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Aok Sachsen Anhalt copy document from bank_.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Aok Sachsen Anhalt copy document from bank___copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| api.js | .js | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| app.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| BKK Linde already clear . I paid.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| BKK Linde already clear . I paid__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| bonuses 05_2024.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| bonuses 05_2024__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| bonuses.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| bonuses__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| bscframe.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cb=gapi.loaded_0 | .loaded_0 | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cb=gapi.loaded_1 | .loaded_1 | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cb=gapi.loaded_2 | .loaded_2 | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cb=gapi__copy2.loaded_0 | .loaded_0 | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cleardot.gif | .gif | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| cleardot_002.gif | .gif | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| css2.css | .css | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| DAK.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| DAK__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| gmail_lhn_icon_468fb3e91953c34a349664185ab06b12.svg | .svg | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| google_workspace_1x.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| google_workspace_2x.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Health insurance fund reimbursements.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Health insurance fund reimbursements__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Healts Vers..eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Healts Vers.__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| icon_3_pdf_x16.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Ihre Lohnauswertungen.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| invoices.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| invoices__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH(1).eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH(1)__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH1.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH1__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| KKH__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| lazy.min.js | .js | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| logo_gmail_lockup_default_1x_r7.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| logo_gmail_lockup_default_2x_r7.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| logo_loading.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| logo_loading_2x.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=a |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=b |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=ebdd,sps,l,spit,t,it,anc |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=hfcr |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=m,m_i |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=_b,_tp |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| m=_b,_tp__copy2 |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Mahnbescheid Amtsgericht Euskirchen _ AXA.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Mahnbescheid Amtsgericht Euskirchen _ AXA__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Mahnung Finanzamt.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Mahnung Finanzamt__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg(1).eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg(1)__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg(2).eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg(2)__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| original_msg__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Petya Stefanova AOK.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Petya Stefanova AOK__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| PQ.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| PQ__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| RotateCookiesPage.htm | .htm | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| rs=AA2YrTuDWbAN8-VT3mmz0owHPs0Sou5KiA |  | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| rs=AA2YrTv6bergjBgiGMuELW2UtRLSUgJ9LA.css | .css | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| SWG_GShield_Lockup_Horizontal_24px.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| thumb.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| thumb_002.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| unnamed.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| unnamed_002.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| unnamed_003.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| unnamed_004.png | .png | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Voransicht2023_89878877.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Zahlungsavis 8345-1440-1.pdf | .pdf | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Zoll payment.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| Zoll payment__copy2.eml | .eml | Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them. | Review source file manually. |
+| 1000038649 (1).jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038649 (1)__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038651.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038651__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038655.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038655__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038657.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000038657__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000040773.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000040773__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000040774.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000040774__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000047298 (1).jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000047298 (1)__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000047301 (1).jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 1000047301 (1)__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_00069_Turchalieva_Maria_Desislava_07_2024_Div_Auswertungen_I03 (1).pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_00069_Turchalieva_Maria_Desislava_07_2024_Div_Auswertungen_I03 (1)__copy2.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_00070_Stefanova_Petya_06_2024_Div_Auswertungen_F0B.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_00070_Stefanova_Petya_06_2024_Div_Auswertungen_F0B__copy2.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_02-2024_DivAuswertungen_00006_5Z1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1__copy2.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf | .pdf | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 2.htm | .htm | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240105_214356.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240105_214356__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240118_201244.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240118_201244__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240118_201333.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240118_201333__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213234.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213234__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213354.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213354__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213523.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240122_213523__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240207_175537.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240207_175537__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240207_175612.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240207_175612__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_154432.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_154432__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160151.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160151__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160355.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160355__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160605.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160605__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160917.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_160917__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_183313.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240213_183313__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240228_165447.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240228_165447__copy2.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240304_134707.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |
+| 20240304_134727.jpg | .jpg | Skipped Unknown_To_Review category; manual review is required before financial extraction. | Review source file manually. |

@@ -23,7 +23,7 @@ from typing import Iterable
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-INPUT_ROOT = REPO_ROOT / "00_INBOX - Входящи - Eingang" / "Accounting"
+INPUT_ROOT = REPO_ROOT / "00_INBOX - Входящи - Eingang" / "Accounting_Organized"
 REPORT_ROOT = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Accounting_Cash_Flow"
 ENRICO_REPORT_DIR = REPO_ROOT / "08_Reports - Доклади - Berichte" / "Enrico_Deductions"
 ENRICO_MONTHLY = ENRICO_REPORT_DIR / "enrico_deductions_monthly.csv"
@@ -41,6 +41,37 @@ if LOCAL_PACKAGES.exists():
 ARCHIVE_EXTENSIONS = {".zip", ".rar"}
 TEXT_EXTENSIONS = {".pdf", ".txt", ".csv", ".xlsx", ".docx", ".eml"}
 SUPPORTED_EXTENSIONS = ARCHIVE_EXTENSIONS | TEXT_EXTENSIONS
+
+FOCUSED_CATEGORY_PREFIXES = {
+    "02_Payroll",
+    "03_Employee_Payslips",
+    "04_Health_Insurance",
+    "05_Taxes",
+    "06_Bank_Payments",
+    "08_Operating_Costs",
+    "09_Enrico_Forwarded",
+    "10_BWA_Reports",
+    "11_Contribution_Lists",
+    "12_Liability_Overview",
+}
+SKIPPED_CATEGORY_REASONS = {
+    "01_Accountant_Emails": "Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them.",
+    "07_Cash_Payments": "Skipped cash-payment category because this run only processes focused financial extraction categories.",
+    "13_Unknown_To_Review": "Skipped Unknown_To_Review category; manual review is required before financial extraction.",
+    "14_Duplicates": "Skipped Duplicates category; original or kept copy should be processed instead.",
+}
+CATEGORY_HINTS = {
+    "02_Payroll": "payroll",
+    "03_Employee_Payslips": "payroll",
+    "04_Health_Insurance": "health",
+    "05_Taxes": "tax",
+    "06_Bank_Payments": "bank payments",
+    "08_Operating_Costs": "operating",
+    "09_Enrico_Forwarded": "enrico cross-check",
+    "10_BWA_Reports": "bwa report",
+    "11_Contribution_Lists": "contribution list",
+    "12_Liability_Overview": "liability overview",
+}
 
 EMPLOYEE_HEADERS = ["month", "employee_count", "employee_names", "source_documents", "confidence"]
 PAYROLL_HEADERS = ["month", "total_brutto", "total_netto", "source_documents", "confidence"]
@@ -207,6 +238,14 @@ def normalize(value: str) -> str:
     return value.lower()
 
 
+def primary_category(path: Path) -> str:
+    try:
+        relative = path.resolve().relative_to(INPUT_ROOT.resolve())
+    except ValueError:
+        return ""
+    return relative.parts[0] if relative.parts else ""
+
+
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
@@ -288,6 +327,9 @@ def extract_month(text: str, display_path: str) -> str:
 
 
 def category_hint(path: Path) -> str:
+    category = primary_category(path)
+    if category in CATEGORY_HINTS:
+        return CATEGORY_HINTS[category]
     text = normalize(" ".join(path.parts))
     if any(term in text for term in ["lohn", "payroll", "entgelt", "brutto_netto", "brutto-netto"]):
         return "payroll"
@@ -298,6 +340,19 @@ def category_hint(path: Path) -> str:
     if any(term in text for term in ["kosten", "fuel", "kraftstoff", "fahrzeug", "leasing"]):
         return "operating"
     return ""
+
+
+def should_process_source(source: SourceFile) -> tuple[bool, str]:
+    category = primary_category(source.path)
+    if not category:
+        return False, "Skipped root-level organizer audit file; not a source evidence document."
+    for prefix in FOCUSED_CATEGORY_PREFIXES:
+        if category.startswith(prefix):
+            return True, ""
+    for prefix, reason in SKIPPED_CATEGORY_REASONS.items():
+        if category.startswith(prefix):
+            return False, reason
+    return False, f"Skipped non-focused organized category: {category}"
 
 
 def detect_document_type(text: str, source: SourceFile) -> str:
@@ -315,16 +370,30 @@ def detect_document_type(text: str, source: SourceFile) -> str:
     return source.category_hint or "Unknown"
 
 
-def scan_inputs(log: ProcessingLog) -> list[SourceFile]:
+def scan_inputs(log: ProcessingLog, unprocessed: list[dict[str, str]]) -> list[SourceFile]:
     sources: list[SourceFile] = []
     if not INPUT_ROOT.exists():
         log.add(f"Input folder does not exist: {repo_relative(INPUT_ROOT)}")
         return sources
+    scanned_count = 0
+    skipped_count = 0
     for path in INPUT_ROOT.rglob("*"):
         if path.is_file():
-            sources.append(SourceFile(path=path, display_path=repo_relative(path), category_hint=category_hint(path)))
+            scanned_count += 1
+            source = SourceFile(path=path, display_path=repo_relative(path), category_hint=category_hint(path))
             log.add(f"Scanned file: {repo_relative(path)}")
-    log.stats["scanned_files"] = len(sources)
+            should_process, reason = should_process_source(source)
+            if should_process:
+                sources.append(source)
+            else:
+                skipped_count += 1
+                row = make_unprocessed(source, reason, source.category_hint)
+                row["status"] = "SKIPPED_WITH_REASON"
+                unprocessed.append(row)
+                log.add(f"SKIPPED category file: {source.display_path} -- {reason}")
+    log.stats["scanned_files"] = scanned_count
+    log.stats["focused_input_files"] = len(sources)
+    log.stats["skipped_before_processing"] = skipped_count
     return sources
 
 
@@ -990,6 +1059,7 @@ Every scanned or expanded file receives one final status:
 - `PROCESSED_PARTIAL`
 - `DUPLICATE`
 - `ENRICO_CROSS_CHECK`
+- `SKIPPED_WITH_REASON`
 - `UNPROCESSED_WITH_REASON`
 
 Empty values mean the analyzer could not reliably extract a number.
@@ -1022,7 +1092,7 @@ def analyze() -> tuple[
     unprocessed: list[dict[str, str]] = []
 
     with tempfile.TemporaryDirectory(prefix="accounting_cash_flow_") as temp_dir:
-        sources = expand_all(scan_inputs(log), Path(temp_dir), log, unprocessed)
+        sources = expand_all(scan_inputs(log, unprocessed), Path(temp_dir), log, unprocessed)
         unique_sources, duplicates, duplicate_paths = deduplicate(sources, log)
         for duplicate in duplicates:
             unprocessed.append(
@@ -1091,6 +1161,7 @@ def analyze() -> tuple[
     log.stats["operating_rows"] = len(operating_rows)
     log.stats["enrico_cross_check"] = len(enrico_rows)
     log.stats["unprocessed"] = sum(1 for row in unprocessed if row["status"] == "UNPROCESSED_WITH_REASON")
+    log.stats["skipped"] = sum(1 for row in unprocessed if row["status"] == "SKIPPED_WITH_REASON")
     log.stats["partial"] = sum(1 for row in unprocessed if row["status"] == "PROCESSED_PARTIAL")
     log.stats["duplicates"] = len(duplicates)
     return (
@@ -1157,6 +1228,7 @@ def main() -> int:
     print(f"Processed structured count: {log.stats.get('processed_structured', 0)}")
     print(f"Processed partial count: {log.stats.get('partial', 0)}")
     print(f"Unprocessed count: {log.stats.get('unprocessed', 0)}")
+    print(f"Skipped count: {log.stats.get('skipped', 0)}")
     print(f"Duplicate count: {log.stats.get('duplicates', 0)}")
     print(f"Enrico cross-check count: {len(enrico_rows)}")
     print(f"Employee rows: {len(employee_rows)}")

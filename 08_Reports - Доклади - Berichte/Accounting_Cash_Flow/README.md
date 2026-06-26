@@ -10,6 +10,7 @@ Every scanned or expanded file receives one final status:
 - `PROCESSED_PARTIAL`
 - `DUPLICATE`
 - `ENRICO_CROSS_CHECK`
+- `SKIPPED_WITH_REASON`
 - `UNPROCESSED_WITH_REASON`
 
 Empty values mean the analyzer could not reliably extract a number.

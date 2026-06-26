@@ -22,9 +22,24 @@ python "09_Automation - Автоматизация - Automatisierung/accounting_
 
 ## Input
 
-The script scans:
+The script scans the organized accounting evidence folder:
 
-`00_INBOX - Входящи - Eingang/Accounting`
+`00_INBOX - Входящи - Eingang/Accounting_Organized`
+
+It processes the focused financial categories:
+
+- `02_Payroll`
+- `03_Employee_Payslips`
+- `04_Health_Insurance`
+- `05_Taxes`
+- `06_Bank_Payments`
+- `08_Operating_Costs`
+- `09_Enrico_Forwarded`
+- `10_BWA_Reports`
+- `11_Contribution_Lists`
+- `12_Liability_Overview`
+
+It records but does not process `13_Unknown_To_Review` and `14_Duplicates`.
 
 Supported files:
 

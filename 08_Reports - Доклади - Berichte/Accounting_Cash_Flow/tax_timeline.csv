@@ -1,57 +1,60 @@
 ﻿month,creditor,tax_type,amount_due,amount_paid,unpaid_balance,due_date,source_documents,confidence
-2024-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,LOW
-2024-10,,Lohnsteuer,702400.72,516.00,,,00_INBOX - Входящи - Eingang/Accounting/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
-2025-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
-2025-05,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
-2024-06,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf",HIGH
-2004-12,Finanzamt,Lohnsteuer,4981.86,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.eml,MEDIUM
-2025-01,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting/Accountings 01-2025.pdf,HIGH
-2004-12,,Lohnsteuer,6556.53,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml,MEDIUM
-2004-12,Finanzamt,Lohnsteuer,4789.23,6.90,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml,MEDIUM
-2004-12,Stadt Chemnitz,Lohnsteuer,5689.02,417779.74,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml,MEDIUM
-2024-09,Finanzamt,Lohnsteuer,5869.18,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml,MEDIUM
-2004-12,Finanzamt,Lohnsteuer,5869.18,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml,MEDIUM
-2004-12,Stadt Chemnitz,Lohnsteuer,5515.16,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml,MEDIUM
-2004-12,Finanzamt,Lohnsteuer,16.09,,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml,MEDIUM
-2024-11,Stadt Chemnitz,Lohnsteuer,6364.90,15.11,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml,MEDIUM
-2004-12,Finanzamt,Lohnsteuer,16.12,10020.50,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml,MEDIUM
-2025-12,,Lohnsteuer,5236.01,5236.01,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml,MEDIUM
-2025-12,,Lohnsteuer,5692.86,24.60,,,00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml,MEDIUM
-2025-04,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 02.04.2025.docx,LOW
-2025-03,Hauptzollamt,other public liability,,13649.05,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 03.03.2025.docx,MEDIUM
-2025-03,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025(1).docx,LOW
-2025-03,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 13.03.2025.docx,LOW
-2025-02,Hauptzollamt,other public liability,,13649.05,,,00_INBOX - Входящи - Eingang/Accounting/Contributions 19.02.2025.docx,MEDIUM
-,Hauptzollamt,other public liability,41544.44,41544.44,,,00_INBOX - Входящи - Eingang/Accounting/Contributions.docx,MEDIUM
-2025-12,Finanzamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting/Mahnung Finanzamt.eml,LOW
-2025-09,,Umsatzsteuer,127.30,11.08,,,00_INBOX - Входящи - Eingang/Accounting/Rechnung_RE058675_11.08.2025.pdf,HIGH
-2026-03,Finanzamt,Gewerbesteuer,24.02,5.20,2494.00,,00_INBOX - Входящи - Eingang/Accounting/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH
-2025-12,,Lohnsteuer,2052.97,,,,00_INBOX - Входящи - Eingang/Accounting/Vasilev_Test Pay Slip.pdf,HIGH
-2024-02,Finanzamt,Umsatzsteuer,12.44,0.00,13.04,,00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml::41467 - Accountings 02-2024.pdf,HIGH
-2024-02,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2024.eml::41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2025-10,Finanzamt,Umsatzsteuer,13.36,0.00,10.04,,00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml::Accountings 02-2025.pdf,HIGH
-2025-02,,Umsatzsteuer,19.00,1.88,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 02-2025.eml::46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf",HIGH
-2024-03,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 03-2024.eml::41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
-2024-11,Finanzamt,Umsatzsteuer,12.48,0.00,11.06,,00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml::Accountings 04-2024.pdf,HIGH
-2024-04,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 04-2024.eml::42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-11,Finanzamt,Umsatzsteuer,12.52,0.00,11.07,,00_INBOX - Входящи - Eingang/Accounting/Accountings 05-2024.eml::Accountings 05-2024.pdf,HIGH
-2024-10,Finanzamt,Umsatzsteuer,12.54,0.00,10.08,,00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml::Accountings 06-2024.pdf,HIGH
-2024-06,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 06-2024.eml::43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-07,Finanzamt,Umsatzsteuer,13.12,0.00,7.09,,00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml::Accountings 07-2024.pdf,HIGH
-2024-07,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 07-2024.eml::43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-09,Finanzamt,Umsatzsteuer,13.14,0.00,19.11,,00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml::Accountings 09-2024.pdf,HIGH
-2024-09,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 09-2024.eml::44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-10,Finanzamt,Umsatzsteuer,13.18,0.00,10.12,,00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml::Accountings 10-2024.pdf,HIGH
-2024-10,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 10-2024.eml::45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-11,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml::Accountings 11-2024.pdf,HIGH
-2024-11,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 11-2024.eml::45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf",HIGH
-2024-12,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml::Accountings 12-2024.pdf,HIGH
-2024-12,,Umsatzsteuer,11062.00,17.00,20.00,,"00_INBOX - Входящи - Eingang/Accounting/Accountings 12-2024.eml::46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf",HIGH
-2024-11,Finanzamt,Umsatzsteuer,12.44,0.00,11.03,,00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::Accountings 01-2024.pdf,HIGH
-2024-01,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
-2024-02,,Umsatzsteuer,10499.90,820.20,20.00,,"00_INBOX - Входящи - Eingang/Accounting/accountings012024.zip::40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf",HIGH
-2023-10,Finanzamt,Umsatzsteuer,12.46,0.00,10.01,,00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::39922 - Accountings 11-2023.pdf,HIGH
-2023-12,,Umsatzsteuer,19.00,1.60,20.00,,"00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf",HIGH
-2023-10,,Umsatzsteuer,19.00,1.60,20.00,,00_INBOX - Входящи - Eingang/Accounting/accountings112023.zip::90f3df27-1ca1-4b3a-9f1b-e33ffd37f10a.pdf,HIGH
-2023-12,Finanzamt,Umsatzsteuer,12.42,0.00,17.02,,00_INBOX - Входящи - Eingang/Accounting/accountings122023.zip::40578 - Accountings 12-2023.pdf,HIGH
-,,Umsatzsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting/ihrebestellung465795beiwebergmbh.zip::agb_doc.pdf,LOW
+2024-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,LOW
+2024-10,,Lohnsteuer,702400.72,516.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
+2021-02,Hauptzollamt,other public liability,8.02,25.01,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf,HIGH
+2022-03,Finanzamt,other public liability,-99.00,25.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf,HIGH
+2023-03,Finanzamt,other public liability,7885.99,28.02,1.23,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf,HIGH
+2021-04,Hauptzollamt,other public liability,8.04,22.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2021 #9109.pdf,HIGH
+2022-05,Finanzamt,other public liability,17.03,4.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2022 #9109.pdf,HIGH
+2021-06,Finanzamt,Gewerbesteuer,9.06,1.06,-433.08,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2021 #9109.pdf,HIGH
+2022-07,Finanzamt,other public liability,13665.11,4.07,-30.30,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2022 #9109.pdf,HIGH
+2021-07,Finanzamt,Gewerbesteuer,30.06,14.07,-433.08,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2021 #9109.pdf,HIGH
+2022-08,Finanzamt,other public liability,9.09,31.08,19.08,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2022 #9109.pdf,HIGH
+2021-08,Finanzamt,other public liability,29.08,24.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/09-2021 #9109.pdf,HIGH
+2022-10,Finanzamt,other public liability,148.00,21.10,30.09,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/10-2022 #9109.pdf,HIGH
+2021-08,Finanzamt,other public liability,29.10,26.10,-41.60,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/11-2021 #9109.pdf,HIGH
+2021-12,Finanzamt,other public liability,15648.95,15.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2021 #9109.pdf,HIGH
+2022-12,Finanzamt,other public liability,25.10,9.12,-23.43,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf,HIGH
+2025-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
+2025-05,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
+2025-04,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 02.04.2025.docx,LOW
+2025-03,Hauptzollamt,other public liability,,13649.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 03.03.2025.docx,MEDIUM
+2025-03,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025(1).docx,LOW
+2025-03,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025.docx,LOW
+2025-02,Hauptzollamt,other public liability,,13649.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 19.02.2025.docx,MEDIUM
+,Hauptzollamt,other public liability,41544.44,41544.44,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions.docx,MEDIUM
+2026-03,Finanzamt,Gewerbesteuer,24.02,5.20,2494.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH
+2025-12,,Lohnsteuer,2052.97,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Vasilev_Test Pay Slip.pdf,HIGH
+2023-10,Finanzamt,Umsatzsteuer,12.46,0.00,10.01,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/39922 - Accountings 11-2023.pdf,HIGH
+2023-12,Finanzamt,Umsatzsteuer,12.42,0.00,17.02,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/40578 - Accountings 12-2023.pdf,HIGH
+2024-02,Finanzamt,Umsatzsteuer,12.44,0.00,13.04,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/41467 - Accountings 02-2024.pdf,HIGH
+2023-10,,Umsatzsteuer,19.00,1.60,20.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/90f3df27-1ca1-4b3a-9f1b-e33ffd37f10a.pdf,HIGH
+2024-11,Finanzamt,Umsatzsteuer,12.44,0.00,11.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 01-2024.pdf,HIGH
+2025-01,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 01-2025.pdf,HIGH
+2025-10,Finanzamt,Umsatzsteuer,13.36,0.00,10.04,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 02-2025.pdf,HIGH
+2024-11,Finanzamt,Umsatzsteuer,12.48,0.00,11.06,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 04-2024.pdf,HIGH
+2024-11,Finanzamt,Umsatzsteuer,12.52,0.00,11.07,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 05-2024.pdf,HIGH
+2024-10,Finanzamt,Umsatzsteuer,12.54,0.00,10.08,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 06-2024.pdf,HIGH
+2024-07,Finanzamt,Umsatzsteuer,13.12,0.00,7.09,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 07-2024.pdf,HIGH
+2024-09,Finanzamt,Umsatzsteuer,13.14,0.00,19.11,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 09-2024.pdf,HIGH
+2024-10,Finanzamt,Umsatzsteuer,13.18,0.00,10.12,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 10-2024.pdf,HIGH
+2024-11,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 11-2024.pdf,HIGH
+2024-12,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 12-2024.pdf,HIGH
+,,Umsatzsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf,LOW
+2025-09,,Umsatzsteuer,127.30,11.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Rechnung_RE058675_11.08.2025.pdf,HIGH
+2022-04,Stadt Chemnitz,other public liability,9.05,17.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf,HIGH
+2022-06,Stadt Chemnitz,other public liability,12.05,-25.00,0.86,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf,HIGH
+2023-12,,Umsatzsteuer,19.00,1.60,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf",HIGH
+2024-02,,Umsatzsteuer,10499.90,820.20,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf",HIGH
+2024-01,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
+2024-03,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-04,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
+2024-05,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-06,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf",HIGH
+2024-07,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-08,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-10,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-11,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
+2024-12,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf",HIGH
+2025-03,,Umsatzsteuer,11062.00,17.00,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf",HIGH
+2025-03,,Umsatzsteuer,19.00,1.88,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf",HIGH
