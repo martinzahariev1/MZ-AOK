@@ -1,0 +1,15 @@
+2026-06-26T14:29:28 Scanning input folder: _INBOX
+2026-06-26T14:29:28 Scanning input folder: 03_Documents - Документи - Dokumente
+2026-06-26T14:29:28 Found 4 supported source files before archive/email expansion.
+2026-06-26T14:29:28 Total supported files after archive/email expansion: 4
+2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/gewerbe document.pdf
+2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe document.pdf
+2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/gewerbe unmeldung.pdf
+2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/gewerbe unmeldung.pdf
+2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/kundigung Dokument.pdf
+2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/kundigung Dokument.pdf
+2026-06-26T14:29:28 PDF text unavailable; install pypdf, PyPDF2, or pdftotext: _INBOX/meldebeshaidigung.pdf
+2026-06-26T14:29:28 Skipped non-Enrico/Sachsenpower document: _INBOX/meldebeshaidigung.pdf
+2026-06-26T14:29:28 Unique detail rows: 0
+2026-06-26T14:29:28 Duplicate rows: 0
+2026-06-26T14:29:28 Missing months: 17
