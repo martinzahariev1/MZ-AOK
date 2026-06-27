@@ -1,0 +1,15 @@
+{
+  "filename": "BKK .pdf",
+  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber attempts",
+  "password_success": "NO",
+  "text_length": 0,
+  "detected_insurance_name": "BKK",
+  "detected_dates": [],
+  "detected_amounts": [],
+  "status": "OCR_REQUIRED",
+  "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/BKK .pdf",
+  "technical_errors": [
+    "PyMuPDF unavailable: No module named 'fitz'",
+    "pdfplumber unavailable: No module named 'pdfplumber'"
+  ]
+}

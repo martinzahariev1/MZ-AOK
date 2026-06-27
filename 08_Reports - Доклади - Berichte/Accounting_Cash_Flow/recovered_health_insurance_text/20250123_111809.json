@@ -1,0 +1,12 @@
+{
+  "filename": "20250123_111809.jpg",
+  "extraction_method": "image OCR required",
+  "password_success": "NOT_APPLICABLE",
+  "text_length": 0,
+  "detected_insurance_name": "",
+  "detected_dates": [],
+  "detected_amounts": [],
+  "status": "OCR_REQUIRED",
+  "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/20250123_111809.jpg",
+  "technical_errors": []
+}

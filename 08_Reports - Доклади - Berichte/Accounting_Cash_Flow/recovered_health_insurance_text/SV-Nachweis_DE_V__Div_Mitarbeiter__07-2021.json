@@ -1,0 +1,16 @@
+{
+  "filename": "SV-Nachweis (DEЪV)_Div Mitarbeiter_   (07-2021.pdf",
+  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber attempts",
+  "password_success": "NO",
+  "text_length": 0,
+  "detected_insurance_name": "",
+  "detected_dates": [],
+  "detected_amounts": [],
+  "status": "OCR_REQUIRED",
+  "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweis (DEЪV)_Div Mitarbeiter_   (07-2021.pdf",
+  "technical_errors": [
+    "PyMuPDF unavailable: No module named 'fitz'",
+    "pypdf failed: cryptography>=3.1 is required for AES algorithm",
+    "pdfplumber unavailable: No module named 'pdfplumber'"
+  ]
+}
