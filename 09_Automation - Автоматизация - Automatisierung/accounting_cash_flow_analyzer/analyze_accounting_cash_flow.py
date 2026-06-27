@@ -1088,6 +1088,8 @@ def is_tax_source(source: SourceFile, haystack: str) -> bool:
 
 
 def is_operating_source(source: SourceFile, haystack: str) -> bool:
+    if source.path.suffix.lower() == ".eml":
+        return False
     if not source_category(source).startswith("08_Operating_Costs"):
         return False
     return any(term in haystack for terms in OPERATING_KEYWORDS.values() for term in terms)
@@ -1181,7 +1183,16 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
 
     if any(term in haystack for term in ["finanzamt", "stadt chemnitz", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer", "hauptzollamt"]):
         creditor = "Finanzamt" if "finanzamt" in haystack else "Stadt Chemnitz" if "stadt chemnitz" in haystack or "gewerbesteuer" in haystack else "Hauptzollamt" if "hauptzollamt" in haystack else ""
-        tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "other public liability")
+        tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "")
+        if not tax_type:
+            if creditor == "Hauptzollamt":
+                tax_type = "Hauptzollamt"
+            elif creditor == "Finanzamt":
+                tax_type = "Finanzamt"
+            elif creditor == "Stadt Chemnitz":
+                tax_type = "Gewerbesteuer"
+            else:
+                tax_type = "public liability"
         due = extract_amount_near(text, ["fällig", "faellig", "Steuer", "Soll", "Forderung", "Gesamt", "Betrag"])
         paid = extract_amount_near(text, ["bezahlt", "gezahlt", "payment", "paid", "Ist"])
         unpaid = extract_amount_near(text, ["offen", "Rückstand", "Rueckstand", "unpaid", "balance", "Rest"])
@@ -1312,10 +1323,19 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
 
     if is_tax_source(source, haystack):
         creditor = "Finanzamt" if "finanzamt" in haystack else "Stadt Chemnitz" if "stadt chemnitz" in haystack or "gewerbesteuer" in haystack else "Hauptzollamt" if "hauptzollamt" in haystack else ""
-        tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "other public liability")
+        tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "")
+        if not tax_type:
+            if creditor == "Hauptzollamt":
+                tax_type = "Hauptzollamt"
+            elif creditor == "Finanzamt":
+                tax_type = "Finanzamt"
+            elif creditor == "Stadt Chemnitz":
+                tax_type = "Gewerbesteuer"
+            else:
+                tax_type = "public liability"
         due, due_snippet, due_pattern = extract_amount_trace(text, ["fällig", "faellig", "Steuerbetrag", "Soll", "Forderung", "Gesamtbetrag"])
         paid, paid_snippet, paid_pattern = extract_amount_trace(text, ["bezahlt", "gezahlt", "Zahlung", "Ist"])
-        unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "Rückstand", "Rueckstand", "Rest"])
+        unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "Rückstand", "Rueckstand"])
         due_date = first_match([r"(?:fällig|faellig|due date)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
         snippet = due_snippet or paid_snippet or unpaid_snippet
         pattern = due_pattern or paid_pattern or unpaid_pattern
@@ -1341,6 +1361,8 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
                 paid, paid_snippet, paid_pattern = extract_amount_trace(text, ["bezahlt", "gezahlt", "paid"])
                 unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "unpaid", "balance", "Rest"])
                 creditor = first_match([r"(?:Kreditor|Lieferant|Gläubiger|Glaeubiger)\s*[:#]?\s*([^\n\r]+)"], text)
+                if re.search(r"\b(?:Kunden|Rechnungs|Gutschrift|Unternehmer|Touren)-?Nr\b|(?:^|\b)[A-Za-z]{1,4}-Nr\s*:", creditor, re.IGNORECASE):
+                    creditor = ""
                 snippet = due_snippet or paid_snippet or unpaid_snippet
                 pattern = due_pattern or paid_pattern or unpaid_pattern
                 operating_rows.append(

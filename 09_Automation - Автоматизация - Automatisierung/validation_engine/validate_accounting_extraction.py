@@ -248,6 +248,7 @@ def amount_variants(value: str) -> set[str]:
         variants.add(f"{number:.2f}".replace(".", ","))
         german = f"{number:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
         variants.add(german)
+        variants.add(german.replace(".", " "))
     except ValueError:
         pass
     return {item for item in variants if item}
