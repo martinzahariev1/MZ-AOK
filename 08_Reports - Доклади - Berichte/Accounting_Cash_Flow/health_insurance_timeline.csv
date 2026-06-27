@@ -1,6 +1,52 @@
 ﻿month,insurance_name,amount_due,amount_paid,unpaid_balance,due_date,late_fees,source_documents,confidence
+2024-01,AOK Plus,249.68,2496.77,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf,HIGH
+2024-01,AOK Plus,941.48,2419.35,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf,HIGH
+2024-07,AOK Plus,682.88,7.03,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_02-2024_DivAuswertungen_00006_5Z1.pdf,HIGH
+2024-11,AOK Plus,2413.55,11.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf,HIGH
+2024-12,AOK Plus,2413.55,12.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1__copy2.pdf,HIGH
+2024-08,AOK Plus,366.67,1548.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf,HIGH
+2024-10,AOK Plus,416.13,10.06,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf,HIGH
+2024-12,AOK Plus,1118.00,1806.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,HIGH
+2025-07,AOK Plus,,946.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf,HIGH
+2024-09,AOK Plus,1248.39,1914.19,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf,HIGH
+2024-01,TK,,1664.52,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf,HIGH
+2024-12,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf,LOW
 2024-01,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,LOW
 2024-10,TK,702400.72,516.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
+2024-09,AOK Plus,2494.00,2236.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf,HIGH
+2023-12,TK,,2619.35,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf,HIGH
+2023-11,AOK Plus,2653.25,11.01,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf,HIGH
+2025-07,BKK,2457.98,27.08,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Health Security.pdf,HIGH
+2025-05,AOK Plus,2196.75,2494.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_April_2025.pdf,HIGH
+2024-07,KKH,1.07,915.48,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2024.pdf,HIGH
+2025-08,AOK Plus,0.00,10.06,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025.pdf,HIGH
+2000-01,AOK Plus,29.07,1798.00,,29.07.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025__copy2.pdf,HIGH
+2025-07,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juni_2025.pdf,LOW
+2024-06,BKK,1.01,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Mai_2024.pdf,HIGH
+2025-04,AOK Plus,0.00,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_März_2025.pdf,HIGH
+2024-12,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_November_2024-1.pdf,LOW
+2024-11,AOK Plus,1241.94,1165.16,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Oktober_2024.pdf,HIGH
+2023-12,AOK Plus,27.12,6239.86,,27.12.2023,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Pay Roll 12.2023.pdf,HIGH
+2025-07,Hauptzollamt linked Krankenkasse claim,84.00,27.08,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Seizures.pdf,HIGH
+2025-01,Hauptzollamt linked Krankenkasse claim,1215.78,11.02,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Zoll Kitanov.pdf,HIGH
+2024-01,AOK Plus,29.01,5889.13,,29.01.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2024.pdf,HIGH
+2025-01,AOK Plus,29.01,5692.86,,29.01.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2025.pdf,HIGH
+2024-02,AOK Plus,27.02,7277.62,,27.02.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2024.pdf,HIGH
+2025-02,AOK Plus,26.02,4981.86,,26.02.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2025.pdf,HIGH
+2024-03,AOK Plus,26.03,6556.53,,26.03.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2024.pdf,HIGH
+2025-03,AOK Plus,27.03,4789.23,,27.03.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2025.pdf,HIGH
+2024-04,AOK Plus,26.04,5689.02,,26.04.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2024.pdf,HIGH
+2003-01,AOK Plus,28.04,4518.02,,28.04.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2025.pdf,HIGH
+2024-05,AOK Plus,29.05,5869.18,,29.05.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2024.pdf,HIGH
+2001-03,AOK Plus,27.05,4634.82,,27.05.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2025.pdf,HIGH
+2024-06,AOK Plus,26.06,5991.28,,26.06.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2024.pdf,HIGH
+2000-01,AOK Plus,26.06,2474.01,,26.06.2025,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2025.pdf,HIGH
+2024-07,AOK Plus,29.07,5515.16,,29.07.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 07-2024.pdf,HIGH
+2024-08,AOK Plus,28.08,7002.40,,28.08.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 08-2024.pdf,HIGH
+2024-09,AOK Plus,26.09,7304.67,,26.09.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 09-2024.pdf,HIGH
+2024-10,AOK Plus,28.10,6364.90,,28.10.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 10-2024.pdf,HIGH
+2024-11,AOK Plus,27.11,7150.71,,27.11.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 11-2024.pdf,HIGH
+2024-12,AOK Plus,23.12,5236.01,,23.12.2024,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 12-2024.pdf,HIGH
 2021-02,AOK Plus,1.02,25.01,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf,HIGH
 2022-03,AOK Plus,-1890.88,25.02,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf,HIGH
 2023-03,AOK Plus,-1316.88,28.02,1.23,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf,HIGH
@@ -17,6 +63,7 @@
 2022-12,AOK Plus,1.12,9.12,-23.43,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf,HIGH
 2025-01,TK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
 2025-05,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
+2024-05,AOK Plus,1.01,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf,HIGH
 2022-02,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,LOW
 ,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf,LOW
 2025-01,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf,LOW
@@ -27,19 +74,68 @@
 2025-02,AOK Plus,,13649.05,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 19.02.2025.docx,MEDIUM
 ,AOK Plus,41544.44,41544.44,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions.docx,MEDIUM
 2024-09,AOK Plus,88.53,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Remaining health insurances for 09_2024 und 10_2024.eml,MEDIUM
+,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SEPA AOK Sachsen-Anhalt.pdf,LOW
+2020-06,AOK Plus,1.01,13.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen 01-2020 bis 03-2021.pdf,HIGH
+2022-04,AOK,2.03,8.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen.pdf,HIGH
+2020-06,AOK Plus,1.09,14.07,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweis (DEЪV)_Div Mitarbeiter_   (07-2021.pdf,HIGH
+2023-03,AOK Plus,1.01,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweise.pdf,HIGH
 2026-03,AOK Plus,40.13,5.20,2494.00,,29.00,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH
 2024-09,Barmer,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW
 2025-12,TK,2052.97,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Vasilev_Test Pay Slip.pdf,HIGH
+2024-09,KKH,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Lohnauswertungen_August_2024.pdf,LOW
+2024-07,AOK Plus,366.67,1548.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Test Pay ROll.pdf,HIGH
 2022-02,TK,8.03,17.02,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/02-2022 #9120.pdf,HIGH
 2022-04,TK,9.05,17.03,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf,HIGH
 2022-06,TK,-24.90,-25.00,0.86,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf,HIGH
 2022-08,TK,1.09,-74.00,-36.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/07-2022 #9120.pdf,HIGH
 2022-10,TK,1.09,24.10,-25.41,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10-2022 #9120.pdf,HIGH
+2002-01,AOK Plus,29.03,16.01,-213.26,29.03.2023,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH
+2002-01,AOK Plus,1.01,3.01,68848.69,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH
 2022-12,TK,12.12,18.11,-25.41,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/12-2022 #9120.pdf,HIGH
 2024-01,DAK,435.00,21.02,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/20240123_60222_10160_Rechnung.pdf,HIGH
+2025-06,AOK Plus,812.38,11.06,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1).pdf",HIGH
+2023-12,Hauptzollamt linked Krankenkasse claim,56169.51,12.01,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy10.pdf",HIGH
+2024-05,Hauptzollamt linked Krankenkasse claim,54426.97,12.06,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy2.pdf",HIGH
+2024-08,Hauptzollamt linked Krankenkasse claim,52656.37,13.09,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy4.pdf",HIGH
+2024-12,Hauptzollamt linked Krankenkasse claim,1250.78,15.01,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2) (1).pdf",HIGH
+2024-09,AOK,17870.97,10.10,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2).pdf",HIGH
+2024-11,Hauptzollamt linked Krankenkasse claim,1222.78,10.12,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy2.pdf",HIGH
+2024-01,Hauptzollamt linked Krankenkasse claim,56666.80,15.02,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy3.pdf",HIGH
+2025-01,AOK Plus,1111.98,15.01,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf",HIGH
+2024-02,Hauptzollamt linked Krankenkasse claim,57567.96,8.03,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3).pdf",HIGH
+2024-12,AOK Plus,1111.98,10.12,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3)__copy2.pdf",HIGH
+2024-03,Hauptzollamt linked Krankenkasse claim,53690.09,12.04,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (4).pdf",HIGH
+2024-06,Hauptzollamt linked Krankenkasse claim,54751.98,12.07,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform).pdf",HIGH
+2024-04,Hauptzollamt linked Krankenkasse claim,51557.87,8.05,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy2.pdf",HIGH
+2024-07,Hauptzollamt linked Krankenkasse claim,47793.00,9.08,,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy4.pdf",HIGH
 2018-05,other,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf,LOW
+2024-11,AOK Plus,1551.97,11.11,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Health insurances.pdf,HIGH
+2024-10,AOK Plus,1568.99,11.11,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Pfändungen.pdf,HIGH
+2025-03,AOK Plus,1094.96,10.03,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security-1.pdf,HIGH
+2025-04,AOK Plus,1094.96,9.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security.pdf,HIGH
+2025-02,AOK Plus,1077.94,11.02,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health securitys.pdf,HIGH
+2025-02,Hauptzollamt linked Krankenkasse claim,4654.34,10.03,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures.pdf,HIGH
+2025-03,Hauptzollamt linked Krankenkasse claim,4809.45,9.04,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures__copy2.pdf,HIGH
+2025-07,BKK,2457.98,18.07,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List halth security.pdf,HIGH
+2025-05,AOK Plus,1094.96,13.05,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List health security.pdf,HIGH
+2025-06,Hauptzollamt linked Krankenkasse claim,2352.89,18.07,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizure.pdf,HIGH
+2025-04,Hauptzollamt linked Krankenkasse claim,3752.34,13.05,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List Seizures.pdf,HIGH
+2025-05,Hauptzollamt linked Krankenkasse claim,2312.56,10.06,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizures__copy2.pdf,HIGH
 2024-02,TK,991.96,833.58,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/307538032.pdf,HIGH
 2025-03,TK,167412.67,167412.67,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/BWA 03-2025.pdf,HIGH
 2024-09,AOK Plus,,15451.27,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Ihre Lohnauswertungen.eml,MEDIUM
 2055-07,TK,12.11,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf,HIGH
 2024-12,DAK,7.09,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf,HIGH
+2024-01,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf,LOW
+2024-02,AOK Plus,838.33,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf,HIGH
+2024-03,AOK Plus,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf,LOW
+2023-04,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf,LOW
+2024-04,AOK Plus,,1548.00,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf,HIGH
+2023-05,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf,LOW
+2023-06,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf,LOW
+2023-07,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf,LOW
+2023-08,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf,LOW
+2023-09,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf,LOW
+2023-10,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf,LOW
+2023-11,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf,LOW
+2023-12,AOK,,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf,LOW

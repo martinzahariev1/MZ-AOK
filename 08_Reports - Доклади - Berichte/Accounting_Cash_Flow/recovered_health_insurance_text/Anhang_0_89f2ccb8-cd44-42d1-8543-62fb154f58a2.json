@@ -1,6 +1,6 @@
 {
   "filename": "Anhang_0_89f2ccb8-cd44-42d1-8543-62fb154f58a2.pdf",
-  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber attempts",
+  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber/OCR attempts",
   "password_success": "NO",
   "text_length": 0,
   "detected_insurance_name": "",
@@ -9,8 +9,9 @@
   "status": "OCR_REQUIRED",
   "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anhang_0_89f2ccb8-cd44-42d1-8543-62fb154f58a2.pdf",
   "technical_errors": [
-    "PyMuPDF unavailable: No module named 'fitz'",
+    "PyMuPDF password authentication failed",
     "pypdf password decrypt failed",
-    "pdfplumber unavailable: No module named 'pdfplumber'"
+    "pdfplumber failed: ",
+    "PDF OCR password authentication failed"
   ]
 }

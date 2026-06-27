@@ -1,6 +1,6 @@
 {
   "filename": "KKH.pdf",
-  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber attempts",
+  "extraction_method": "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber/OCR attempts",
   "password_success": "NO",
   "text_length": 0,
   "detected_insurance_name": "KKH",
@@ -9,7 +9,6 @@
   "status": "OCR_REQUIRED",
   "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/KKH.pdf",
   "technical_errors": [
-    "PyMuPDF unavailable: No module named 'fitz'",
-    "pdfplumber unavailable: No module named 'pdfplumber'"
+    "PDF OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information."
   ]
 }

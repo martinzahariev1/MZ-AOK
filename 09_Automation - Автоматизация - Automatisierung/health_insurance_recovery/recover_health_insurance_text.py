@@ -135,11 +135,45 @@ def extract_with_pdfplumber(path: Path) -> tuple[str, str, str]:
 def ocr_available() -> bool:
     try:
         import pytesseract  # type: ignore  # noqa: F401
-        from pdf2image import convert_from_path  # type: ignore  # noqa: F401
         from PIL import Image  # type: ignore  # noqa: F401
     except Exception:
         return False
     return True
+
+
+def ocr_image(path: Path) -> tuple[str, str]:
+    try:
+        import pytesseract  # type: ignore
+        from PIL import Image  # type: ignore
+
+        with Image.open(path) as image:
+            return pytesseract.image_to_string(image), ""
+    except Exception as exc:
+        return "", f"image OCR failed: {exc}"
+
+
+def ocr_pdf_with_fitz(path: Path) -> tuple[str, str, str]:
+    try:
+        import fitz  # type: ignore
+        import pytesseract  # type: ignore
+        from PIL import Image  # type: ignore
+    except Exception as exc:
+        return "", "NOT_ATTEMPTED", f"PDF OCR unavailable: {exc}"
+    try:
+        doc = fitz.open(path)
+        password_success = "NOT_APPLICABLE"
+        if doc.needs_pass:
+            password_success = "YES" if doc.authenticate(PDF_PASSWORD) else "NO"
+            if password_success != "YES":
+                return "", password_success, "PDF OCR password authentication failed"
+        parts: list[str] = []
+        for page in doc:
+            pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), alpha=False)
+            image = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+            parts.append(pytesseract.image_to_string(image))
+        return "\n".join(parts), password_success, ""
+    except Exception as exc:
+        return "", "NO", f"PDF OCR failed: {exc}"
 
 
 def recover_pdf(path: Path) -> tuple[str, str, str, list[str]]:
@@ -257,12 +291,35 @@ def process() -> list[dict[str, str]]:
             text, method, password_success, errors = recover_pdf(source)
             if text.strip():
                 status = "RECOVERED"
+            elif has_ocr:
+                text, ocr_password_success, ocr_error = ocr_pdf_with_fitz(source)
+                if ocr_password_success not in {"", "NOT_ATTEMPTED"}:
+                    password_success = ocr_password_success
+                if ocr_error:
+                    errors.append(ocr_error)
+                if text.strip():
+                    status = "RECOVERED"
+                    method = "OCR via PyMuPDF render + pytesseract"
+                else:
+                    status = "OCR_REQUIRED"
+                    method = "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber/OCR attempts"
             else:
                 status = "OCR_REQUIRED" if has_ocr or row.get("scanned_image_suspected") == "YES" else "OCR_REQUIRED"
                 method = "OCR_REQUIRED after PyMuPDF/pypdf/pdfplumber attempts"
         elif source.suffix.lower() in {".jpg", ".jpeg", ".png", ".tif", ".tiff"}:
-            status = "OCR_REQUIRED"
-            method = "image OCR required"
+            if has_ocr:
+                text, ocr_error = ocr_image(source)
+                if ocr_error:
+                    errors.append(ocr_error)
+                if text.strip():
+                    status = "RECOVERED"
+                    method = "OCR via pytesseract image"
+                else:
+                    status = "OCR_REQUIRED"
+                    method = "image OCR required; OCR returned no text"
+            else:
+                status = "OCR_REQUIRED"
+                method = "image OCR required"
         else:
             status = "FAILED"
             method = f"unsupported file type: {source.suffix.lower()}"

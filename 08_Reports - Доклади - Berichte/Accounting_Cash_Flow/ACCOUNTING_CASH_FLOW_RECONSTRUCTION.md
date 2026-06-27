@@ -31,24 +31,24 @@ January 2024 through June 2025.
 
 | month | health_insurance_due | health_insurance_paid | health_insurance_unpaid |
 | --- | --- | --- | --- |
-| 2024-01 | 435.00 | 21.02 |  |
-| 2024-02 | 991.96 | 833.58 |  |
-| 2024-03 |  |  |  |
-| 2024-04 |  |  |  |
-| 2024-05 |  |  |  |
-| 2024-06 |  |  |  |
-| 2024-07 |  |  |  |
-| 2024-08 |  |  |  |
-| 2024-09 | 88.53 | 15451.27 |  |
-| 2024-10 | 702400.72 | 516.00 |  |
-| 2024-11 |  |  |  |
-| 2024-12 | 7.09 |  |  |
-| 2025-01 |  |  |  |
-| 2025-02 |  | 13649.05 |  |
-| 2025-03 | 167412.67 | 181061.72 |  |
-| 2025-04 |  |  |  |
-| 2025-05 |  |  |  |
-| 2025-06 |  |  |  |
+| 2024-01 | 58321.97 | 12505.81 |  |
+| 2024-02 | 59425.27 | 8119.23 |  |
+| 2024-03 | 53716.12 | 6568.57 |  |
+| 2024-04 | 51583.91 | 7245.07 |  |
+| 2024-05 | 54457.03 | 5881.24 |  |
+| 2024-06 | 54779.05 | 6003.35 |  |
+| 2024-07 | 48872.69 | 7994.75 |  |
+| 2024-08 | 53051.12 | 8563.49 |  |
+| 2024-09 | 21727.98 | 26916.23 |  |
+| 2024-10 | 704413.94 | 6902.07 |  |
+| 2024-11 | 6457.35 | 8348.14 |  |
+| 2024-12 | 5924.52 | 7079.18 |  |
+| 2025-01 | 2356.77 | 5718.89 |  |
+| 2025-02 | 5758.30 | 18651.96 |  |
+| 2025-03 | 173344.11 | 185870.02 |  |
+| 2025-04 | 4847.30 | 22.09 |  |
+| 2025-05 | 5604.27 | 2517.11 |  |
+| 2025-06 | 3165.27 | 29.13 |  |
 
 ## Unpaid Health Insurance Amounts by Month
 
@@ -77,24 +77,24 @@ January 2024 through June 2025.
 
 | month | tax_due | tax_paid | tax_unpaid |
 | --- | --- | --- | --- |
-| 2024-01 | 19.00 | 1.77 | 20.00 |
-| 2024-02 | 10512.34 | 820.20 | 33.04 |
-| 2024-03 | 19.00 | 1.77 | 20.00 |
-| 2024-04 | 19.00 | 1.77 | 20.00 |
-| 2024-05 | 19.00 | 1.77 | 20.00 |
-| 2024-06 | 19.00 | 1.77 | 20.00 |
-| 2024-07 | 32.12 | 1.77 | 27.09 |
-| 2024-08 | 19.00 | 1.77 | 20.00 |
-| 2024-09 | 13.14 |  | 19.11 |
-| 2024-10 | 702445.44 | 517.77 | 40.20 |
-| 2024-11 | 69.78 | 1.77 | 67.19 |
-| 2024-12 | 32.34 | 1.77 | 34.03 |
-| 2025-01 | 13.34 |  | 14.03 |
-| 2025-02 |  | 13649.05 |  |
-| 2025-03 | 11081.00 | 13667.93 | 40.00 |
-| 2025-04 |  |  |  |
-| 2025-05 |  |  |  |
-| 2025-06 |  |  |  |
+| 2024-01 | 57905.97 | 12486.56 | 20.00 |
+| 2024-02 | 68107.32 | 8105.85 | 33.04 |
+| 2024-03 | 53735.12 | 6570.34 | 20.00 |
+| 2024-04 | 51602.91 | 5698.84 | 20.00 |
+| 2024-05 | 54475.02 | 5883.01 | 20.00 |
+| 2024-06 | 54797.04 | 6005.12 | 20.00 |
+| 2024-07 | 48903.74 | 7081.04 | 27.09 |
+| 2024-08 | 53070.12 | 8565.26 | 20.00 |
+| 2024-09 | 3781.62 | 11454.86 | 19.11 |
+| 2024-10 | 704458.66 | 6903.84 | 40.20 |
+| 2024-11 | 3733.22 | 7173.64 | 67.19 |
+| 2024-12 | 4837.79 | 7070.83 | 34.03 |
+| 2025-01 | 1258.13 | 5703.88 | 14.03 |
+| 2025-02 | 4680.36 | 18640.94 |  |
+| 2025-03 | 15917.48 | 18466.20 | 40.00 |
+| 2025-04 | 3752.34 | 13.05 |  |
+| 2025-05 | 4509.31 | 2504.06 |  |
+| 2025-06 | 2352.89 | 18.07 |  |
 
 ## First Visible Unpaid Health Insurance Month
 
@@ -118,11 +118,76 @@ Not detected
 
 ## Documents Used
 
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_02-2024_DivAuswertungen_00006_5Z1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Barauszahlungswerte_O0N.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Cash-Payment.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Health Security.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_April_2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juni_2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Mai_2024-1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Mai_2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_März_2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_November_2024-1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_November_2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Oktober_2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Pay Roll 12.2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Salaries.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Seizures.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Zoll Kitanov.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 04.2025.xlsx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 06.2025  Копие.xlsx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 12.2024.xlsx
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 07-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 08-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 09-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 10-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 11-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 12-2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf
@@ -140,8 +205,10 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Arbeitsbescheinigung Georgi Stefanov.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 02.04.2025.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 03.03.2025.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025(1).docx
@@ -149,6 +216,11 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 19.02.2025.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Remaining health insurances for 09_2024 und 10_2024.eml
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SEPA AOK Sachsen-Anhalt.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweis (DEЪV)_Div Mitarbeiter_   (07-2021.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweise.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen 01-2020 bis 03-2021.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Vasilev_Test Pay Slip.pdf
@@ -171,7 +243,9 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 10-2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 11-2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 12-2024.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Lohnauswertungen_August_2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Rechnung_RE058675_11.08.2025.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Test Pay ROll.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Voransicht2023_89878877.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/widerruf_doc.pdf
@@ -183,8 +257,27 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/07-2022 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10-2022 #9120.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/12-2022 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/20240123_60222_10160_Rechnung.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy10.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy3.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy4.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2) (1).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy3.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3)__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (4).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy3.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy4.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4025268_vom_01.09.2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4026904_vom_01.11.2024.pdf
@@ -203,6 +296,25 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980-1.PDF
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980-2.PDF
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980.PDF
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Health insurances.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Pfändungen.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - payroll.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security-1.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health securitys.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries (2).pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List Seizures.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List halth security.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List health security.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries__copy2.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries__copy3.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizure.pdf
+- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizures__copy2.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Schwerbehindertenabgabe _Überweisungsdaten.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis 8345-1440-1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis Zahariev Juni 2025.pdf

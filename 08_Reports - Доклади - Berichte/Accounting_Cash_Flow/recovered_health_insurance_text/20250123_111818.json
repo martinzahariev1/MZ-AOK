@@ -1,6 +1,6 @@
 {
   "filename": "20250123_111818.jpg",
-  "extraction_method": "image OCR required",
+  "extraction_method": "image OCR required; OCR returned no text",
   "password_success": "NOT_APPLICABLE",
   "text_length": 0,
   "detected_insurance_name": "",
@@ -8,5 +8,7 @@
   "detected_amounts": [],
   "status": "OCR_REQUIRED",
   "source_file": "00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/20250123_111818.jpg",
-  "technical_errors": []
+  "technical_errors": [
+    "image OCR failed: tesseract is not installed or it's not in your PATH. See README file for more information."
+  ]
 }

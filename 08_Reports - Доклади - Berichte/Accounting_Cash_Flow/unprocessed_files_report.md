@@ -1,6 +1,6 @@
 # Unprocessed Files Report
 
-Total unprocessed or partial files: 1711
+Total unprocessed or partial files: 1599
 
 ## Reasons
 - Duplicate file: 588
@@ -16,9 +16,8 @@ Total unprocessed or partial files: 1711
 - Unsupported file type: .doc: 1
 - Unsupported file type: .jpg: 15
 - Unsupported file type: .png: 1
-- encrypted PDF unreadable: pypdf failed: File has not been decrypted | pdfplumber failed: No module named 'pdfplumber' | OCR unavailable: 2
-- encrypted PDF unreadable: pypdf failed: cryptography>=3.1 is required for AES algorithm | pdfplumber failed: No module named 'pdfplumber' | OCR unavailable: 112
-- scanned image PDF requiring OCR: pypdf returned no text | pdfplumber failed: No module named 'pdfplumber' | OCR unavailable: 26
+- encrypted PDF unreadable: pypdf failed: File has not been decrypted | pdfplumber failed:  | OCR unavailable: 2
+- scanned image PDF requiring OCR: pypdf returned no text | pdfplumber returned no text | OCR unavailable: 26
 
 | filename | file_type | reason_not_processed | recommended_next_action |
 | --- | --- | --- | --- |

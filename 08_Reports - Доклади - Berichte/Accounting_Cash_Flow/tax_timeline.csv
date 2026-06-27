@@ -1,6 +1,46 @@
 ﻿month,creditor,tax_type,amount_due,amount_paid,unpaid_balance,due_date,source_documents,confidence
+2024-01,,Lohnsteuer,249.68,2496.77,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf,HIGH
+2024-01,,Lohnsteuer,941.48,2419.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf,HIGH
+2024-07,,Lohnsteuer,682.88,7.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_02-2024_DivAuswertungen_00006_5Z1.pdf,HIGH
+2024-11,,Lohnsteuer,2413.55,11.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf,HIGH
+2024-12,,Lohnsteuer,2413.55,12.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1__copy2.pdf,HIGH
+2024-08,,Lohnsteuer,366.67,1548.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf,HIGH
+2024-10,,Lohnsteuer,416.13,10.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf,HIGH
+2024-12,,Lohnsteuer,1118.00,1806.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,HIGH
+2025-07,,Lohnsteuer,,946.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf,HIGH
+2024-09,,Lohnsteuer,1248.39,1914.19,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf,HIGH
+2024-01,,Lohnsteuer,,1664.52,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf,HIGH
+2024-12,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf,LOW
 2024-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,LOW
 2024-10,,Lohnsteuer,702400.72,516.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
+2024-09,,Lohnsteuer,2494.00,2236.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf,HIGH
+2023-12,,Lohnsteuer,,2619.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf,HIGH
+2023-11,,Lohnsteuer,2653.25,11.01,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf,HIGH
+2025-05,,Lohnsteuer,2196.75,2494.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_April_2025.pdf,HIGH
+2025-08,,Lohnsteuer,0.00,10.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025.pdf,HIGH
+2000-01,Finanzamt,Lohnsteuer,29.07,1798.00,,29.07.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025__copy2.pdf,HIGH
+2025-07,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juni_2025.pdf,LOW
+2023-12,Finanzamt,Lohnsteuer,27.12,6239.86,,27.12.2023,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Pay Roll 12.2023.pdf,HIGH
+2025-07,Hauptzollamt,other public liability,84.00,27.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Seizures.pdf,HIGH
+2025-01,Hauptzollamt,other public liability,1215.78,11.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Zoll Kitanov.pdf,HIGH
+2024-01,Finanzamt,Lohnsteuer,29.01,5889.13,,29.01.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2024.pdf,HIGH
+2025-01,Finanzamt,Lohnsteuer,29.01,5692.86,,29.01.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2025.pdf,HIGH
+2024-02,Finanzamt,Lohnsteuer,27.02,7277.62,,27.02.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2024.pdf,HIGH
+2025-02,Finanzamt,Lohnsteuer,26.02,4981.86,,26.02.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2025.pdf,HIGH
+2024-03,Finanzamt,Lohnsteuer,26.03,6556.53,,26.03.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2024.pdf,HIGH
+2025-03,Finanzamt,Lohnsteuer,27.03,4789.23,,27.03.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2025.pdf,HIGH
+2024-04,Finanzamt,Lohnsteuer,26.04,5689.02,,26.04.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2024.pdf,HIGH
+2003-01,Finanzamt,Lohnsteuer,28.04,4518.02,,28.04.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2025.pdf,HIGH
+2024-05,Finanzamt,Lohnsteuer,29.05,5869.18,,29.05.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2024.pdf,HIGH
+2001-03,Finanzamt,Lohnsteuer,27.05,4634.82,,27.05.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2025.pdf,HIGH
+2024-06,Finanzamt,Lohnsteuer,26.06,5991.28,,26.06.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2024.pdf,HIGH
+2000-01,Finanzamt,Lohnsteuer,26.06,2474.01,,26.06.2025,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2025.pdf,HIGH
+2024-07,Finanzamt,Lohnsteuer,29.07,5515.16,,29.07.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 07-2024.pdf,HIGH
+2024-08,Finanzamt,Lohnsteuer,28.08,7002.40,,28.08.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 08-2024.pdf,HIGH
+2024-09,Finanzamt,Lohnsteuer,26.09,7304.67,,26.09.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 09-2024.pdf,HIGH
+2024-10,Finanzamt,Lohnsteuer,28.10,6364.90,,28.10.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 10-2024.pdf,HIGH
+2024-11,Finanzamt,Lohnsteuer,27.11,7150.71,,27.11.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 11-2024.pdf,HIGH
+2024-12,Finanzamt,Lohnsteuer,23.12,5236.01,,23.12.2024,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 12-2024.pdf,HIGH
 2021-02,Hauptzollamt,other public liability,8.02,25.01,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf,HIGH
 2022-03,Finanzamt,other public liability,-99.00,25.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf,HIGH
 2023-03,Finanzamt,other public liability,7885.99,28.02,1.23,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf,HIGH
@@ -17,6 +57,7 @@
 2022-12,Finanzamt,other public liability,25.10,9.12,-23.43,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf,HIGH
 2025-01,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
 2025-05,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
+2025-07,,Lohnsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Arbeitsbescheinigung Georgi Stefanov.pdf,LOW
 2025-04,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 02.04.2025.docx,LOW
 2025-03,Hauptzollamt,other public liability,,13649.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 03.03.2025.docx,MEDIUM
 2025-03,Hauptzollamt,other public liability,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025(1).docx,LOW
@@ -42,8 +83,28 @@
 2024-12,Finanzamt,Umsatzsteuer,13.34,0.00,14.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 12-2024.pdf,HIGH
 ,,Umsatzsteuer,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf,LOW
 2025-09,,Umsatzsteuer,127.30,11.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Rechnung_RE058675_11.08.2025.pdf,HIGH
+2024-07,,Lohnsteuer,366.67,1548.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Test Pay ROll.pdf,HIGH
 2022-04,Stadt Chemnitz,other public liability,9.05,17.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf,HIGH
 2022-06,Stadt Chemnitz,other public liability,12.05,-25.00,0.86,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf,HIGH
+2002-01,Finanzamt,Gewerbesteuer,29.03,16.01,-213.26,29.03.2023,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH
+2002-01,Finanzamt,other public liability,4.01,3.01,68848.69,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH
+2023-12,Hauptzollamt,other public liability,56169.51,12.01,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy10.pdf",HIGH
+2024-05,Hauptzollamt,other public liability,54426.97,12.06,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy2.pdf",HIGH
+2024-08,Hauptzollamt,other public liability,52656.37,13.09,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy4.pdf",HIGH
+2024-12,Hauptzollamt,other public liability,1250.78,15.01,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2) (1).pdf",HIGH
+2024-11,Hauptzollamt,other public liability,1222.78,10.12,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy2.pdf",HIGH
+2024-01,Stadt Chemnitz,other public liability,56666.80,15.02,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy3.pdf",HIGH
+2024-02,Hauptzollamt,other public liability,57567.96,8.03,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3).pdf",HIGH
+2024-03,Hauptzollamt,other public liability,53690.09,12.04,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (4).pdf",HIGH
+2024-06,Hauptzollamt,other public liability,54751.98,12.07,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform).pdf",HIGH
+2024-04,Hauptzollamt,other public liability,51557.87,8.05,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy2.pdf",HIGH
+2024-07,Hauptzollamt,other public liability,47793.00,9.08,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy4.pdf",HIGH
+2024-10,Hauptzollamt,other public liability,1568.99,11.11,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Pfändungen.pdf,HIGH
+2025-02,Finanzamt,other public liability,4654.34,10.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures.pdf,HIGH
+2025-03,Finanzamt,other public liability,4809.45,9.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures__copy2.pdf,HIGH
+2025-06,Hauptzollamt,other public liability,2352.89,18.07,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizure.pdf,HIGH
+2025-04,Finanzamt,other public liability,3752.34,13.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List Seizures.pdf,HIGH
+2025-05,Finanzamt,other public liability,2312.56,10.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizures__copy2.pdf,HIGH
 2023-12,,Umsatzsteuer,19.00,1.60,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf",HIGH
 2024-02,,Umsatzsteuer,10499.90,820.20,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf",HIGH
 2024-01,,Umsatzsteuer,19.00,1.77,20.00,,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
