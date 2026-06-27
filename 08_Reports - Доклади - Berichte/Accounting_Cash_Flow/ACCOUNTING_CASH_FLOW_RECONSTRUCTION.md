@@ -8,47 +8,47 @@ January 2024 through June 2025.
 
 | month | payroll_brutto | payroll_netto |
 | --- | --- | --- |
-| 2024-01 | 517.65 | 137896.85 |
-| 2024-02 | 10500.10 | 11037.17 |
-| 2024-03 |  | 19.00 |
-| 2024-04 |  | 19.00 |
-| 2024-05 |  | 19.00 |
-| 2024-06 |  | 19.00 |
-| 2024-07 |  | 151148.76 |
-| 2024-08 |  | 19.00 |
-| 2024-09 |  | 148350.66 |
-| 2024-10 |  | 166852.66 |
-| 2024-11 |  | 195244.85 |
-| 2024-12 |  | 169225.79 |
-| 2025-01 |  | 159310.00 |
-| 2025-02 |  | 143185.08 |
-| 2025-03 | 11062.00 | 182802.61 |
-| 2025-04 |  | 153436.60 |
-| 2025-05 |  | 102207.65 |
-| 2025-06 |  | 54103.70 |
+| 2024-01 |  |  |
+| 2024-02 |  |  |
+| 2024-03 |  |  |
+| 2024-04 |  |  |
+| 2024-05 |  |  |
+| 2024-06 |  |  |
+| 2024-07 |  |  |
+| 2024-08 |  |  |
+| 2024-09 |  |  |
+| 2024-10 |  |  |
+| 2024-11 |  |  |
+| 2024-12 |  |  |
+| 2025-01 |  |  |
+| 2025-02 |  |  |
+| 2025-03 |  |  |
+| 2025-04 |  |  |
+| 2025-05 |  |  |
+| 2025-06 |  |  |
 
 ## Total Health Insurance Liabilities by Month
 
 | month | health_insurance_due | health_insurance_paid | health_insurance_unpaid |
 | --- | --- | --- | --- |
-| 2024-01 | 58321.97 | 12505.81 |  |
-| 2024-02 | 59425.27 | 8119.23 |  |
-| 2024-03 | 53716.12 | 6568.57 |  |
-| 2024-04 | 51583.91 | 7245.07 |  |
-| 2024-05 | 54457.03 | 5881.24 |  |
-| 2024-06 | 54779.05 | 6003.35 |  |
-| 2024-07 | 48872.69 | 7994.75 |  |
-| 2024-08 | 53051.12 | 8563.49 |  |
-| 2024-09 | 21727.98 | 26916.23 |  |
-| 2024-10 | 704413.94 | 6902.07 |  |
-| 2024-11 | 6457.35 | 8348.14 |  |
-| 2024-12 | 5924.52 | 7079.18 |  |
-| 2025-01 | 2356.77 | 5718.89 |  |
-| 2025-02 | 5758.30 | 18651.96 |  |
-| 2025-03 | 173344.11 | 185870.02 |  |
-| 2025-04 | 4847.30 | 22.09 |  |
-| 2025-05 | 5604.27 | 2517.11 |  |
-| 2025-06 | 3165.27 | 29.13 |  |
+| 2024-01 |  |  |  |
+| 2024-02 |  |  |  |
+| 2024-03 |  |  |  |
+| 2024-04 |  |  |  |
+| 2024-05 |  | -216.63 | 68848.69 |
+| 2024-06 |  |  |  |
+| 2024-07 |  | 915.48 |  |
+| 2024-08 |  |  |  |
+| 2024-09 |  |  |  |
+| 2024-10 |  |  |  |
+| 2024-11 |  | 1165.16 |  |
+| 2024-12 |  |  |  |
+| 2025-01 |  |  |  |
+| 2025-02 |  |  |  |
+| 2025-03 | 801.50 |  |  |
+| 2025-04 |  |  |  |
+| 2025-05 |  |  |  |
+| 2025-06 | 30000.00 | 5.20 | 2494.00 |
 
 ## Unpaid Health Insurance Amounts by Month
 
@@ -58,7 +58,7 @@ January 2024 through June 2025.
 | 2024-02 |  |
 | 2024-03 |  |
 | 2024-04 |  |
-| 2024-05 |  |
+| 2024-05 | 68848.69 |
 | 2024-06 |  |
 | 2024-07 |  |
 | 2024-08 |  |
@@ -71,34 +71,34 @@ January 2024 through June 2025.
 | 2025-03 |  |
 | 2025-04 |  |
 | 2025-05 |  |
-| 2025-06 |  |
+| 2025-06 | 2494.00 |
 
 ## Tax Liabilities by Month
 
 | month | tax_due | tax_paid | tax_unpaid |
 | --- | --- | --- | --- |
-| 2024-01 | 57905.97 | 12486.56 | 20.00 |
-| 2024-02 | 68107.32 | 8105.85 | 33.04 |
-| 2024-03 | 53735.12 | 6570.34 | 20.00 |
-| 2024-04 | 51602.91 | 5698.84 | 20.00 |
-| 2024-05 | 54475.02 | 5883.01 | 20.00 |
-| 2024-06 | 54797.04 | 6005.12 | 20.00 |
-| 2024-07 | 48903.74 | 7081.04 | 27.09 |
-| 2024-08 | 53070.12 | 8565.26 | 20.00 |
-| 2024-09 | 3781.62 | 11454.86 | 19.11 |
-| 2024-10 | 704458.66 | 6903.84 | 40.20 |
-| 2024-11 | 3733.22 | 7173.64 | 67.19 |
-| 2024-12 | 4837.79 | 7070.83 | 34.03 |
-| 2025-01 | 1258.13 | 5703.88 | 14.03 |
-| 2025-02 | 4680.36 | 18640.94 |  |
-| 2025-03 | 15917.48 | 18466.20 | 40.00 |
-| 2025-04 | 3752.34 | 13.05 |  |
-| 2025-05 | 4509.31 | 2504.06 |  |
-| 2025-06 | 2352.89 | 18.07 |  |
+| 2024-01 | 268.68 | 83428.40 | 20.00 |
+| 2024-02 | 11182.78 | 84182.26 | 20.00 |
+| 2024-03 | 2432.55 | 60336.62 | 20.00 |
+| 2024-04 | 363.00 | 80205.88 | 20.00 |
+| 2024-05 | 435.13 | 71122.06 | 68868.69 |
+| 2024-06 | 1137.00 | 84326.62 | 20.00 |
+| 2024-07 | 1267.39 | 76420.25 | 20.00 |
+| 2024-08 | 2515.77 | 59703.77 | 20.00 |
+| 2024-09 |  | 27518.62 |  |
+| 2024-10 | 1260.94 | 32235.47 | 20.00 |
+| 2024-11 | 202.33 | 36397.47 | 20.00 |
+| 2024-12 | 19.00 | 25280.51 | 20.00 |
+| 2025-01 |  | 25375.10 |  |
+| 2025-02 |  | 27177.70 |  |
+| 2025-03 | 11081.00 | 4856.33 | 40.00 |
+| 2025-04 |  | 3752.34 |  |
+| 2025-05 |  | 6947.38 |  |
+| 2025-06 | 23263.84 | 2358.09 | 2494.00 |
 
 ## First Visible Unpaid Health Insurance Month
 
-Not detected
+2024-05
 
 ## Health Insurance Status from Unbedenklichkeitsbescheinigungen
 
@@ -136,8 +136,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Barauszahlungswerte_O0N.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Cash-Payment.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Health Security.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_April_2025.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2024.pdf
@@ -154,9 +152,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Salaries.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Seizures.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Zoll Kitanov.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 04.2025.xlsx
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 06.2025  Копие.xlsx
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 12.2024.xlsx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf
@@ -203,7 +198,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2021 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf
@@ -225,8 +219,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Vasilev_Test Pay Slip.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/2022 Arbeitgeberbestätigung zu den Arbeitstagen.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/2023 Arbeitgeberbestätigung zu den Arbeitstagen.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/38389 - Vorgangsmappe Lohn - 38389 - Aktualisiert- Auszahlungen Inflationsprämie.xlsx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/39922 - Accountings 11-2023.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/40578 - Accountings 12-2023.pdf
@@ -246,13 +238,10 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Lohnauswertungen_August_2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Rechnung_RE058675_11.08.2025.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Test Pay ROll.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Voransicht2023_89878877.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/widerruf_doc.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/working hours 03.2025.xlsx
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/01-2023 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/02-2022 #9120.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/03-2023 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/07-2022 #9120.pdf
@@ -279,14 +268,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy3.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy4.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4025268_vom_01.09.2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4026904_vom_01.11.2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4029768_vom_01.03.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4030475_vom_01.04.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4033045_vom_01.08.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4034294_vom_01.09.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _9005483_vom_04.07.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Aktivierung Ihres SEPA-Mandats.PDF
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102600491.PDF
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102659867.PDF
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102665850.PDF
@@ -315,10 +296,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries__copy3.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizure.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizures__copy2.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Schwerbehindertenabgabe _Überweisungsdaten.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis 8345-1440-1.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis Zahariev Juni 2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/ueberweisung2022_89878877_20240612110113.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/307538032.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf
@@ -376,17 +353,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift Zahariev 74 30.06.2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Dezember Zahariev 2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Februar 2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Januar 2025.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis November 2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Oktober 2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis September 2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev April 25 Sachsenpower GmbH & Co. KG.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juli 2024.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juni 25 Sachsenpower GmbH & Co. KG.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 48 31.01.2025.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 51 17.02.2025.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 52 28.02.2025.pdf
@@ -405,9 +371,6 @@ Not detected
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2764 Zahariev Hermes Kleidung.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2781 Zahariev Hermes Sendungsverlust.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf
-- 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 05.04. 2025 zahariev.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 66 Mai 2025 zahariev.pdf
 - 00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 71 2025 zahariev Sendungsverlust.pdf

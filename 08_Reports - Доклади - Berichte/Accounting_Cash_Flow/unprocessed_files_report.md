@@ -1,9 +1,10 @@
 # Unprocessed Files Report
 
-Total unprocessed or partial files: 1599
+Total unprocessed or partial files: 1622
 
 ## Reasons
 - Duplicate file: 588
+- No structured rows extracted: 23
 - Skipped Duplicates category; original or kept copy should be processed instead.: 165
 - Skipped Unknown_To_Review category; manual review is required before financial extraction.: 593
 - Skipped accountant-email category for financial extraction; attachments already categorized separately when organizer found them.: 202

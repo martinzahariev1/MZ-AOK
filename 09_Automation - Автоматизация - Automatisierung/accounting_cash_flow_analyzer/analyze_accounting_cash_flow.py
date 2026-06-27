@@ -73,8 +73,10 @@ CATEGORY_HINTS = {
     "12_Liability_Overview": "liability overview",
 }
 
-EMPLOYEE_HEADERS = ["month", "employee_count", "employee_names", "source_documents", "confidence"]
-PAYROLL_HEADERS = ["month", "total_brutto", "total_netto", "source_documents", "confidence"]
+TRACE_HEADERS = ["source_snippet", "matched_pattern", "extraction_method"]
+
+EMPLOYEE_HEADERS = ["month", "employee_count", "employee_names", "source_documents", "confidence"] + TRACE_HEADERS
+PAYROLL_HEADERS = ["month", "total_brutto", "total_netto", "source_documents", "confidence"] + TRACE_HEADERS
 HEALTH_HEADERS = [
     "month",
     "insurance_name",
@@ -85,7 +87,7 @@ HEALTH_HEADERS = [
     "late_fees",
     "source_documents",
     "confidence",
-]
+] + TRACE_HEADERS
 UNBEDENKLICHKEIT_HEADERS = [
     "document_date",
     "valid_until",
@@ -99,7 +101,7 @@ UNBEDENKLICHKEIT_HEADERS = [
     "exact_status_sentence",
     "source_file",
     "confidence",
-]
+] + TRACE_HEADERS
 HEALTH_STATUS_MONTHLY_HEADERS = [
     "month",
     "insurance_name",
@@ -121,7 +123,7 @@ TAX_HEADERS = [
     "due_date",
     "source_documents",
     "confidence",
-]
+] + TRACE_HEADERS
 OPERATING_HEADERS = [
     "month",
     "category",
@@ -131,7 +133,7 @@ OPERATING_HEADERS = [
     "unpaid_balance",
     "source_documents",
     "confidence",
-]
+] + TRACE_HEADERS
 ENRICO_HEADERS = [
     "month",
     "document_number",
@@ -141,7 +143,7 @@ ENRICO_HEADERS = [
     "source_file",
     "already_in_enrico_report",
     "action_needed",
-]
+] + TRACE_HEADERS
 MONTHLY_HEADERS = [
     "month",
     "enrico_deductions_total_if_available",
@@ -243,7 +245,7 @@ OPERATING_KEYWORDS = {
     "vehicle costs": ["fahrzeug", "vehicle", "kfz", "auto"],
     "repairs": ["reparatur", "werkstatt", "repair"],
     "leasing": ["leasing"],
-    "insurance": ["versicherung", "insurance"],
+    "insurance": ["kfz-versicherung", "fahrzeugversicherung", "betriebshaftpflicht"],
     "rent": ["miete", "rent"],
     "phone": ["telefon", "phone", "mobilfunk"],
     "accounting fees": ["buchhaltung", "steuerberater", "accounting"],
@@ -376,8 +378,8 @@ def first_match(patterns: Iterable[str], text: str, flags: int = re.IGNORECASE |
 def extract_month(text: str, display_path: str) -> str:
     combined = f"{display_path}\n{text}"
     direct_patterns = [
-        r"\b(20\d{2})[-_/ .](0?[1-9]|1[0-2])\b",
-        r"\b(0?[1-9]|1[0-2])[-_/ .](20\d{2})\b",
+        r"(?<!\d)(20\d{2})[-_/ .](0?[1-9]|1[0-2])(?!\d)",
+        r"(?<!\d)(0?[1-9]|1[0-2])[-_/ .](20\d{2})(?!\d)",
     ]
     for index, pattern in enumerate(direct_patterns):
         match = re.search(pattern, combined, re.IGNORECASE)
@@ -403,6 +405,78 @@ def extract_month(text: str, display_path: str) -> str:
         match = re.search(rf"\b(?:{pattern})\s*(20\d{{2}})\b", combined, re.IGNORECASE)
         if match:
             return f"{int(match.group(1)):04d}-{month:02d}"
+    return ""
+
+
+def month_from_match(year: str, month: str) -> str:
+    year_int = int(year)
+    month_int = int(month)
+    if 2020 <= year_int <= 2026 and 1 <= month_int <= 12:
+        return f"{year_int:04d}-{month_int:02d}"
+    return ""
+
+
+def extract_month_from_fragment(fragment: str) -> str:
+    direct_patterns = [
+        r"\b(20\d{2})[-_/ .](0?[1-9]|1[0-2])\b",
+        r"\b(0?[1-9]|1[0-2])[-_/ .](20\d{2})\b",
+    ]
+    for index, pattern in enumerate(direct_patterns):
+        match = re.search(pattern, fragment, re.IGNORECASE)
+        if match and index == 0:
+            month = month_from_match(match.group(1), match.group(2))
+            if month:
+                return month
+        if match:
+            month = month_from_match(match.group(2), match.group(1))
+            if month:
+                return month
+    month_names = [
+        ("januar|jan", 1),
+        ("februar|feb", 2),
+        ("märz|maerz|mar", 3),
+        ("april|apr", 4),
+        ("mai", 5),
+        ("juni|jun", 6),
+        ("juli|jul", 7),
+        ("august|aug", 8),
+        ("september|sep", 9),
+        ("oktober|oct|okt", 10),
+        ("november|nov", 11),
+        ("dezember|dec|dez", 12),
+    ]
+    for pattern, month in month_names:
+        match = re.search(rf"\b(?:{pattern})\s*(20\d{{2}})\b", fragment, re.IGNORECASE)
+        if match:
+            return f"{int(match.group(1)):04d}-{month:02d}"
+    return ""
+
+
+def extract_month(text: str, display_path: str) -> str:
+    labels = ["Leistungszeitraum", "Zeitraum", "Abrechnungsmonat", "Abrechnungszeitraum", "Lohnmonat"]
+    for label in labels:
+        for match in re.finditer(rf"{label}.{{0,100}}", text, re.IGNORECASE | re.DOTALL):
+            month = extract_month_from_fragment(match.group(0))
+            if month:
+                return month
+    filename_month = extract_month_from_fragment(Path(display_path.split("::", 1)[0]).name)
+    if filename_month:
+        return filename_month
+    title_month = extract_month_from_fragment("\n".join(text.splitlines()[:12]))
+    if title_month:
+        return title_month
+    subject = first_match([r"subject:\s*([^\n\r]+)"], text)
+    subject_month = extract_month_from_fragment(subject)
+    if subject_month:
+        return subject_month
+    document_date = first_match([r"(?:Datum|Rechnungsdatum|Bescheinigung vom)\D{0,40}(\d{1,2}\.\d{1,2}\.(?:20)?\d{2})"], text)
+    if document_date:
+        parts = document_date.split(".")
+        year = int(parts[2])
+        if year < 100:
+            year += 2000
+        if 2020 <= year <= 2026:
+            return f"{year:04d}-{int(parts[1]):02d}"
     return ""
 
 
@@ -814,6 +888,34 @@ def extract_amount_near(text: str, terms: Iterable[str]) -> Decimal | None:
             return parse_decimal(match.group(1))
     return None
 
+def compact_snippet(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()[:300]
+
+
+def looks_like_date_amount(text: str, start: int, end: int, value: str) -> bool:
+    cleaned = value.replace(",", ".")
+    if not re.fullmatch(r"\d{1,2}\.\d{2}", cleaned):
+        return False
+    window = text[max(0, start - 4) : min(len(text), end + 8)]
+    return bool(re.search(rf"{re.escape(cleaned)}\.(?:20)?\d{{2}}", window))
+
+
+def extract_amount_trace(text: str, terms: Iterable[str]) -> tuple[Decimal | None, str, str]:
+    for term in terms:
+        pattern = rf"({term}.{{0,160}}?({money_pattern()})\s*(?:EUR|€)?)"
+        for match in re.finditer(pattern, text, re.IGNORECASE | re.DOTALL):
+            raw = match.group(2)
+            if looks_like_date_amount(text, match.start(2), match.end(2), raw):
+                continue
+            value = parse_decimal(raw)
+            if value is not None:
+                return value, compact_snippet(match.group(1)), term
+    return None, "", ""
+
+
+def trace_fields(snippet: str, pattern: str, method: str) -> dict[str, str]:
+    return {"source_snippet": snippet, "matched_pattern": pattern, "extraction_method": method}
+
 
 def extract_employee_names(text: str) -> list[str]:
     names: set[str] = set()
@@ -947,6 +1049,56 @@ def extract_unbedenklichkeitsbescheinigung(source: SourceFile, read: ReadResult)
     }
 
 
+def source_category(source: SourceFile) -> str:
+    return primary_category(source.path)
+
+
+def has_any(haystack: str, terms: Iterable[str]) -> bool:
+    return any(normalize(term) in haystack for term in terms)
+
+
+def is_strong_payroll_source(source: SourceFile, haystack: str) -> bool:
+    filename = normalize(source.path.name)
+    if source_category(source).startswith("03_Employee_Payslips"):
+        return False
+    return source_category(source).startswith("02_Payroll") and has_any(
+        f"{filename}\n{haystack}",
+        ["lohnauswertungen", "brutto_netto", "brutto-netto", "brutto netto", "lohnjournal", "divauswertungen"],
+    )
+
+
+def is_health_source(source: SourceFile, haystack: str) -> bool:
+    if source_category(source).startswith("03_Employee_Payslips"):
+        return False
+    if source_category(source).startswith(("04_Health_Insurance", "11_Contribution_Lists")):
+        return True
+    return has_any(
+        haystack,
+        ["beitragsnachweis", "beiträge", "beitraege", "krankenkasse", "unbedenklichkeitsbescheinigung", "sozialversicherung"],
+    )
+
+
+def is_tax_source(source: SourceFile, haystack: str) -> bool:
+    tax_terms = ["finanzamt", "stadt chemnitz", "gewerbesteuer", "umsatzsteuer", "lohnsteuer", "einkommensteuer"]
+    if has_any(haystack, tax_terms):
+        return True
+    if "hauptzollamt" in haystack and not has_any(haystack, ["krankenkasse", "beitrag", "sozialversicherung"]):
+        return True
+    return False
+
+
+def is_operating_source(source: SourceFile, haystack: str) -> bool:
+    if not source_category(source).startswith("08_Operating_Costs"):
+        return False
+    return any(term in haystack for terms in OPERATING_KEYWORDS.values() for term in terms)
+
+
+def is_enrico_source(source: SourceFile, haystack: str) -> bool:
+    strong_terms = ["enrico weissflog", "enrico weißflog", "sachsenpower", "sendungsverlust", "abschlag", "leistungsnachweis", "scannermiete"]
+    numbered_doc = bool(re.search(r"\b(?:Gutschrift|Rechnung)\s+Nr\.?", haystack, re.IGNORECASE))
+    return source_category(source).startswith("09_Enrico_Forwarded") and (has_any(haystack, strong_terms) or numbered_doc)
+
+
 def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
     text = read.text
     month = extract_month(text, source.display_path)
@@ -1067,6 +1219,144 @@ def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, s
                 }
             )
             break
+
+    return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, enrico_rows, certificate_rows
+
+
+def extract_rows(source: SourceFile, read: ReadResult) -> tuple[list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]], list[dict[str, str]]]:
+    text = read.text
+    month = extract_month(text, source.display_path)
+    haystack = normalize(f"{source.display_path}\n{source.category_hint}\n{text}")
+    src = source.display_path
+    employee_rows: list[dict[str, str]] = []
+    payroll_rows: list[dict[str, str]] = []
+    health_rows: list[dict[str, str]] = []
+    tax_rows: list[dict[str, str]] = []
+    operating_rows: list[dict[str, str]] = []
+    enrico_rows: list[dict[str, str]] = []
+    certificate_rows: list[dict[str, str]] = []
+
+    certificate = extract_unbedenklichkeitsbescheinigung(source, read)
+    if certificate:
+        certificate.update(trace_fields(certificate.get("exact_status_sentence", ""), "unbedenklichkeitsbescheinigung", "certificate_status_text"))
+        certificate_rows.append(certificate)
+
+    if is_enrico_source(source, haystack):
+        number = first_match([r"(?:Gutschrift|Rechnung)\s+Nr\.?\s*[:#]?\s*([A-Z0-9./_-]+(?:\s*-\s*\d{2,4})?)"], text)
+        doc_type = first_match([r"\b(Gutschrift|Rechnung|Leistungsnachweis|Sendungsverlust|Scannermiete)\b"], text)
+        date = first_match([r"(?:Datum|Rechnungsdatum|Gutschriftdatum)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
+        amount, snippet, pattern = extract_amount_trace(text, ["Gesamtbetrag", "Endbetrag", "Nettosumme", "Rechnungsbetrag"])
+        enrico_rows.append(
+            {
+                "month": month,
+                "document_number": re.sub(r"\s+", "", number),
+                "document_type": doc_type,
+                "document_date": date,
+                "amount": fmt(amount),
+                "source_file": src,
+                "already_in_enrico_report": "UNKNOWN",
+                "action_needed": "",
+                **trace_fields(snippet, pattern, "enrico_strong_source_document_total"),
+            }
+        )
+
+    if any(term in haystack for term in ["lohn", "entgelt", "brutto", "netto", "arbeitnehmer", "mitarbeiter"]):
+        names = extract_employee_names(text)
+        employee_rows.append(
+            {
+                "month": month,
+                "employee_count": str(len(names)) if names else "",
+                "employee_names": "; ".join(names),
+                "source_documents": src,
+                "confidence": "MEDIUM" if names else "LOW",
+                **trace_fields(compact_snippet("; ".join(names) or source.path.name), "employee name pattern", "employee_timeline"),
+            }
+        )
+        brutto, brutto_snippet, brutto_pattern = extract_amount_trace(text, ["Gesamtbrutto", "Bruttoarbeitslohn", "Brutto gesamt", "Brutto", "total_brutto"])
+        netto, netto_snippet, netto_pattern = extract_amount_trace(text, ["Auszahlungsbetrag", "Nettoverdienst", "Netto gesamt", "Netto", "total_netto"])
+        if is_strong_payroll_source(source, haystack) and month:
+            payroll_rows.append(
+                {
+                    "month": month,
+                    "total_brutto": fmt(brutto),
+                    "total_netto": fmt(netto),
+                    "source_documents": src,
+                    "confidence": read.confidence if (brutto is not None or netto is not None) else "LOW",
+                    **trace_fields(brutto_snippet or netto_snippet or source.path.name, brutto_pattern or netto_pattern or "filename month only", "strong_payroll_total_or_month_only"),
+                }
+            )
+
+    insurer = detect_health_insurer(haystack)
+    if insurer and is_health_source(source, haystack):
+        due, due_snippet, due_pattern = extract_amount_trace(text, ["fällig", "faellig", "Soll", "Beitragssoll", "Gesamtbeitrag", "Beiträge", "Beitraege"])
+        paid, paid_snippet, paid_pattern = extract_amount_trace(text, ["bezahlt", "gezahlt", "Zahlungseingang", "Überweisung", "Ueberweisung", "Lastschrift"])
+        unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "Rückstand", "Rueckstand", "rückständige Beiträge", "rueckstaendige Beitraege", "offene Beiträge", "offene Beitraege", "Rest"])
+        late, late_snippet, late_pattern = extract_amount_trace(text, ["Säumniszuschlag", "Saeumniszuschlag", "Mahngebühr", "Mahngebuehr"])
+        due_date = first_match([r"(?:fällig|faellig|due date)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
+        snippet = due_snippet or paid_snippet or unpaid_snippet or late_snippet
+        pattern = due_pattern or paid_pattern or unpaid_pattern or late_pattern
+        health_rows.append(
+            {
+                "month": month,
+                "insurance_name": insurer,
+                "amount_due": fmt(due),
+                "amount_paid": fmt(paid),
+                "unpaid_balance": fmt(unpaid),
+                "due_date": due_date,
+                "late_fees": fmt(late),
+                "source_documents": src,
+                "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid, late]) else "LOW",
+                **trace_fields(snippet, pattern, "health_labeled_amounts"),
+            }
+        )
+
+    if is_tax_source(source, haystack):
+        creditor = "Finanzamt" if "finanzamt" in haystack else "Stadt Chemnitz" if "stadt chemnitz" in haystack or "gewerbesteuer" in haystack else "Hauptzollamt" if "hauptzollamt" in haystack else ""
+        tax_type = next((term for term in TAX_TYPES if normalize(term) in haystack), "other public liability")
+        due, due_snippet, due_pattern = extract_amount_trace(text, ["fällig", "faellig", "Steuerbetrag", "Soll", "Forderung", "Gesamtbetrag"])
+        paid, paid_snippet, paid_pattern = extract_amount_trace(text, ["bezahlt", "gezahlt", "Zahlung", "Ist"])
+        unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "Rückstand", "Rueckstand", "Rest"])
+        due_date = first_match([r"(?:fällig|faellig|due date)\D{0,40}(\d{1,2}\.\d{1,2}\.\d{2,4})"], text)
+        snippet = due_snippet or paid_snippet or unpaid_snippet
+        pattern = due_pattern or paid_pattern or unpaid_pattern
+        tax_rows.append(
+            {
+                "month": month,
+                "creditor": creditor,
+                "tax_type": tax_type,
+                "amount_due": fmt(due),
+                "amount_paid": fmt(paid),
+                "unpaid_balance": fmt(unpaid),
+                "due_date": due_date,
+                "source_documents": src,
+                "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
+                **trace_fields(snippet, pattern, "tax_labeled_amounts"),
+            }
+        )
+
+    if is_operating_source(source, haystack):
+        for category, terms in OPERATING_KEYWORDS.items():
+            if any(term in haystack for term in terms):
+                due, due_snippet, due_pattern = extract_amount_trace(text, ["Gesamtbetrag", "Rechnungsbetrag", "Kosten", "Betrag"])
+                paid, paid_snippet, paid_pattern = extract_amount_trace(text, ["bezahlt", "gezahlt", "paid"])
+                unpaid, unpaid_snippet, unpaid_pattern = extract_amount_trace(text, ["offen", "unpaid", "balance", "Rest"])
+                creditor = first_match([r"(?:Kreditor|Lieferant|Gläubiger|Glaeubiger)\s*[:#]?\s*([^\n\r]+)"], text)
+                snippet = due_snippet or paid_snippet or unpaid_snippet
+                pattern = due_pattern or paid_pattern or unpaid_pattern
+                operating_rows.append(
+                    {
+                        "month": month,
+                        "category": category,
+                        "creditor": creditor,
+                        "amount_due": fmt(due),
+                        "amount_paid": fmt(paid),
+                        "unpaid_balance": fmt(unpaid),
+                        "source_documents": src,
+                        "confidence": read.confidence if any(v is not None for v in [due, paid, unpaid]) else "LOW",
+                        **trace_fields(snippet, pattern, "operating_category_labeled_amount"),
+                    }
+                )
+                break
 
     return employee_rows, payroll_rows, health_rows, tax_rows, operating_rows, enrico_rows, certificate_rows
 

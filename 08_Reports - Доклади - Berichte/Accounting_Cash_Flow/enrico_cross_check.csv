@@ -1,95 +1,46 @@
-﻿month,document_number,document_type,document_date,amount,source_file,already_in_enrico_report,action_needed
-2021-02,1637805507,Gutschrift,,10.02,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2022-03,,Gutschrift,,9.03,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2023-03,2023083-714,Gutschrift,01.02.20,7.03,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2021-04,1637805507,Gutschrift,,12.04,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2021 #9109.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2022-05,,Gutschrift,01.05.20,9.05,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2021-06,,Gutschrift,,11.06,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2021 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-07,,Rechnung,01.06.20,5.07,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2021-07,,Gutschrift,,14.07,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2021 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-08,,Gutschrift,01.09.20,9.09,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2021-08,,Gutschrift,,8.09,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/09-2021 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-10,,Gutschrift,01.10.20,28.10,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/10-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2021-08,,Rechnung,,2.11,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/11-2021 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2021-12,,Gutschrift,,27.12,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2021 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-12,,Gutschrift,01.12.20,12.12,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2026-03,001055073,Gutschrift,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-02,,Gutschrift,,8.03,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/02-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-04,,Gutschrift,11.03.22,9.05,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-06,,Gutschrift,,4.07,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-08,,Gutschrift,,7.09,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/07-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2022-10,,Gutschrift,,26.10,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2002-01,2023083,RECHNUNG,,49.94,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2002-01,RG-2024-0,GUTSCHRIFT,,482.79,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2022-12,,Gutschrift,,12.12,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/12-2022 #9120.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-07,2810,Rechnung,,30.06,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis Zahariev Juni 2025.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2036-08,02036,Rechnung,,675.92,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2036 08.01.2025 Scannermiete.pdf,YES,
-2054-07,02054,Rechnung,,637.84,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2054 07.02.2025 Scannermiete.pdf,YES,
-2058-08,02068,Rechnung,,637.84,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf,YES,
-2025-04,02765,Rechnung,,637.84,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2765 Zahariev Hermes Scannermiete.pdf,YES,
-2025-05,02777,Rechnung,,499.80,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2777 Zahariev Hermes Unterstützungstouren.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-05,02778,Rechnung,,599.76,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2778 Zahariev Hermes Scannermiete.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-05,02782,Rechnung,,35.70,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2782 Zahariev Hermes Bearbeitungsgebühr.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-06,02788,Rechnung,,523.60,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2788 Zahariev Hermes Scannermiete.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-06,02789,Rechnung,,8282.40,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2789 Zahariev TF Touren.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-06,02794,Rechnung,,71.40,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2794 Zahariev KFZ Miete.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-06,02799,Rechnung,,53.55,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2799 Bearbeitungsgebühr 10.06.2025 Zahariev.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-07,02810,Rechnung,,9496.20,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2810 Zahariev TF Touren.pdf,YES,
-2025-07,02811,Rechnung,,333.20,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2811 Zahariev scannermiete.pdf,YES,
-2025-07,02813,Rechnung,,47.60,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2813 zahariev bearbeitungsgebühr.pdf,YES,
-2025-07,02814,Rechnung,,166.60,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2814 zahariev bekleidung.pdf,YES,
-2023-10,120-2300157425,GUTSCHRIFT,26.10.2023,2034.28,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157425.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2023-10,120-2300157934,GUTSCHRIFT,30.10.2023,176843.58,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157934.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-01,120-2400000826,GUTSCHRIFT,31.01.2024,119991.48,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000826.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-01,120-2400000990,GUTSCHRIFT,31.01.2024,34171.33,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000990.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-01,120-2400001108,GUTSCHRIFT,02.02.2024,6242.25,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400001108-1.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-02,120-2400017841,GUTSCHRIFT,21.02.2024,634.21,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400017841.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-02,120-2400018211,GUTSCHRIFT,29.02.2024,4.90,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400018211.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-01,120-2400035414,GUTSCHRIFT,26.03.2024,2543.30,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035414.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-01,120-2400035649,GUTSCHRIFT,26.03.2024,608.64,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035649.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-07,7-2024,Gutschrift,02.04.2024,2.06,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Docutain Dokument.pdf,YES,
-2025-04,60-2025,Gutschrift,,75.91,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 05.04. 2025 zahariev.pdf,YES,
-2024-07,24-2024,Gutschrift,,179841.96,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 24-2024 Zahariev Martin 31.07.2024.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-09,31-2024,Gutschrift,,176234.29,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 31-2024 Zahariev Martin 30.09.2024.pdf,YES,
-2024-10,34-2024,Gutschrift,,916.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf,YES,
-2024-10,38-2024,Gutschrift,,197442.02,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 38-2024 Zahariev Martin 31.10.2024.pdf,YES,
-2024-11,42-2024,Gutschrift,,232318.76,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf,YES,
-2024-12,44-2024,Gutschrift,,188941.38,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf,YES,
-2025-05,66-2025,Gutschrift,,120491.84,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 66 Mai 2025 zahariev.pdf,YES,
-2025-06,71-2025,Gutschrift,,50.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 71 2025 zahariev Sendungsverlust.pdf,YES,
-2025-04,61-2025,Gutschrift,,181792.36,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift April 2025 zahariev.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-03,57-2025,Gutschrift,,202395.66,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift märz 2025 zahariev.pdf,YES,
-2025-06,74-2025,Gutschrift,,55392.95,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift Zahariev 74 30.06.2025.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2024-12,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Dezember Zahariev 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-02,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Februar 2025.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-01,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Januar 2025.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2024-11,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis November 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2024-10,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Oktober 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2024-09,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis September 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-03,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-04,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev April 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2024-07,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juli 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-05,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juni 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-05,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT
-2025-01,48-2025,Gutschrift,,189578.90,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 48 31.01.2025.pdf,YES,
-2025-02,51-2025,Gutschrift,,100.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 51 17.02.2025.pdf,YES,
-2025-02,52-2025,Gutschrift,,170271.25,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 52 28.02.2025.pdf,YES,
-2025-03,55-2025,Gutschrift,,95.95,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 55 08.03.2025.pdf,YES,
-2035-08,02035,Rechnung,,38.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2035 08.01.2025 Hermes Bekleidung.pdf,YES,
-2037-08,02037,Rechnung,,11648.45,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2037 08.01.2025 Sendungsverluste.pdf,YES,
-2038-08,02038,Rechnung,,181.48,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2038 08.01.2025 Bearbeitungsgebühr.pdf,YES,
-2055-07,02055,Rechnung,,7847.85,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf,YES,
-2056-07,02056,Rechnung,,163.63,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2056 07.02.2025 Bearbeitungsgebühr.pdf,YES,
-2057-07,02057,Rechnung,,94.52,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2057 07.02.2025 Hermes Bekleidung.pdf,YES,
-2069-08,02069,Rechnung,,2763.67,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2069 08.03.2025 Sendungsverluste.pdf,YES,
-2070-08,02070,Rechnung,,98.18,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2070 08.03.2025 Sendungsverluste.pdf,YES,
-2024-12,02014,Rechnung,,10390.09,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf,YES,
-2015-07,02015,Rechnung,,196.35,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2015 07.12.2024 Martin Zahariev.pdf,YES,
-2024-12,02023,Rechnung,,50.49,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2023 vom 07.12.2024  Zahariev HERMES Bekleidung.pdf,YES,
-2025-04,02764,Rechnung,,18.45,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2764 Zahariev Hermes Kleidung.pdf,YES,
-2025-03,02766,Rechnung,,1545.27,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf,YES,
-2025-04,02767,Rechnung,,50.58,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf,YES,
-2025-05,02781,Rechnung,,1309.21,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2781 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-06,02798,Rechnung,,3042.12,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
-2025-07,02812,Rechnung,,1099.78,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE
+﻿month,document_number,document_type,document_date,amount,source_file,already_in_enrico_report,action_needed,source_snippet,matched_pattern,extraction_method
+2024-04,7-2024,Gutschrift,02.04.2024,2.06,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Docutain Dokument.pdf,YES,,"Gesamtbetrag Menge 77916 993 25 71 1 2 175 410 6064 10 13 8 16 Preis 2,06 €",Gesamtbetrag,enrico_strong_source_document_total
+2025-02,60-2025,Gutschrift,,75.91,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 05.04. 2025 zahariev.pdf,YES,,"Endbetrag:______ _ 75,91 €",Endbetrag,enrico_strong_source_document_total
+2024-07,24-2024,Gutschrift,,179841.96,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 24-2024 Zahariev Martin 31.07.2024.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Gesamtbetrag 179.841,96 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-09,31-2024,Gutschrift,,176234.29,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 31-2024 Zahariev Martin 30.09.2024.pdf,YES,,"Gesamtbetrag 176.234,29 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-08,34-2024,Gutschrift,,916.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf,YES,,"Endbetrag:________ _ _ 916,00 €",Endbetrag,enrico_strong_source_document_total
+2024-10,38-2024,Gutschrift,,197442.02,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 38-2024 Zahariev Martin 31.10.2024.pdf,YES,,"Gesamtbetrag 197.442,02 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-11,42-2024,Gutschrift,,232318.76,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf,YES,,"Gesamtbetrag 232.318,76 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-12,44-2024,Gutschrift,,188941.38,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf,YES,,"Gesamtbetrag 188.941,38 €",Gesamtbetrag,enrico_strong_source_document_total
+2025-05,66-2025,Gutschrift,,120491.84,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 66 Mai 2025 zahariev.pdf,YES,,"Gesamtbetrag 120.491,84 €",Gesamtbetrag,enrico_strong_source_document_total
+2025-03,71-2025,Gutschrift,,50.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 71 2025 zahariev Sendungsverlust.pdf,YES,,"Endbetrag:______ _ 50,00 €",Endbetrag,enrico_strong_source_document_total
+2025-04,61-2025,Gutschrift,,181792.36,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift April 2025 zahariev.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Gesamtbetrag 181.792,36 €",Gesamtbetrag,enrico_strong_source_document_total
+2025-03,57-2025,Gutschrift,,202395.66,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift märz 2025 zahariev.pdf,YES,,"Gesamtbetrag 202.395,66 €",Gesamtbetrag,enrico_strong_source_document_total
+2025-06,74-2025,Gutschrift,,55392.95,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift Zahariev 74 30.06.2025.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Gesamtbetrag 55.392,95 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-12,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Dezember Zahariev 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-02,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Februar 2025.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-01,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Januar 2025.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2024-11,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis November 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2024-10,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Oktober 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2024-09,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis September 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-03,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-04,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev April 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2024-07,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juli 2024.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-05,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juni 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-05,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf,UNKNOWN,REVIEW_ENRICO_DOCUMENT,,,enrico_strong_source_document_total
+2025-01,48-2025,Gutschrift,,189578.90,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 48 31.01.2025.pdf,YES,,"Gesamtbetrag 189.578,90 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-11,51-2025,Gutschrift,,100.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 51 17.02.2025.pdf,YES,,"Endbetrag:______ _ 100,00 €",Endbetrag,enrico_strong_source_document_total
+2025-02,52-2025,Gutschrift,,170271.25,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 52 28.02.2025.pdf,YES,,"Gesamtbetrag 170.271,25 €",Gesamtbetrag,enrico_strong_source_document_total
+2024-12,55-2025,Gutschrift,,95.95,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 55 08.03.2025.pdf,YES,,"Endbetrag:______ _ 95,95 €",Endbetrag,enrico_strong_source_document_total
+2025-01,02035,Rechnung,,38.00,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2035 08.01.2025 Hermes Bekleidung.pdf,YES,,"Endbetrag:_____ 38,00 €",Endbetrag,enrico_strong_source_document_total
+2025-01,02037,Rechnung,,11648.45,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2037 08.01.2025 Sendungsverluste.pdf,YES,,"Endbetrag:______ __ _ 11.648,45 €",Endbetrag,enrico_strong_source_document_total
+2025-01,02038,Rechnung,,181.48,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2038 08.01.2025 Bearbeitungsgebühr.pdf,YES,,"Endbetrag:_____ 181,48 €",Endbetrag,enrico_strong_source_document_total
+2025-02,02055,Rechnung,,7847.85,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf,YES,,"Endbetrag:______ __ _ 7.847,85 €",Endbetrag,enrico_strong_source_document_total
+2025-02,02056,Rechnung,,163.63,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2056 07.02.2025 Bearbeitungsgebühr.pdf,YES,,"Endbetrag:_____ 163,63 €",Endbetrag,enrico_strong_source_document_total
+2025-02,02057,Rechnung,,94.52,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2057 07.02.2025 Hermes Bekleidung.pdf,YES,,"Endbetrag:_____ 94,52 €",Endbetrag,enrico_strong_source_document_total
+2025-03,02069,Rechnung,,2763.67,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2069 08.03.2025 Sendungsverluste.pdf,YES,,"Endbetrag:______ __ _ 2.763,67 €",Endbetrag,enrico_strong_source_document_total
+2025-03,02070,Rechnung,,98.18,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2070 08.03.2025 Sendungsverluste.pdf,YES,,"Endbetrag:_____ 98,18 €",Endbetrag,enrico_strong_source_document_total
+2024-12,02014,Rechnung,,10390.09,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf,YES,,"Endbetrag:______ __ _ 10.390,09 €",Endbetrag,enrico_strong_source_document_total
+2024-12,02015,Rechnung,,196.35,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2015 07.12.2024 Martin Zahariev.pdf,YES,,"Endbetrag:_____ 196,35 €",Endbetrag,enrico_strong_source_document_total
+2024-12,02023,Rechnung,,50.49,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2023 vom 07.12.2024  Zahariev HERMES Bekleidung.pdf,YES,,"Endbetrag:_____ 50,49 €",Endbetrag,enrico_strong_source_document_total
+,02764,Rechnung,,18.45,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2764 Zahariev Hermes Kleidung.pdf,YES,,"Endbetrag:_____ 18,45 €",Endbetrag,enrico_strong_source_document_total
+,02766,Rechnung,,1545.27,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf,YES,,"Endbetrag:______ __ _ 1.545,27 €",Endbetrag,enrico_strong_source_document_total
+2025-04,02767,Rechnung,,50.58,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf,YES,,"Endbetrag: _____ 50,58 €",Endbetrag,enrico_strong_source_document_total
+,02781,Rechnung,,1309.21,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2781 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Endbetrag:______ __ _ 1.309,21 €",Endbetrag,enrico_strong_source_document_total
+,02798,Rechnung,,3042.12,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Endbetrag:______ __ _ 3.042,12 €",Endbetrag,enrico_strong_source_document_total
+,02812,Rechnung,,1099.78,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf,NO,POSSIBLE_MISSING_ENRICO_EVIDENCE,"Endbetrag:______ __ _ 1.099,78 €",Endbetrag,enrico_strong_source_document_total

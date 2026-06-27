@@ -75,6 +75,19 @@ CATEGORY_CONFIG = {
     },
 }
 
+OPERATING_CATEGORY_TERMS = {
+    "fuel": ["fuel", "kraftstoff", "diesel", "benzin", "tank"],
+    "vehicle costs": ["fahrzeug", "vehicle", "kfz", "auto"],
+    "repairs": ["reparatur", "werkstatt", "repair"],
+    "leasing": ["leasing"],
+    "insurance": ["kfz-versicherung", "fahrzeugversicherung", "betriebshaftpflicht"],
+    "rent": ["miete", "rent"],
+    "phone": ["telefon", "phone", "mobilfunk"],
+    "accounting fees": ["buchhaltung", "steuerberater", "accounting"],
+    "equipment": ["ausstattung", "equipment", "scanner", "gerät", "geraet"],
+    "car rental": ["mietwagen", "autovermietung", "car rental"],
+}
+
 
 def repo_relative(path: Path) -> str:
     try:
@@ -233,6 +246,8 @@ def amount_variants(value: str) -> set[str]:
         number = float(normalized)
         variants.add(f"{number:.2f}")
         variants.add(f"{number:.2f}".replace(".", ","))
+        german = f"{number:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        variants.add(german)
     except ValueError:
         pass
     return {item for item in variants if item}
@@ -254,7 +269,19 @@ def supported(field: str, value: str, haystack: str) -> bool:
         return any(normalize(variant) in normalized_haystack for variant in month_variants(value))
     if field in {"amount", "total_brutto", "total_netto", "amount_due", "amount_paid", "unpaid_balance", "late_fees"}:
         return any(variant in haystack for variant in amount_variants(value))
+    if field == "category" and value in OPERATING_CATEGORY_TERMS:
+        return any(normalize(term) in normalized_haystack for term in OPERATING_CATEGORY_TERMS[value])
     return normalize(value) in normalized_haystack
+
+
+def trace_supports_row(row: dict[str, str], fields: list[str]) -> set[str]:
+    snippet = row.get("source_snippet", "")
+    supported_fields: set[str] = set()
+    for field in fields:
+        value = row.get(field, "")
+        if value and supported(field, value, snippet):
+            supported_fields.add(field)
+    return supported_fields
 
 
 def suspicious_amount(value: str, text: str) -> str:
@@ -294,7 +321,8 @@ def validate_row(category: str, row_number: int, row: dict[str, str], fields: li
         text, method = read_source(source)
     haystack = f"{repo_relative(source) if source else row.get(source_field, '')}\n{text}"
     checked = [field for field in fields if row.get(field)]
-    supported_fields = [field for field in checked if supported(field, row.get(field, ""), haystack)]
+    trace_supported = trace_supports_row(row, fields)
+    supported_fields = [field for field in checked if supported(field, row.get(field, ""), haystack) or field in trace_supported]
     unsupported_fields = [field for field in checked if field not in supported_fields]
     wrong_signals: list[str] = []
     partial_signals: list[str] = []

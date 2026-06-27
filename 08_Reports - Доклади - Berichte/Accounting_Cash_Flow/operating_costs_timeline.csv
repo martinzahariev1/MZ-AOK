@@ -1,298 +1,50 @@
-﻿month,category,creditor,amount_due,amount_paid,unpaid_balance,source_documents,confidence
-2024-01,insurance,,15.02,2496.77,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1 (2)-1.pdf,HIGH
-2024-01,insurance,,14.02,2419.35,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_01-2024_DivAuswertungen_DivMitarbeiter_2Z1.pdf,HIGH
-2024-07,insurance,,7.03,7.03,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_02-2024_DivAuswertungen_00006_5Z1.pdf,HIGH
-2024-11,insurance,,11.04,11.04,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1.pdf,HIGH
-2024-12,insurance,,12.04,12.04,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_03-2024_DivAuswertungen_DivMitarbeiter_8Z1__copy2.pdf,HIGH
-2024-08,insurance,,8.05,1548.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_04-2024_DivAuswertungen_DivMitarbeiter_BZ1.pdf,HIGH
-2024-10,insurance,,10.06,10.06,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf,HIGH
-2024-12,insurance,,12.07,1806.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,HIGH
-2025-07,insurance,,11.07,946.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_06_2025_Div_Auswertungen_Div_Mitarbeiter.pdf,HIGH
-2024-09,insurance,,9.08,1914.19,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_07-2024_DivAuswertungen_DivMitarbeiter_KZ1.pdf,HIGH
-2024-01,insurance,,1319.96,1664.52,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00074_NZ1.pdf,HIGH
-2024-12,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_08-2024_Brutto_NettoProbe_00098_NZ1.pdf,LOW
-2024-01,insurance,,2282.31,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00051_QZ1.pdf,HIGH
-2024-10,insurance,,702400.72,516.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_Brutto_NettoProbe_00107_QZ1.pdf,HIGH
-2024-09,insurance,,9.10,2236.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf,HIGH
-2023-12,insurance,,,2619.35,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_Brutto_NettoProbe_00025_ZZ1.pdf,HIGH
-2023-11,insurance,,11.01,11.01,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/10001_12-2023_DivAuswertungen_DivMitarbeiter_ZZ1.pdf,HIGH
-2018-10,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/312_neut__Verdienstbescheinigung_Brutto_Netto_01_08_2023_-_31_07_2024.pdf,LOW
-2024-10,accounting fees,,1638.41,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Barauszahlungswerte_O0N.pdf,HIGH
-2025-01,accounting fees,,1851.10,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Cash-Payment.pdf,HIGH
-2025-07,accounting fees,,141.29,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Health Security.pdf,HIGH
-2025-05,insurance,,2196.75,2494.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_April_2025.pdf,HIGH
-2024-07,insurance,,,915.48,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2024.pdf,HIGH
-2025-08,insurance,,0.00,10.06,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025.pdf,HIGH
-2000-01,insurance,,711.47,1798.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juli_2025__copy2.pdf,HIGH
-2025-07,insurance,,17.07,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Juni_2025.pdf,HIGH
-2024-05,accounting fees,,,21.10,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Mai_2024-1.pdf,HIGH
-2024-06,insurance,,688.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Mai_2024.pdf,HIGH
-2025-04,accounting fees,,0.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_März_2025.pdf,HIGH
-2024-12,accounting fees,,9.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_November_2024-1.pdf,HIGH
-2024-12,accounting fees,,1830.10,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_November_2024.pdf,HIGH
-2024-11,accounting fees,,2750.00,1165.16,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Lohnauswertungen_Oktober_2024.pdf,HIGH
-2023-12,insurance,,2253.54,6239.86,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Pay Roll 12.2023.pdf,HIGH
-2025-07,accounting fees,,40743.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Salaries.pdf,HIGH
-2025-07,accounting fees,,84.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Seizures.pdf,HIGH
-2025-04,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 04.2025.xlsx,LOW
-2025-06,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 06.2025  Копие.xlsx,LOW
-2023-01,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/working hours 12.2024.xlsx,LOW
-2025-01,accounting fees,,45215.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/02_Payroll/Zoll Kitanov.pdf,HIGH
-2024-01,insurance,,2217.50,5889.13,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2024.pdf,HIGH
-2025-01,insurance,,1244.22,5692.86,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 01-2025.pdf,HIGH
-2024-02,insurance,,2359.42,7277.62,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2024.pdf,HIGH
-2025-02,insurance,,1158.76,4981.86,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 02-2025.pdf,HIGH
-2024-03,insurance,,2288.46,6556.53,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2024.pdf,HIGH
-2025-03,insurance,,1201.49,4789.23,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 03-2025.pdf,HIGH
-2024-04,insurance,,1842.60,5689.02,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2024.pdf,HIGH
-2003-01,insurance,,348.81,4518.02,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 04-2025.pdf,HIGH
-2024-05,insurance,,1973.75,5869.18,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2024.pdf,HIGH
-2001-03,insurance,,9606.05,4634.82,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 05-2025.pdf,HIGH
-2024-06,insurance,,253.34,5991.28,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2024.pdf,HIGH
-2000-01,insurance,,4799.13,2474.01,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 06-2025.pdf,HIGH
-2024-07,insurance,,81.11,5515.16,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 07-2024.pdf,HIGH
-2024-08,insurance,,472.01,7002.40,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 08-2024.pdf,HIGH
-2024-09,insurance,,798.83,7304.67,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 09-2024.pdf,HIGH
-2024-10,insurance,,1244.22,6364.90,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 10-2024.pdf,HIGH
-2024-11,insurance,,1244.22,7150.71,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 11-2024.pdf,HIGH
-2024-12,insurance,,13913.67,5236.01,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/Entgeltbescheinigungen 12-2024.pdf,HIGH
-2021-02,vehicle costs,,10.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2021 #9109.pdf,HIGH
-2022-03,vehicle costs,,9.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2022 #9109.pdf,HIGH
-2023-03,fuel,,7.03,,1.23,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/02-2023 #9109.pdf,HIGH
-2021-04,vehicle costs,,12.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2021 #9109.pdf,HIGH
-2022-05,vehicle costs,,9.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/04-2022 #9109.pdf,HIGH
-2021-06,vehicle costs,,11.06,,-433.08,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2021 #9109.pdf,HIGH
-2022-07,fuel,,5.07,,-30.30,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/06-2022 #9109.pdf,HIGH
-2021-07,vehicle costs,,14.07,,-433.08,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2021 #9109.pdf,HIGH
-2022-08,fuel,,9.09,,19.08,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/07-2022 #9109.pdf,HIGH
-2021-08,vehicle costs,,8.09,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/09-2021 #9109.pdf,HIGH
-2022-10,fuel,,28.10,,30.09,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/10-2022 #9109.pdf,HIGH
-2021-08,fuel,,2.11,,-41.60,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/11-2021 #9109.pdf,HIGH
-2021-12,fuel,,27.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2021 #9109.pdf,HIGH
-2022-12,fuel,,12.12,,-23.43,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2022 #9109.pdf,HIGH
-2025-01,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/12-2024_Brutto_Netto_00090_X0B.pdf,LOW
-2024-01,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/3.0.2_920_v6.2_20240101_gebuehrenordnung_pq_kep.pdf,LOW
-2025-05,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/38389 - Vorgangsmappe Lohn - Contributions 28.05.2025.docx,LOW
-2024-05,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/9. Nachweise zur Anmeldung der Mitarbeiter beim Sozialversicherungsträger.pdf,LOW
-2022-02,insurance,,8.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/aktuelle Unbedenklichkeitsbescheinigungen.pdf,HIGH
-,fuel,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Anforderung einer regelmäßigen Unbedenklichkeitsbescheinigung im Abonnement.pdf,LOW
-2025-01,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Antrag Freischaltung Mein AOK Arbeitgeberservice.pdf,LOW
-2025-07,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Arbeitsbescheinigung Georgi Stefanov.pdf,LOW
-2025-04,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 02.04.2025.docx,LOW
-2025-03,insurance,,,13649.05,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 03.03.2025.docx,MEDIUM
-2025-03,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025(1).docx,LOW
-2025-03,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 13.03.2025.docx,LOW
-2025-02,insurance,,,13649.05,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions 19.02.2025.docx,MEDIUM
-,insurance,,41544.44,13447.05,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Contributions.docx,MEDIUM
-2024-09,insurance,,88.53,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Remaining health insurances for 09_2024 und 10_2024.eml,MEDIUM
-,insurance,-Identifikationsnummer AOK Sachsen-Anhalt:,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SEPA AOK Sachsen-Anhalt.pdf,LOW
-2020-06,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen 01-2020 bis 03-2021.pdf,LOW
-2022-04,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Sozialversicherungsanmeldungen.pdf,LOW
-2020-06,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweis (DEЪV)_Div Mitarbeiter_   (07-2021.pdf,LOW
-2023-03,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/SV-Nachweise.pdf,LOW
-2026-03,vehicle costs,vertreter,31.08,5.20,2494.00,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH
-2024-09,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/UB.pdf,LOW
-2025-12,insurance,,2052.97,,,00_INBOX - Входящи - Eingang/Accounting_Organized/04_Health_Insurance/Vasilev_Test Pay Slip.pdf,HIGH
-2022-01,vehicle costs,,2912.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/2022 Arbeitgeberbestätigung zu den Arbeitstagen.pdf,HIGH
-2023-01,vehicle costs,,3080.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/2023 Arbeitgeberbestätigung zu den Arbeitstagen.pdf,HIGH
-,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/38389 - Vorgangsmappe Lohn - 38389 - Aktualisiert- Auszahlungen Inflationsprämie.xlsx,LOW
-2023-10,vehicle costs,,30281.89,,10.01,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/39922 - Accountings 11-2023.pdf,HIGH
-2023-12,vehicle costs,,25150.59,,17.02,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/40578 - Accountings 12-2023.pdf,HIGH
-2024-02,vehicle costs,,18516.48,,13.04,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/41467 - Accountings 02-2024.pdf,HIGH
-2023-10,insurance,,30.10,,20.00,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/90f3df27-1ca1-4b3a-9f1b-e33ffd37f10a.pdf,HIGH
-2024-11,vehicle costs,,20797.47,,11.03,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 01-2024.pdf,HIGH
-2025-01,vehicle costs,,24159.32,,14.03,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 01-2025.pdf,HIGH
-2025-10,vehicle costs,,22523.36,,10.04,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 02-2025.pdf,HIGH
-2024-11,vehicle costs,,22853.99,,11.06,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 04-2024.pdf,HIGH
-2024-11,vehicle costs,,24018.01,,11.07,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 05-2024.pdf,HIGH
-2024-10,vehicle costs,,23553.36,,10.08,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 06-2024.pdf,HIGH
-2024-07,vehicle costs,,23067.09,,7.09,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 07-2024.pdf,HIGH
-2024-09,vehicle costs,,22536.76,,19.11,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 09-2024.pdf,HIGH
-2024-10,vehicle costs,,24226.58,,10.12,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 10-2024.pdf,HIGH
-2024-11,vehicle costs,,27948.98,,14.03,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 11-2024.pdf,HIGH
-2024-12,vehicle costs,,23984.73,,14.03,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Accountings 12-2024.pdf,HIGH
-,fuel,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/agb_doc.pdf,LOW
-2024-09,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Lohnauswertungen_August_2024.pdf,LOW
-2025-09,vehicle costs,,797.30,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Rechnung_RE058675_11.08.2025.pdf,HIGH
-2024-07,insurance,,7.05,1548.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Test Pay ROll.pdf,HIGH
-2024-03,repairs,,0.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/Voransicht2023_89878877.pdf,HIGH
-,fuel,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/widerruf_doc.pdf,LOW
-2025-03,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/05_Taxes/working hours 03.2025.xlsx,LOW
-2022-11,vehicle costs,,30.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/01-2023 #9120.pdf,HIGH
-2022-02,vehicle costs,,8.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/02-2022 #9120.pdf,HIGH
-2023-03,fuel,,,,15.03,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/03-2023 #9120.pdf,HIGH
-2022-04,vehicle costs,,9.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/04-2022 #9120.pdf,HIGH
-2022-06,fuel,,4.07,,0.86,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/06-2022 #9120.pdf,HIGH
-2022-08,fuel,,7.09,,-36.00,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/07-2022 #9120.pdf,HIGH
-2022-10,fuel,,26.10,,-25.41,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10-2022 #9120.pdf,HIGH
-2002-01,fuel,,49.94,,-213.26,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH
-2002-01,vehicle costs,,482.79,,68848.69,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH
-2022-12,vehicle costs,,12.12,,-25.41,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/12-2022 #9120.pdf,HIGH
-2024-01,accounting fees,,435.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/20240123_60222_10160_Rechnung.pdf,HIGH
-2025-06,accounting fees,,889.73,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1).pdf",HIGH
-2023-12,accounting fees,,2169.53,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy10.pdf",HIGH
-2024-05,accounting fees,,2060.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy2.pdf",HIGH
-2024-12,accounting fees,,2066.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy3.pdf",HIGH
-2024-08,accounting fees,,1990.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (1)__copy4.pdf",HIGH
-2024-12,accounting fees,,45250.78,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2) (1).pdf",HIGH
-2024-09,rent,,2032.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2).pdf",HIGH
-2024-11,accounting fees,,45222.78,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy2.pdf",HIGH
-2024-01,accounting fees,,2258.61,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (2)__copy3.pdf",HIGH
-2025-01,accounting fees,,17743.16,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3) (1).pdf",HIGH
-2024-02,accounting fees,,1964.61,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3).pdf",HIGH
-2024-12,accounting fees,,13913.67,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (3)__copy2.pdf",HIGH
-2024-03,accounting fees,,1986.88,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform) (4).pdf",HIGH
-2024-06,accounting fees,,2060.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform).pdf",HIGH
-2024-04,accounting fees,,2018.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy2.pdf",HIGH
-2024-11,accounting fees,,2004.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy3.pdf",HIGH
-2024-07,accounting fees,,1962.70,,,"00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Abstimmliste (DE - SEPA, Langform)__copy4.pdf",HIGH
-2018-05,fuel,-Identifikationsnummer: DE63ZZZ00000008438,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/BIG_Arbeitgeber_SEPA_Lastschriftmandat.pdf,LOW
-2024-09,phone,-Id,10.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4025268_vom_01.09.2024.pdf,HIGH
-2024-11,phone,-Id,10.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4026904_vom_01.11.2024.pdf,HIGH
-2025-03,phone,-Id,11.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4029768_vom_01.03.2025.pdf,HIGH
-2025-04,phone,-Id,11.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4030475_vom_01.04.2025.pdf,HIGH
-2025-08,phone,-Id,11.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4033045_vom_01.08.2025.pdf,HIGH
-2025-09,phone,-Id,11.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _4034294_vom_01.09.2025.pdf,HIGH
-2025-07,phone,,1.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Favorit MP Martin Zahariev _9005483_vom_04.07.2025.pdf,HIGH
-2024-03,phone,-ID: DE07ZZZ00000843064,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Aktivierung Ihres SEPA-Mandats.PDF,LOW
-2025-08,fuel,-Identifikationsnummer,20.07,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102600491.PDF,HIGH
-2025-09,fuel,-Identifikationsnummer,20.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102659867.PDF,HIGH
-2025-09,fuel,-Identifikationsnummer,31.07,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102665850.PDF,HIGH
-2025-09,fuel,-Identifikationsnummer,31.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/KD-Nr. 550980 - Pre-Not._Nr. 6102698674.PDF,HIGH
-,fuel,,1928.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rechnung RE211073-1.pdf,HIGH
-,fuel,,1928.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rechnung RE211073.pdf,HIGH
-2025-09,phone,,895.36,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980-1.PDF,HIGH
-2025-09,phone,,546.15,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980-2.PDF,HIGH
-2025-09,phone,,812.26,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Rücklastschrift _ Ihre KD-Nr. 550980.PDF,HIGH
-2025-03,accounting fees,,2520.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Schwerbehindertenabgabe _Überweisungsdaten.pdf,HIGH
-2024-11,insurance,,15042.95,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Health insurances.pdf,HIGH
-2024-10,rent,,2032.70,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - payroll.pdf,HIGH
-2024-10,accounting fees,,45222.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA - Pfändungen.pdf,HIGH
-2025-03,accounting fees,,11205.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security-1.pdf,HIGH
-2025-04,accounting fees,,9962.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health security.pdf,HIGH
-2025-02,accounting fees,,13812.22,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List health securitys.pdf,HIGH
-2025-02,accounting fees,,2021.53,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries (2).pdf,HIGH
-2025-01,accounting fees,,1949.21,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries.pdf,HIGH
-2025-03,accounting fees,,1480.58,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List salaries__copy2.pdf,HIGH
-2025-02,accounting fees,,45229.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures.pdf,HIGH
-2025-03,accounting fees,,45222.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA List seizures__copy2.pdf,HIGH
-2025-07,accounting fees,,141.29,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List halth security.pdf,HIGH
-2025-05,accounting fees,,9613.20,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List health security.pdf,HIGH
-2025-06,accounting fees,,1552.37,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries.pdf,HIGH
-2025-04,accounting fees,,1874.94,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries__copy2.pdf,HIGH
-2025-05,accounting fees,,1790.94,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List salaries__copy3.pdf,HIGH
-2025-06,accounting fees,,45222.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizure.pdf,HIGH
-2025-04,accounting fees,,45222.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List Seizures.pdf,HIGH
-2025-05,accounting fees,,89.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/SEPA-List seizures__copy2.pdf,HIGH
-2023-03,accounting fees,,1680.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/ueberweisung2022_89878877_20240612110113.pdf,HIGH
-2024-02,accounting fees,Nr.: 2000016306,826119991.48,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis 8345-1440-1.pdf,HIGH
-2025-07,accounting fees,,30.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/06_Bank_Payments/Zahlungsavis Zahariev Juni 2025.pdf,HIGH
-2024-02,fuel,,991.96,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/307538032.pdf,HIGH
-2023-12,insurance,,28.12,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf",HIGH
-2024-02,insurance,,17.02,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf",HIGH
-2024-01,insurance,,29.01,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
-2024-03,insurance,,27.03,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-04,insurance,,30.04,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH
-2024-05,insurance,,30.05,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-06,insurance,,29.06,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf",HIGH
-2024-07,insurance,,31.07,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-08,insurance,,30.08,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-10,insurance,,30.10,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-11,insurance,,29.11,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH
-2024-12,insurance,,27.12,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf",HIGH
-2025-03,insurance,,14.03,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf",HIGH
-2025-03,accounting fees,,31.03,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf",HIGH
-2025-08,fuel,,5270.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_020725.pdf,HIGH
-2025-12,fuel,,9949.77,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_040625.pdf,HIGH
-2025-09,fuel,,1599.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_050825.pdf,HIGH
-2024-10,fuel,,18535.34,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_061224.pdf,HIGH
-2025-09,fuel,,18262.14,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_070225.pdf,HIGH
-2024-09,fuel,,17862.56,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_080125.pdf,HIGH
-2025-03,vehicle costs,,13.38,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/BWA 03-2025.pdf,HIGH
-2024-09,fuel,,214.00,18.09,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/CarlundCarla_RG424005125.pdf,HIGH
-2024-09,fuel,,89.00,19.09,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/CarlundCarla_RG424005157.pdf,HIGH
-2024-09,insurance,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Ihre Lohnauswertungen.eml,LOW
-2036-08,rent,,675.92,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2036 08.01.2025 Scannermiete.pdf,HIGH
-2054-07,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2054 07.02.2025 Scannermiete.pdf,HIGH
-2058-08,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf,HIGH
-2025-04,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2765 Zahariev Hermes Scannermiete.pdf,HIGH
-2025-05,accounting fees,,499.80,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2777 Zahariev Hermes Unterstützungstouren.pdf,HIGH
-2025-05,rent,,599.76,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2778 Zahariev Hermes Scannermiete.pdf,HIGH
-2025-05,accounting fees,,35.70,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2782 Zahariev Hermes Bearbeitungsgebühr.pdf,HIGH
-2025-06,rent,,523.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2788 Zahariev Hermes Scannermiete.pdf,HIGH
-2025-06,accounting fees,,8282.40,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2789 Zahariev TF Touren.pdf,HIGH
-2025-06,vehicle costs,,71.40,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2794 Zahariev KFZ Miete.pdf,HIGH
-2025-06,accounting fees,,53.55,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2799 Bearbeitungsgebühr 10.06.2025 Zahariev.pdf,HIGH
-2025-07,accounting fees,,9496.20,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2810 Zahariev TF Touren.pdf,HIGH
-2025-07,rent,,333.20,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2811 Zahariev scannermiete.pdf,HIGH
-2025-07,accounting fees,,47.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2813 zahariev bearbeitungsgebühr.pdf,HIGH
-2025-07,accounting fees,,166.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2814 zahariev bekleidung.pdf,HIGH
-2023-10,fuel,en-Nr: 2000016306,1709.48,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157425.pdf,HIGH
-2023-10,fuel,en-Nr: 2000016306,147244.68,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157934.pdf,HIGH
-2024-01,fuel,en-Nr: 2000016306,104081.50,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000826.pdf,HIGH
-2024-01,fuel,en-Nr: 2000016306,26176.42,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000990.pdf,HIGH
-2024-01,fuel,en-Nr: 2000016306,5349.82,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400001108-1.pdf,HIGH
-2024-02,fuel,en-Nr: 2000016306,532.95,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400017841.pdf,HIGH
-2024-02,fuel,en-Nr: 2000016306,4.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400018211.pdf,HIGH
-2024-01,fuel,en-Nr: 2000016306,2137.23,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035414.pdf,HIGH
-2024-01,fuel,en-Nr: 2000016306,511.46,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035649.pdf,HIGH
-2024-07,accounting fees,,2.06,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Docutain Dokument.pdf,HIGH
-2025-04,accounting fees,,75.91,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 05.04. 2025 zahariev.pdf,HIGH
-2024-07,accounting fees,,75.47,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 24-2024 Zahariev Martin 31.07.2024.pdf,HIGH
-2024-09,accounting fees,,74.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 31-2024 Zahariev Martin 30.09.2024.pdf,HIGH
-2024-10,accounting fees,,916.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf,HIGH
-2024-10,accounting fees,,82.85,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 38-2024 Zahariev Martin 31.10.2024.pdf,HIGH
-2024-11,accounting fees,,97.74,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 42-2024 Zahariev Martin 30.11.2024.pdf,HIGH
-2024-12,accounting fees,,79.08,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift 44-2024 Zahariev Martin 31.12.2024.pdf,HIGH
-2025-05,accounting fees,,50.99,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 66 Mai 2025 zahariev.pdf,HIGH
-2025-06,accounting fees,,33.77,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift 71 2025 zahariev Sendungsverlust.pdf,HIGH
-2025-04,accounting fees,,76.54,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift April 2025 zahariev.pdf,HIGH
-2025-03,accounting fees,,81.11,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/gutschrift märz 2025 zahariev.pdf,HIGH
-2025-06,accounting fees,,23.53,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Gutschrift Zahariev 74 30.06.2025.pdf,HIGH
-2024-12,accounting fees,,1.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Dezember Zahariev 2024.pdf,HIGH
-2025-02,accounting fees,,1.02,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Februar 2025.pdf,HIGH
-2025-01,accounting fees,,1.01,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Martin Zahariev Januar 2025.pdf,HIGH
-2024-11,accounting fees,,1.11,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis November 2024.pdf,HIGH
-2024-10,accounting fees,,1.10,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Oktober 2024.pdf,HIGH
-2024-09,accounting fees,,1.09,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis September 2024.pdf,HIGH
-2025-03,accounting fees,,1.03,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Subunternehmer Sachsenpower GmbH & Co. KG.pdf,HIGH
-2025-04,accounting fees,,1.04,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev April 25 Sachsenpower GmbH & Co. KG.pdf,HIGH
-2024-07,accounting fees,,1.07,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juli 2024.pdf,HIGH
-2025-05,accounting fees,,1.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Juni 25 Sachsenpower GmbH & Co. KG.pdf,HIGH
-2025-05,accounting fees,,1.05,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Leistungsnachweis Zahariev Mai 25 Sachsenpower GmbH & Co. KG.pdf,HIGH
-2025-01,accounting fees,,79.29,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 48 31.01.2025.pdf,HIGH
-2025-02,accounting fees,,103.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 51 17.02.2025.pdf,HIGH
-2025-02,accounting fees,,71.25,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 52 28.02.2025.pdf,HIGH
-2025-03,accounting fees,,95.59,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Gutschrift 55 08.03.2025.pdf,HIGH
-2035-08,accounting fees,,38.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2035 08.01.2025 Hermes Bekleidung.pdf,HIGH
-2037-08,vehicle costs,,11648.45,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2037 08.01.2025 Sendungsverluste.pdf,HIGH
-2038-08,accounting fees,,181.48,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2038 08.01.2025 Bearbeitungsgebühr.pdf,HIGH
-2055-07,vehicle costs,,7847.85,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2055 07.02.2025 Sendungsverluste.pdf,HIGH
-2056-07,accounting fees,,163.63,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2056 07.02.2025 Bearbeitungsgebühr.pdf,HIGH
-2057-07,accounting fees,,94.52,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2057 07.02.2025 Hermes Bekleidung.pdf,HIGH
-2069-08,accounting fees,,2763.67,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2069 08.03.2025 Sendungsverluste.pdf,HIGH
-2070-08,accounting fees,,98.18,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Martin Zahariev Transporte 2070 08.03.2025 Sendungsverluste.pdf,HIGH
-2024-12,accounting fees,,10390.09,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2014 vom 05.12.2024 Sendungsverlust Zahariev.pdf,HIGH
-2015-07,accounting fees,,196.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2015 07.12.2024 Martin Zahariev.pdf,HIGH
-2024-12,accounting fees,,50.49,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2023 vom 07.12.2024  Zahariev HERMES Bekleidung.pdf,HIGH
-2025-04,accounting fees,,18.45,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2764 Zahariev Hermes Kleidung.pdf,HIGH
-2025-03,accounting fees,,1545.27,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2766 Zahariev Hermes Sendungsverlust.pdf,HIGH
-2025-04,accounting fees,,50.58,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2767 Zahariev Hermes Bearbeitungsgebuhr.pdf,HIGH
-2025-05,accounting fees,,1309.21,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2781 Zahariev Hermes Sendungsverlust.pdf,HIGH
-2025-06,accounting fees,,3042.12,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2798 Zahariev Hermes Sendungsverlust.pdf,HIGH
-2025-07,accounting fees,,1099.78,,,00_INBOX - Входящи - Eingang/Accounting_Organized/09_Enrico_Forwarded/Rechnung 2812 Zahariev Hermes Sendungsverlust.pdf,HIGH
-2024-08,vehicle costs,,0.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/11_Contribution_Lists/RE-53380_2024 13.08.2024 09_17_16.pdf,HIGH
-2024-09,vehicle costs,,0.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/11_Contribution_Lists/RE-53652_2024 20.09.2024 10_56_50.pdf,HIGH
-2024-01,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 01-2024.pdf,LOW
-2024-02,accounting fees,,838.33,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 02-2024.pdf,HIGH
-2024-03,accounting fees,,473.38,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 03-2024.pdf,HIGH
-2023-04,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2023.pdf,LOW
-2024-04,accounting fees,,177.93,1548.00,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 04-2024.pdf,HIGH
-2023-05,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 05-2023.pdf,LOW
-2023-06,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 06-2023.pdf,LOW
-2023-07,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 07-2023.pdf,LOW
-2023-08,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 08-2023.pdf,LOW
-2023-09,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 09-2023.pdf,LOW
-2023-10,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 10-2023.pdf,LOW
-2023-11,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 11-2023.pdf,LOW
-2023-12,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/03_Employee_Payslips/8. Lohnabrechnungen aller Mitarbeiter.zip::8. Lohnabrechnungen aller Mitarbeiter/Entgeltabrechnungen 12-2023.pdf,LOW
+﻿month,category,creditor,amount_due,amount_paid,unpaid_balance,source_documents,confidence,source_snippet,matched_pattern,extraction_method
+,fuel,,991.96,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/307538032.pdf,HIGH,"Gesamtbetrag dieser Miete : EUR 991,96",Gesamtbetrag,operating_category_labeled_amount
+2023-12,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/39739 - Rechnung 231128_2023 vom 28.12.2023, Aufträge 31_23, 32_23, 33_23, 34_23, 50_23, 98_23, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-02,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40579 - Rechnung 240155_2024 vom 17.02.2024, Aufträge 31_23, 33_23, 34_23, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-01,rent,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/40850 - Rechnung 240213_2024 vom 29.01.2024, Aufträge 31_24, 32_23, 33_23, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-03,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41261 - Rechnung 240303_2024 vom 27.03.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-04,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/41683 - Rechnung 240393_2024 vom 30.04.2024, Aufträge 31_24, 32_24, 33_24, 34_24, 98_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-05,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42108 - Rechnung 240498_2024 vom 30.05.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-06,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/42585 - Rechnung 240587_2024 vom 29.06.2024, Aufträge 31_24, 33_23, 33_24, 34_24, Mandant 42303-1.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-07,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43029 - Rechnung 240697_2024 vom 31.07.2024, Aufträge 21_23, 21_24, 31_22, 31_23, 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-08,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/43617 - Rechnung 240857_2024 vom 30.08.2024, Aufträge 31_24, 32_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-10,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/44458 - Rechnung 241068_2024 vom 30.10.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-11,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45027 - Rechnung 241185_2024 vom 29.11.2024, Aufträge 31_24, 33_24, 34_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2024-12,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/45474 - Rechnung 241289_2024 vom 27.12.2024, Aufträge 21_24, 31_24, 32_24, 33_24, 34_24, 35_21, 35_24, 50_24, 98_24, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2025-03,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46583 - Rechnung 250253_2025 vom 14.03.2025, Aufträge 31_25, 33_24, 34_24, 34_25, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2025-03,accounting fees,,20.00,,20.00,"00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/46851 - Rechnung 250303_2025 vom 31.03.2025, Aufträge 31_25, 33_25, 34_25, Mandant 42303.pdf",HIGH,"Rechnungsbetrag Bitte überweisen Sie den offenen Rechnungsbetrag unter Angabe der Rechnungsnummer auf das oben genannte Konto. 20,00 EUR",Rechnungsbetrag,operating_category_labeled_amount
+2025-06,fuel,,5270.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_020725.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 5.270,35",Gesamtbetrag,operating_category_labeled_amount
+2025-05,fuel,,9949.77,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_040625.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 9.949,77",Gesamtbetrag,operating_category_labeled_amount
+2025-07,fuel,,1599.35,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_050825.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 1.599,35",Gesamtbetrag,operating_category_labeled_amount
+2024-11,fuel,,18535.34,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_061224.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 18.535,34",Gesamtbetrag,operating_category_labeled_amount
+2025-01,fuel,,18262.14,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_070225.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 18.262,14",Gesamtbetrag,operating_category_labeled_amount
+2024-12,fuel,,17862.56,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/6106074_080125.pdf,HIGH,"Gesamtbetrag inkl. MwSt. 17.862,56",Gesamtbetrag,operating_category_labeled_amount
+2025-03,vehicle costs,,167412.67,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/BWA 03-2025.pdf,HIGH,"Kosten % Pers.- Kosten Auf- schlag Jan/2025 - Mrz/2025 % Ges.- Leistg. % Ges.- Kosten % Pers.- Kosten Auf- schlag Umsatzerlöse 167.412,67",Kosten,operating_category_labeled_amount
+2024-09,fuel,,214.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/CarlundCarla_RG424005125.pdf,HIGH,"Gesamtbetrag 214,00 €",Gesamtbetrag,operating_category_labeled_amount
+2024-09,fuel,,89.00,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/CarlundCarla_RG424005157.pdf,HIGH,"Gesamtbetrag 89,00 €",Gesamtbetrag,operating_category_labeled_amount
+2024-09,accounting fees,,,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Ihre Lohnauswertungen.eml,LOW,,,operating_category_labeled_amount
+2025-01,rent,,675.92,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2036 08.01.2025 Scannermiete.pdf,HIGH,"betrag:_____ 675,92 €",Betrag,operating_category_labeled_amount
+2025-02,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2054 07.02.2025 Scannermiete.pdf,HIGH,"betrag:_____ 637,84 €",Betrag,operating_category_labeled_amount
+2025-03,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Martin Zahariev Transporte 2058 08.03.2025 Scannermiete.pdf,HIGH,"betrag:_____ 637,84 €",Betrag,operating_category_labeled_amount
+,rent,,637.84,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2765 Zahariev Hermes Scannermiete.pdf,HIGH,"betrag:_____ 637,84 €",Betrag,operating_category_labeled_amount
+,accounting fees,,499.80,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2777 Zahariev Hermes Unterstützungstouren.pdf,HIGH,"betrag: _____ 499,80 €",Betrag,operating_category_labeled_amount
+,rent,,599.76,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2778 Zahariev Hermes Scannermiete.pdf,HIGH,"betrag:_____ 599,76 €",Betrag,operating_category_labeled_amount
+2025-05,accounting fees,,35.70,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2782 Zahariev Hermes Bearbeitungsgebühr.pdf,HIGH,"betrag: _____ 35,70 €",Betrag,operating_category_labeled_amount
+,rent,,523.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2788 Zahariev Hermes Scannermiete.pdf,HIGH,"betrag:_____ 523,60 €",Betrag,operating_category_labeled_amount
+,accounting fees,,8282.40,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2789 Zahariev TF Touren.pdf,HIGH,"betrag: _____ 8.282,40 €",Betrag,operating_category_labeled_amount
+,vehicle costs,,71.40,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2794 Zahariev KFZ Miete.pdf,HIGH,"betrag: _____ 71,40 €",Betrag,operating_category_labeled_amount
+2025-06,accounting fees,,53.55,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2799 Bearbeitungsgebühr 10.06.2025 Zahariev.pdf,HIGH,"betrag: _____ 53,55 €",Betrag,operating_category_labeled_amount
+,accounting fees,,9496.20,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2810 Zahariev TF Touren.pdf,HIGH,"betrag: _____ 9.496,20 €",Betrag,operating_category_labeled_amount
+,rent,,333.20,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2811 Zahariev scannermiete.pdf,HIGH,"betrag:_____ 333,20 €",Betrag,operating_category_labeled_amount
+2025-07,accounting fees,,47.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2813 zahariev bearbeitungsgebühr.pdf,HIGH,"betrag: _____ 47,60 €",Betrag,operating_category_labeled_amount
+,accounting fees,,166.60,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Rechnung 2814 zahariev bekleidung.pdf,HIGH,"betrag:_____ 166,60 €",Betrag,operating_category_labeled_amount
+2023-10,fuel,en-Nr: 2000016306,2034.28,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157425.pdf,HIGH,"Gesamtbetrag 2.034,28 EUR",Gesamtbetrag,operating_category_labeled_amount
+2023-10,fuel,en-Nr: 2000016306,176843.58,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2300157934.pdf,HIGH,"Gesamtbetrag 176.843,58 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-01,fuel,en-Nr: 2000016306,119991.48,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000826.pdf,HIGH,"Gesamtbetrag 119.991,48 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-01,fuel,en-Nr: 2000016306,34171.33,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400000990.pdf,HIGH,"Gesamtbetrag 34.171,33 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-01,fuel,en-Nr: 2000016306,6242.25,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400001108-1.pdf,HIGH,"Gesamtbetrag 6.242,25 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-02,fuel,en-Nr: 2000016306,634.21,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400017841.pdf,HIGH,"Gesamtbetrag 634,21 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-02,fuel,en-Nr: 2000016306,4.90,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400018211.pdf,HIGH,"Gesamtbetrag 4,90 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-01,fuel,en-Nr: 2000016306,2543.30,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035414.pdf,HIGH,"Gesamtbetrag 2.543,30 EUR",Gesamtbetrag,operating_category_labeled_amount
+2024-01,fuel,en-Nr: 2000016306,608.64,,,00_INBOX - Входящи - Eingang/Accounting_Organized/08_Operating_Costs/Unternehmerabrechnung - VP 120-2400035649.pdf,HIGH,"Gesamtbetrag 608,64 EUR",Gesamtbetrag,operating_category_labeled_amount
