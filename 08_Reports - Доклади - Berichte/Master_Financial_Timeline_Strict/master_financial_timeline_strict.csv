@@ -1,19 +1,19 @@
 ﻿month,enrico_coincident_deductions,enrico_sendungsverlust_deductions,enrico_other_deductions,enrico_refunds,payroll_brutto,payroll_netto,health_insurance_due,health_insurance_paid,health_insurance_unpaid,health_insurance_late_fees,tax_due,tax_paid,tax_unpaid,operating_cost_due,operating_cost_paid,operating_cost_unpaid,revenue,excluded_unknown_amounts_count,source_files_count,confidence,notes
-2024-01,,,,,73703.19,,,,,,,77464.27,,,,,,12,10,MEDIUM,"Missing strict included values for: health insurance, operating cost; 12 excluded/unknown amount rows not summed"
-2024-02,,,,,82167.64,,,,,,,18516.48,,,,,,10,7,MEDIUM,"Missing strict included values for: health insurance, operating cost; 10 excluded/unknown amount rows not summed"
-2024-03,-6245.92,,-303.25,,81895.08,,,,,,,,,,,,186243.20,8,5,MEDIUM,"Missing strict included values for: health insurance, tax, operating cost; 8 excluded/unknown amount rows not summed"
-2024-04,,,,,,,,,,,,22853.99,,,,,,8,4,MEDIUM,"Missing strict included values for: payroll, health insurance, operating cost; 8 excluded/unknown amount rows not summed"
-2024-05,,,,,,,,,,,,24018.01,,,,,,12,6,MEDIUM,"Missing strict included values for: payroll, health insurance, operating cost; 12 excluded/unknown amount rows not summed"
-2024-06,,,,,,,33596.07,,,,,23553.36,,,,,,8,5,MEDIUM,"Missing strict included values for: payroll, operating cost; 8 excluded/unknown amount rows not summed"
-2024-07,,,,,72130.67,,33270.79,,,,,23067.09,,,,,,9,6,MEDIUM,Missing strict included values for: operating cost; 9 excluded/unknown amount rows not summed
-2024-08,,,,916.00,84126.70,,32919.94,,,,7002.40,,,,,,,8,6,MEDIUM,Missing strict included values for: operating cost; 8 excluded/unknown amount rows not summed
-2024-09,,,,,,,39302.86,,,,,22536.76,,,,,176234.29,4,7,MEDIUM,"Missing strict included values for: payroll, operating cost; 4 excluded/unknown amount rows not summed"
-2024-10,,,,,84245.80,,40678.01,,,,,24226.58,,,,,197442.02,9,8,MEDIUM,Missing strict included values for: operating cost; 9 excluded/unknown amount rows not summed
-2024-11,,147.65,16.00,100.00,,,40962.45,,,,,27948.98,,,,,232318.76,12,14,MEDIUM,"Missing strict included values for: payroll, operating cost; 12 excluded/unknown amount rows not summed"
-2024-12,,12.50,,95.95,,,36525.82,,,,,23984.73,,,,,188941.38,9,11,MEDIUM,"Missing strict included values for: payroll, operating cost; 9 excluded/unknown amount rows not summed"
-2025-01,,51.89,16.00,,,,40514.11,,,,,24159.32,,,,,189578.90,5,11,MEDIUM,"Missing strict included values for: payroll, operating cost; 5 excluded/unknown amount rows not summed"
-2025-02,,73.29,16.00,75.91,,,28247.43,,,,,22523.36,,,,,170271.25,4,11,MEDIUM,"Missing strict included values for: payroll, operating cost; 4 excluded/unknown amount rows not summed"
-2025-03,,223.05,16.00,50.00,,,,,,,4789.23,,,,,,202395.66,15,13,MEDIUM,"Missing strict included values for: payroll, health insurance, operating cost; 15 excluded/unknown amount rows not summed"
+2024-01,,,,,73703.19,,,,,,,77464.27,,,20898.67,40.00,,13,18,MEDIUM,Missing strict included values for: health insurance; 13 excluded/unknown amount rows not summed
+2024-02,,,,,82167.64,,,,,,,18516.48,,,18617.68,40.00,,10,14,MEDIUM,Missing strict included values for: health insurance; 10 excluded/unknown amount rows not summed
+2024-03,-6245.92,,-303.25,,81895.08,,,,,,,,,,101.20,40.00,186243.20,8,11,MEDIUM,"Missing strict included values for: health insurance, tax; 8 excluded/unknown amount rows not summed"
+2024-04,,,,,,,,,,,,22853.99,,,22955.19,40.00,,8,11,MEDIUM,"Missing strict included values for: payroll, health insurance; 8 excluded/unknown amount rows not summed"
+2024-05,,,,,,,,,,,,24018.01,,,24058.49,40.00,,12,10,MEDIUM,"Missing strict included values for: payroll, health insurance; 12 excluded/unknown amount rows not summed"
+2024-06,,,,,,,33596.07,,,,,23553.36,,,23553.36,40.00,,8,7,MEDIUM,Missing strict included values for: payroll; 8 excluded/unknown amount rows not summed
+2024-07,,,,,72130.67,,33270.79,,,,,23067.09,,,23067.09,40.00,,9,8,MEDIUM,9 excluded/unknown amount rows not summed
+2024-08,,,,916.00,84126.70,,32919.94,,,,7002.40,,,,40.46,40.00,,8,9,MEDIUM,8 excluded/unknown amount rows not summed
+2024-09,,,,,,,39302.86,,,,,22536.76,,,22536.76,,176234.29,4,8,MEDIUM,Missing strict included values for: payroll; 4 excluded/unknown amount rows not summed
+2024-10,,,,,84245.80,,40678.01,,,,,24226.58,,,24246.81,40.00,197442.02,9,11,MEDIUM,9 excluded/unknown amount rows not summed
+2024-11,,147.65,16.00,100.00,,,40962.45,,,,,27948.98,,,27989.44,40.00,232318.76,12,18,MEDIUM,Missing strict included values for: payroll; 12 excluded/unknown amount rows not summed
+2024-12,,12.50,,95.95,,,36525.82,,,,,23984.73,,,23984.73,40.00,188941.38,9,13,MEDIUM,Missing strict included values for: payroll; 9 excluded/unknown amount rows not summed
+2025-01,,51.89,16.00,,,,40514.11,,,,,24159.32,,,24159.32,,189578.90,5,12,MEDIUM,Missing strict included values for: payroll; 5 excluded/unknown amount rows not summed
+2025-02,,73.29,16.00,75.91,,,28247.43,,,,,22523.36,,,22523.36,,170271.25,4,12,MEDIUM,Missing strict included values for: payroll; 4 excluded/unknown amount rows not summed
+2025-03,,223.05,16.00,50.00,,,,,,,4789.23,,,,,80.00,202395.66,16,15,MEDIUM,"Missing strict included values for: payroll, health insurance; 16 excluded/unknown amount rows not summed"
 2025-04,,2.50,16.00,,65981.53,,28906.24,,,,4518.02,,,,,,,2,5,MEDIUM,Missing strict included values for: operating cost; 2 excluded/unknown amount rows not summed
 2025-05,,,,,51565.19,,27082.96,,,,4634.82,,,,,,120491.84,5,7,MEDIUM,Missing strict included values for: operating cost; 5 excluded/unknown amount rows not summed
 2025-06,,,,,34088.77,,10334.33,,,,2474.01,,,,,,,9,5,MEDIUM,Missing strict included values for: operating cost; 9 excluded/unknown amount rows not summed
