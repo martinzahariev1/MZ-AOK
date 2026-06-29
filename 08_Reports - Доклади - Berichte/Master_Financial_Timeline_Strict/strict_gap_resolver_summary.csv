@@ -1,0 +1,70 @@
+﻿month,category,gap_status,best_candidate_file,confidence,next_action
+2024-01,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2024-01,health insurance,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-01,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-01,Enrico,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-02,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2024-02,health insurance,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-02,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-02,Enrico,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-03,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2024-03,health insurance,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-03,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-03,tax,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-04,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-04,health insurance,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-04,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-04,Enrico,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-05,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2024-05,health insurance,CANDIDATE_FOUND,10001_05-2024_DivAuswertungen_DivMitarbeiter_EZ1.pdf,HIGH,MOVE_TO_CATEGORY
+2024-05,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-05,Enrico,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-06,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-06,health insurance,CANDIDATE_FOUND,10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,HIGH,MOVE_TO_CATEGORY
+2024-06,operating cost,MANUAL_REVIEW_NEEDED,10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,MEDIUM,MOVE_TO_CATEGORY
+2024-06,Enrico,MANUAL_REVIEW_NEEDED,10001_06-2024_DivAuswertungen_DivMitarbeiter_HZ1.pdf,MEDIUM,MOVE_TO_CATEGORY
+2024-07,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2024.pdf,HIGH,USE_EXISTING
+2024-07,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 07-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-07,operating cost,MANUAL_REVIEW_NEEDED,Entgeltbescheinigungen 07-2024.pdf,MEDIUM,MOVE_TO_CATEGORY
+2024-07,Enrico,CANDIDATE_FOUND,07.2024.pdf,HIGH,USE_EXISTING
+2024-08,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-08,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 08-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-08,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH,MOVE_TO_CATEGORY
+2024-08,tax,CANDIDATE_FOUND,Entgeltbescheinigungen 08-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-08,Enrico,CANDIDATE_FOUND,Gutschrift 34-2024 Zahariev Martin 04.10.2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-09,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-09,health insurance,CANDIDATE_FOUND,10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf,HIGH,MOVE_TO_CATEGORY
+2024-09,operating cost,MANUAL_REVIEW_NEEDED,10001_09-2024_DivAuswertungen_DivMitarbeiter_QZ1.pdf,MEDIUM,MOVE_TO_CATEGORY
+2024-10,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-10,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 10-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-10,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH,MOVE_TO_CATEGORY
+2024-11,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-11,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 11-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-11,operating cost,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2023.pdf,HIGH,MOVE_TO_CATEGORY
+2024-12,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2024-12,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 12-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2024-12,operating cost,MANUAL_REVIEW_NEEDED,Entgeltbescheinigungen 12-2024.pdf,MEDIUM,MOVE_TO_CATEGORY
+2025-01,payroll,CANDIDATE_FOUND,Lohnauswertungen_Juli_2025__copy2.pdf,HIGH,USE_EXISTING
+2025-01,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 12-2024.pdf,HIGH,MOVE_TO_CATEGORY
+2025-01,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-02,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2025-02,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 02-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-02,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-03,payroll,CANDIDATE_FOUND,Lohnauswertungen.pdf,HIGH,MOVE_TO_CATEGORY
+2025-03,health insurance,CANDIDATE_FOUND,10. Nachweis von Lohnzahlungen - Bankkontoumsätze 2024.pdf,HIGH,MOVE_TO_CATEGORY
+2025-03,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-03,tax,CANDIDATE_FOUND,Tabelle nach § 175 InsO mit Grund des Bestreitens.pdf,HIGH,MOVE_TO_CATEGORY
+2025-04,payroll,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-04,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-04,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-04,tax,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-04,Enrico,CANDIDATE_FOUND,gutschrift April 2025 zahariev.pdf,HIGH,USE_EXISTING
+2025-05,payroll,CANDIDATE_FOUND,Entgeltbescheinigungen 05-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-05,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 05-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-05,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 04-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-05,tax,CANDIDATE_FOUND,Entgeltbescheinigungen 05-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-06,payroll,CANDIDATE_FOUND,Entgeltbescheinigungen 06-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-06,health insurance,CANDIDATE_FOUND,Entgeltbescheinigungen 06-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-06,operating cost,CANDIDATE_FOUND,Entgeltbescheinigungen 06-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-06,tax,CANDIDATE_FOUND,Entgeltbescheinigungen 06-2025.pdf,HIGH,MOVE_TO_CATEGORY
+2025-06,Enrico,CANDIDATE_FOUND,Zahlungsavis Zahariev Juni 2025.pdf,HIGH,USE_EXISTING
