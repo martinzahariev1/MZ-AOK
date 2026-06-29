@@ -1,3 +1,7 @@
+# WARNING: INVALIDATED
+
+This master timeline has been invalidated and must not be used for financial conclusions. It reused monthly rollups that mixed accounting totals, payments, obligations, invoice totals, and unrelated movements. Use `08_Reports - Доклади - Berichte/Master_Financial_Timeline_Strict/MASTER_FINANCIAL_TIMELINE_STRICT.md` instead.
+
 # Master Financial Timeline
 
 ## Scope
