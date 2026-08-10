@@ -1,0 +1,10 @@
+# 2024-06 Possible First Arrears Review
+
+Classification: UNCLEAR
+
+The original payroll payment overview shows `Keine Überw.` for AOK Sachsen-Anhalt and BKK Linde for June 2024 and a due date of 2024-06-26. This is a payment-problem signal, but the source does not by itself prove arrears, enforcement, late payment, or subsequent cure.
+
+| classification | source_file | source_path | page | document_date | Krankenkasse | contribution_period | amount | due_date | document_type | actually_proves_arrears | payment_status | subsequent_payment_documented | payment_date_if_documented | later_clearance_documented | source_snippet | confidence |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UNCLEAR | Entgeltbescheinigungen 06-2024.pdf | 00_INBOX - Входящи - Eingang/Accounting/2024/Entgeltbescheinigungen 06-2024.pdf | 4-5 | 2024-06-19 / 2024-07-12 print dates | AOK Sachsen-Anhalt | 2024-06 | 1,159.45- | 2024-06-26 | Payroll payment overview / Übersicht Zahlungen | NO - source shows Zahlart `Keine Überw.` and negative amount, but no Mahnung/enforcement and no bank non-payment proof. | Payment order not created / no transfer shown in this payroll overview. | UNKNOWN |  | UNKNOWN | Übersicht Zahlungen im Juni 2024 Empfänger PLZ Ort Zahlart Verwendungszweck Betrag AOK Baden-Württemberg 70025 Stuttgart Überweisung 8987887 | MEDIUM |
+| UNCLEAR | Entgeltbescheinigungen 06-2024.pdf | 00_INBOX - Входящи - Eingang/Accounting/2024/Entgeltbescheinigungen 06-2024.pdf | 4-5 | 2024-06-19 / 2024-07-12 print dates | BKK Linde | 2024-06 | 1,351.67- | 2024-06-26 | Payroll payment overview / Übersicht Zahlungen | NO - source shows Zahlart `Keine Überw.` and negative amount, but no Mahnung/enforcement and no bank non-payment proof. | Payment order not created / no transfer shown in this payroll overview. | UNKNOWN |  | UNKNOWN | Übersicht Zahlungen im Juni 2024 Empfänger PLZ Ort Zahlart Verwendungszweck Betrag AOK Baden-Württemberg 70025 Stuttgart Überweisung 8987887 | MEDIUM |
