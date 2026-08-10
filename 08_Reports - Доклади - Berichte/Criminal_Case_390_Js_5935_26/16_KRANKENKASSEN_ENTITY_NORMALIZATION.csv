@@ -1,0 +1,20 @@
+﻿raw_name,normalized_name,legal_role,creditor_or_enforcement_authority,underlying_creditor_if_known,source_support,confidence
+AOK,AOK unspecified,Krankenkasse / Einzugsstelle,creditor,,Generic AOK is not merged into AOK PLUS unless the source supports AOK PLUS.,HIGH
+AOK Baden-Wuerttemberg,AOK Baden-Wuerttemberg,Krankenkasse / Einzugsstelle,creditor,,Regional AOK entity retained separately from AOK PLUS.,HIGH
+AOK Bayern,AOK Bayern,Unknown / requires review,unknown,,No normalization rule beyond raw name.,LOW
+AOK Hessen,AOK Hessen,Krankenkasse / Einzugsstelle,creditor,,Regional AOK entity retained separately from AOK PLUS.,HIGH
+AOK Nordost,AOK Nordost,Krankenkasse / Einzugsstelle,creditor,,Regional AOK entity retained separately from AOK PLUS.,HIGH
+AOK PLUS,AOK PLUS - Die Gesundheitskasse fuer Sachsen und Thueringen,Krankenkasse / Einzugsstelle,creditor,,AOK PLUS names and AOK PLUS Dresden references normalized together.,HIGH
+AOK Plus,AOK PLUS - Die Gesundheitskasse fuer Sachsen und Thueringen,Krankenkasse / Einzugsstelle,creditor,,AOK PLUS names and AOK PLUS Dresden references normalized together.,HIGH
+AOK Sachsen-Anhalt,AOK Sachsen-Anhalt,Krankenkasse / Einzugsstelle,creditor,,Regional AOK entity retained separately from AOK PLUS.,HIGH
+BKK,BKK unspecified,Krankenkasse / Einzugsstelle,creditor,,Generic BKK is not merged with named BKK without support.,HIGH
+BKK Linde,BKK Linde,Krankenkasse / Einzugsstelle,creditor,,BKK Linde retained separately from generic BKK.,HIGH
+Barmer,BARMER,Krankenkasse / Einzugsstelle,creditor,,BARMER aliases normalized.,HIGH
+DAK,DAK-Gesundheit,Krankenkasse / Einzugsstelle,creditor,,DAK aliases normalized.,HIGH
+Hauptzollamt / Krankenkasse,Hauptzollamt,Enforcement authority,enforcement_authority,,Hauptzollamt is not a Krankenkasse; underlying creditor only recorded if source proves it.,HIGH
+KKH,KKH Kaufmaennische Krankenkasse,Krankenkasse / Einzugsstelle,creditor,,KKH aliases normalized.,HIGH
+SBK,SBK Siemens-Betriebskrankenkasse,Krankenkasse / Einzugsstelle,creditor,,SBK normalized from BKK SBK/SBK.,HIGH
+TK,Techniker Krankenkasse,Krankenkasse / Einzugsstelle,creditor,,TK and Techniker Krankenkasse treated as the same creditor.,HIGH
+Techniker Krankenkasse,Techniker Krankenkasse,Krankenkasse / Einzugsstelle,creditor,,TK and Techniker Krankenkasse treated as the same creditor.,HIGH
+VIACTIV,VIACTIV Krankenkasse,Krankenkasse / Einzugsstelle,creditor,,VIACTIV aliases normalized.,HIGH
+Vivida BKK,Vivida BKK,Krankenkasse / Einzugsstelle,creditor,,Vivida/Vivda spelling normalized.,HIGH
